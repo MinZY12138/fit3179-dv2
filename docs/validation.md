@@ -21,13 +21,13 @@ All 16 specifications compile/parse in Vega/Vega-Lite, load actual data and rend
 
 The geographic explorer was switched to 2006 / Independent / ACT; both map signals, linked cartogram highlighting, eight-row table and status text were checked. Reset returned to 2025 / All sectors / All states. Chrome mouse events hovered NSW, displaying its ratio tooltip, then clicked its label, updating the linked selected state to NSW. The check exercised real rendered browser events rather than only headless specification parsing.
 
-Local tests also ran under `/fit3179-dv2/`, matching GitHub Pages' repository prefix. `project_validation.json` records successful HTTP requests for all 31 page/chart/data assets and a combined browser-data footprint of about 315 KB before compression. Raw source snapshots are not browser dependencies. CDN libraries are separately loaded, pinned and checked.
+Local tests also ran under `/fit3179-dv2/`, matching GitHub Pages' repository prefix. After publication, the full Chrome suite also passed against the actual public URL, https://minzy12138.github.io/fit3179-dv2/ . `project_validation.json` records successful HTTP requests for all 31 page/chart/data assets and a combined browser-data footprint of about 315 KB before compression. Raw source snapshots are not browser dependencies. CDN libraries are separately loaded, pinned and checked.
 
 ## Remaining limitations
 
 - No official assignment PDF, Critique PDF, submission template or lecturer's idiom classification was available. Advanced-idiom classification is therefore provisional, despite ten defensible candidates.
 - The student must complete the hand-drawn sketch and final submission/template tasks.
 - Automated layout checks and sampled visual review do not certify every possible browser, device, colour-vision condition or assistive technology. Semantic headings, keyboard-accessible controls, visible focus, source/caveat text and a geographic exact-value table are implemented.
-- CDN libraries need internet access; public deployment must be checked independently, not inferred from local rendering.
+- CDN libraries need internet access. Public deployment was independently checked after GitHub Pages reported successful publication.
 
 No assessment grade is guaranteed.
