@@ -1,0 +1,185 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 440,
+  "params": [
+    {
+      "name": "mapYear",
+      "value": 2025
+    },
+    {
+      "name": "mapSector",
+      "value": "All sectors"
+    },
+    {
+      "name": "selectedState",
+      "value": "All states"
+    }
+  ],
+  "projection": {
+    "type": "conicEqualArea",
+    "rotate": [
+      -132,
+      0,
+      0
+    ],
+    "parallels": [
+      -18,
+      -36
+    ],
+    "center": [
+      0,
+      -27
+    ]
+  },
+  "data": {
+    "url": "data/geo/abs_states.geojson",
+    "format": {
+      "type": "json",
+      "property": "features"
+    }
+  },
+  "transform": [
+    {
+      "calculate": "datum.properties.state + '|' + mapYear + '|' + mapSector",
+      "as": "joinKey"
+    },
+    {
+      "lookup": "joinKey",
+      "from": {
+        "data": {
+          "url": "data/processed/map_values.csv",
+          "format": {
+            "type": "csv",
+            "parse": {
+              "ratio": "number",
+              "teacher_fte": "number",
+              "year": "number"
+            }
+          }
+        },
+        "key": "key",
+        "fields": [
+          "ratio",
+          "teacher_fte"
+        ]
+      }
+    },
+    {
+      "calculate": "toNumber(datum.ratio)",
+      "as": "ratio"
+    },
+    {
+      "calculate": "toNumber(datum.teacher_fte)",
+      "as": "teacher_fte"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "geoshape",
+        "stroke": "#faf8f2",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "color": {
+          "field": "ratio",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              10,
+              17
+            ],
+            "scheme": "tealblues"
+          },
+          "legend": {
+            "title": "Students per teacher FTE"
+          }
+        },
+        "opacity": {
+          "condition": {
+            "test": "selectedState === 'All states' || datum.properties.state === selectedState",
+            "value": 1
+          },
+          "value": 0.2
+        },
+        "tooltip": [
+          {
+            "field": "properties.state",
+            "type": "nominal",
+            "title": "State"
+          },
+          {
+            "field": "ratio",
+            "type": "quantitative",
+            "format": ".1f",
+            "title": "Students per teacher FTE"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "data/processed/state_points.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "longitude": "number",
+            "latitude": "number"
+          }
+        }
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "fontWeight": "bold",
+        "dy": -10,
+        "stroke": "#faf8f2",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "state",
+          "type": "nominal"
+        }
+      }
+    }
+  ],
+  "config": {
+    "background": "#faf8f2",
+    "font": "Arial",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelColor": "#4d5c5a",
+      "titleColor": "#263e3b",
+      "gridColor": "#e3e5dd",
+      "domain": false,
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "titlePadding": 12
+    },
+    "legend": {
+      "orient": "bottom",
+      "title": null,
+      "labelFontSize": 11
+    },
+    "range": {
+      "category": [
+        "#23776f",
+        "#c5633f",
+        "#a99b65",
+        "#617c93"
+      ]
+    }
+  }
+}

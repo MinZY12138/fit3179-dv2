@@ -1,0 +1,159 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "Teaching staff FTE by state and school sector, 2025; area is proportional to FTE.",
+  "width": 760,
+  "height": 390,
+  "padding": 3,
+  "background": "#faf8f2",
+  "signals": [
+    {
+      "name": "selectedState",
+      "value": "All states"
+    }
+  ],
+  "data": [
+    {
+      "name": "tree",
+      "url": "data/processed/workforce.csv",
+      "format": {
+        "type": "csv",
+        "parse": {
+          "year": "number",
+          "teacher_fte": "number"
+        }
+      },
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "datum.year === 2025 && datum.state !== 'Australia' && datum.sector !== 'All sectors'"
+        },
+        {
+          "type": "nest",
+          "keys": [
+            "state",
+            "sector"
+          ]
+        },
+        {
+          "type": "treemap",
+          "field": "teacher_fte",
+          "sort": {
+            "field": "value",
+            "order": "descending"
+          },
+          "round": false,
+          "method": "squarify",
+          "size": [
+            {
+              "signal": "width"
+            },
+            {
+              "signal": "height"
+            }
+          ],
+          "paddingInner": 2,
+          "paddingOuter": 1
+        }
+      ]
+    },
+    {
+      "name": "leaves",
+      "source": "tree",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "!datum.children"
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "colour",
+      "type": "ordinal",
+      "domain": [
+        "Government",
+        "Catholic",
+        "Independent"
+      ],
+      "range": [
+        "#23776f",
+        "#c5633f",
+        "#a99b65"
+      ]
+    }
+  ],
+  "legends": [
+    {
+      "fill": "colour",
+      "orient": "bottom",
+      "direction": "horizontal",
+      "labelFontSize": 11
+    }
+  ],
+  "marks": [
+    {
+      "type": "rect",
+      "from": {
+        "data": "leaves"
+      },
+      "encode": {
+        "update": {
+          "x": {
+            "field": "x0"
+          },
+          "y": {
+            "field": "y0"
+          },
+          "x2": {
+            "field": "x1"
+          },
+          "y2": {
+            "field": "y1"
+          },
+          "fill": {
+            "scale": "colour",
+            "field": "sector"
+          },
+          "opacity": {
+            "signal": "selectedState === 'All states' || datum.state === selectedState ? 1 : 0.2"
+          },
+          "tooltip": {
+            "signal": "{'State':datum.state,'Sector':datum.sector,'Teacher FTE':format(datum.teacher_fte,',.1f')}"
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {
+        "data": "leaves"
+      },
+      "encode": {
+        "update": {
+          "x": {
+            "signal": "(datum.x0+datum.x1)/2"
+          },
+          "y": {
+            "signal": "(datum.y0+datum.y1)/2"
+          },
+          "text": {
+            "signal": "datum.x1-datum.x0 > 38 && datum.y1-datum.y0 > 22 ? datum.state : ''"
+          },
+          "align": {
+            "value": "center"
+          },
+          "baseline": {
+            "value": "middle"
+          },
+          "fontSize": {
+            "value": 11
+          },
+          "fill": {
+            "value": "white"
+          }
+        }
+      }
+    }
+  ]
+}

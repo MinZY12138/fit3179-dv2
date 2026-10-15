@@ -1,0 +1,112 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 290,
+  "data": {
+    "url": "data/processed/workforce.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "year": "number",
+        "teacher_fte": "number",
+        "student_fte": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "filter": "datum.state === 'Australia' && datum.sector !== 'All sectors'"
+    }
+  ],
+  "mark": {
+    "type": "line",
+    "strokeWidth": 3,
+    "point": {
+      "size": 20
+    }
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "quantitative",
+      "axis": {
+        "format": "d",
+        "tickCount": 6
+      },
+      "scale": {
+        "zero": false
+      },
+      "title": "Year"
+    },
+    "y": {
+      "field": "teacher_fte",
+      "type": "quantitative",
+      "title": "Teaching staff (FTE)",
+      "axis": {
+        "format": "~s"
+      }
+    },
+    "color": {
+      "field": "sector",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Government",
+          "Catholic",
+          "Independent"
+        ],
+        "range": [
+          "#23776f",
+          "#c5633f",
+          "#a99b65"
+        ]
+      }
+    },
+    "tooltip": [
+      {
+        "field": "year",
+        "type": "quantitative",
+        "format": "d"
+      },
+      {
+        "field": "sector",
+        "type": "nominal"
+      },
+      {
+        "field": "teacher_fte",
+        "type": "quantitative",
+        "format": ",.1f",
+        "title": "Teacher FTE"
+      }
+    ]
+  },
+  "config": {
+    "background": "#faf8f2",
+    "font": "Arial",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelColor": "#4d5c5a",
+      "titleColor": "#263e3b",
+      "gridColor": "#e3e5dd",
+      "domain": false,
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "titlePadding": 12
+    },
+    "legend": {
+      "orient": "bottom",
+      "title": null,
+      "labelFontSize": 11
+    },
+    "range": {
+      "category": [
+        "#23776f",
+        "#c5633f",
+        "#a99b65",
+        "#617c93"
+      ]
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 270,
+  "data": {
+    "url": "data/processed/ratios.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "year": "number",
+        "ratio": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "filter": "datum.state !== 'Australia' && datum.sector === 'All sectors' && datum.level === 'All Levels'"
+    }
+  ],
+  "mark": {
+    "type": "rect",
+    "stroke": "#faf8f2",
+    "strokeWidth": 1
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "ordinal",
+      "axis": {
+        "labelAngle": -45
+      },
+      "title": "Year"
+    },
+    "y": {
+      "field": "state",
+      "type": "nominal",
+      "sort": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "title": null
+    },
+    "color": {
+      "field": "ratio",
+      "type": "quantitative",
+      "title": "Students per teacher FTE",
+      "scale": {
+        "scheme": "tealblues",
+        "zero": false
+      }
+    },
+    "tooltip": [
+      {
+        "field": "state",
+        "type": "nominal"
+      },
+      {
+        "field": "year",
+        "type": "quantitative",
+        "format": "d"
+      },
+      {
+        "field": "ratio",
+        "type": "quantitative",
+        "format": ".1f",
+        "title": "Students per teacher FTE"
+      }
+    ]
+  },
+  "config": {
+    "background": "#faf8f2",
+    "font": "Arial",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelColor": "#4d5c5a",
+      "titleColor": "#263e3b",
+      "gridColor": "#e3e5dd",
+      "domain": false,
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "titlePadding": 12
+    },
+    "legend": {
+      "orient": "bottom",
+      "title": null,
+      "labelFontSize": 11
+    },
+    "range": {
+      "category": [
+        "#23776f",
+        "#c5633f",
+        "#a99b65",
+        "#617c93"
+      ]
+    }
+  }
+}

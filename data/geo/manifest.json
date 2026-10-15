@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/STE/MapServer/1/query?where=state_code_2021+IN+%28%271%27%2C%272%27%2C%273%27%2C%274%27%2C%275%27%2C%276%27%2C%277%27%2C%278%27%29&outFields=state_code_2021%2Cstate_name_2021&outSR=4326&f=geojson&returnGeometry=true&maxAllowableOffset=0.025&geometryPrecision=4",
+    "file": "abs_states.geojson",
+    "sha256": "9c97e6cb6df43b5b777ef10c527cd074cb304dd0d0610f0e37a6aace8badc381",
+    "retrieved": "2026-10-16",
+    "attribution": "Australian Bureau of Statistics, ASGS Edition 3 (2021), CC BY 4.0"
+  },
+  {
+    "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2021/STE/MapServer/2/query?where=state_code_2021+IN+%28%271%27%2C%272%27%2C%273%27%2C%274%27%2C%275%27%2C%276%27%2C%277%27%2C%278%27%29&outFields=state_code_2021%2Cstate_name_2021&outSR=4326&f=geojson&returnGeometry=true",
+    "file": "abs_state_points.geojson",
+    "sha256": "8dee818c6eddba72fafc964e612acc154cefac61342b7eea66848e73ca70147b",
+    "retrieved": "2026-10-16",
+    "attribution": "Australian Bureau of Statistics, ASGS Edition 3 (2021), CC BY 4.0"
+  }
+]

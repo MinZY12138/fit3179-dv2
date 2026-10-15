@@ -1,0 +1,114 @@
+[
+  {
+    "file": "01-teacher-trends.json",
+    "dataFile": "data/processed/workforce.csv",
+    "sourceRows": 60,
+    "svgBytes": 32684,
+    "status": "passed"
+  },
+  {
+    "file": "02-indexed-growth.json",
+    "dataFile": "data/processed/workforce.csv",
+    "sourceRows": 40,
+    "svgBytes": 11774,
+    "status": "passed"
+  },
+  {
+    "file": "03-sector-shares.json",
+    "dataFile": "data/processed/workforce.csv",
+    "sourceRows": 60,
+    "svgBytes": 12880,
+    "status": "passed"
+  },
+  {
+    "file": "04-ratio-heatmap.json",
+    "dataFile": "data/processed/ratios.csv",
+    "sourceRows": 160,
+    "svgBytes": 48515,
+    "status": "passed"
+  },
+  {
+    "file": "05-sector-gap.json",
+    "dataFile": "data/processed/ratios.csv",
+    "sourceRows": 16,
+    "svgBytes": 20494,
+    "status": "passed"
+  },
+  {
+    "file": "06-age-profile.json",
+    "dataFile": "data/processed/age.csv",
+    "sourceRows": 12,
+    "svgBytes": 14170,
+    "status": "passed"
+  },
+  {
+    "file": "07-hours-interval.json",
+    "dataFile": "data/processed/working_hours.csv",
+    "sourceRows": 3,
+    "svgBytes": 11293,
+    "status": "passed"
+  },
+  {
+    "file": "08-leaving-reasons.json",
+    "dataFile": "data/processed/leaving_reasons.csv",
+    "sourceRows": 22,
+    "svgBytes": 19394,
+    "status": "passed"
+  },
+  {
+    "file": "09-ratio-choropleth.json",
+    "dataFile": "data/geo/abs_states.geojson",
+    "sourceRows": 640,
+    "svgBytes": 62948,
+    "status": "passed"
+  },
+  {
+    "file": "10-teacher-symbols.json",
+    "dataFile": "multiple sources",
+    "sourceRows": 8,
+    "svgBytes": 65139,
+    "status": "passed"
+  },
+  {
+    "file": "11-area-cartogram.json",
+    "dataFile": "data/geo/teacher_cartogram.json",
+    "sourceRows": 8,
+    "svgBytes": 55958,
+    "status": "passed"
+  },
+  {
+    "file": "12-employment-waffle.json",
+    "dataFile": "data/processed/employment.csv",
+    "sourceRows": 100,
+    "svgBytes": 25070,
+    "status": "passed"
+  },
+  {
+    "file": "13-experience-pyramid.json",
+    "dataFile": "data/processed/experience.csv",
+    "sourceRows": 12,
+    "svgBytes": 14624,
+    "status": "passed"
+  },
+  {
+    "file": "14-pressure-slope.json",
+    "dataFile": "data/processed/leaving_reasons.csv",
+    "sourceRows": 8,
+    "svgBytes": 14026,
+    "status": "passed"
+  },
+  {
+    "file": "15-sector-treemap.json",
+    "dataFile": "data/processed/workforce.csv",
+    "sourceRows": 24,
+    "svgBytes": 10008,
+    "status": "passed"
+  },
+  {
+    "file": "16-gender-profile.json",
+    "dataFile": "data/processed/gender.csv",
+    "sourceRows": 3,
+    "svgBytes": 11576,
+    "status": "passed"
+  }
+]

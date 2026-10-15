@@ -1,0 +1,105 @@
+reason,year,percent,table
+Workload,2020,67.0,21
+Workload,2021,80.0,21
+Workload,2022,78.0,21
+Workload,2023,76.0,21
+Workload,2024,75.0,21
+Stress/mental health/wellbeing,2020,56.0,21
+Stress/mental health/wellbeing,2021,63.0,21
+Stress/mental health/wellbeing,2022,69.0,21
+Stress/mental health/wellbeing,2023,70.0,21
+Stress/mental health/wellbeing,2024,70.0,21
+Work/life balance,2020,64.0,21
+Work/life balance,2021,69.0,21
+Work/life balance,2022,72.0,21
+Work/life balance,2023,70.0,21
+Work/life balance,2024,69.0,21
+Administrative workload*,2022,68.0,21
+Administrative workload*,2023,64.0,21
+Administrative workload*,2024,65.0,21
+Parent behaviour*,2022,38.0,21
+Parent behaviour*,2023,43.0,21
+Parent behaviour*,2024,48.0,21
+Insufficient pay,2020,33.0,21
+Insufficient pay,2021,45.0,21
+Insufficient pay,2022,52.0,21
+Insufficient pay,2023,54.0,21
+Insufficient pay,2024,48.0,21
+Demand of professional regulation,2020,41.0,21
+Demand of professional regulation,2021,49.0,21
+Demand of professional regulation,2022,52.0,21
+Demand of professional regulation,2023,51.0,21
+Demand of professional regulation,2024,48.0,21
+Student behaviour,2020,25.0,21
+Student behaviour,2021,29.0,21
+Student behaviour,2022,33.0,21
+Student behaviour,2023,42.0,21
+Student behaviour,2024,47.0,21
+Class size,2020,31.0,21
+Class size,2021,33.0,21
+Class size,2022,35.0,21
+Class size,2023,39.0,21
+Class size,2024,41.0,21
+Insufficient support staff,2020,29.0,21
+Insufficient support staff,2021,35.0,21
+Insufficient support staff,2022,35.0,21
+Insufficient support staff,2023,35.0,21
+Insufficient support staff,2024,37.0,21
+Poor public image,2020,30.0,21
+Poor public image,2021,38.0,21
+Poor public image,2022,41.0,21
+Poor public image,2023,37.0,21
+Poor public image,2024,35.0,21
+Insufficient performance recognition,2020,30.0,21
+Insufficient performance recognition,2021,30.0,21
+Insufficient performance recognition,2022,38.0,21
+Insufficient performance recognition,2023,34.0,21
+Insufficient performance recognition,2024,35.0,21
+Changes imposed from outside (e.g. by govt),2020,44.0,21
+Changes imposed from outside (e.g. by govt),2021,53.0,21
+Changes imposed from outside (e.g. by govt),2022,38.0,21
+Changes imposed from outside (e.g. by govt),2023,34.0,21
+Changes imposed from outside (e.g. by govt),2024,34.0,21
+School culture*,2022,28.0,21
+School culture*,2023,29.0,21
+School culture*,2024,30.0,21
+Seek employment outside education,2020,20.0,21
+Seek employment outside education,2021,23.0,21
+Seek employment outside education,2022,23.0,21
+Seek employment outside education,2023,23.0,21
+Seek employment outside education,2024,22.0,21
+Not enjoying teaching,2020,20.0,21
+Not enjoying teaching,2021,24.0,21
+Not enjoying teaching,2022,17.0,21
+Not enjoying teaching,2023,19.0,21
+Not enjoying teaching,2024,19.0,21
+Seek employment elsewhere in education,2020,26.0,21
+Seek employment elsewhere in education,2021,21.0,21
+Seek employment elsewhere in education,2022,18.0,21
+Seek employment elsewhere in education,2023,18.0,21
+Seek employment elsewhere in education,2024,18.0,21
+Dissatisfied with performance appraisal process,2020,13.0,21
+Dissatisfied with performance appraisal process,2021,13.0,21
+Dissatisfied with performance appraisal process,2022,15.0,21
+Dissatisfied with performance appraisal process,2023,12.0,21
+Dissatisfied with performance appraisal process,2024,12.0,21
+Unsatisfactory relationships with staff,2020,10.0,21
+Unsatisfactory relationships with staff,2021,8.0,21
+Unsatisfactory relationships with staff,2022,8.0,21
+Unsatisfactory relationships with staff,2023,9.0,21
+Unsatisfactory relationships with staff,2024,10.0,21
+Family reasons,2020,12.0,21
+Family reasons,2021,8.0,21
+Family reasons,2022,8.0,21
+Family reasons,2023,8.0,21
+Family reasons,2024,9.0,21
+Never planned to stay long-term,2020,5.0,21
+Never planned to stay long-term,2021,3.0,21
+Never planned to stay long-term,2022,3.0,21
+Never planned to stay long-term,2023,2.0,21
+Never planned to stay long-term,2024,3.0,21
+Not suited to the work,2020,2.0,21
+Not suited to the work,2021,2.0,21
+Not suited to the work,2022,2.0,21
+Not suited to the work,2023,2.0,21
+Not suited to the work,2024,2.0,21

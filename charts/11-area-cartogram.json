@@ -1,0 +1,106 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "Non-contiguous area cartogram: each state silhouette has area proportional to 2025 all-sector teacher FTE. Positions are schematic, not school locations.",
+  "width": 760,
+  "height": 520,
+  "padding": 5,
+  "background": "#faf8f2",
+  "signals": [
+    {
+      "name": "selectedState",
+      "value": "All states"
+    },
+    {
+      "name": "factor",
+      "update": "width / 760"
+    }
+  ],
+  "data": [
+    {
+      "name": "states",
+      "url": "data/geo/teacher_cartogram.json"
+    }
+  ],
+  "marks": [
+    {
+      "type": "path",
+      "from": {
+        "data": "states"
+      },
+      "encode": {
+        "update": {
+          "path": {
+            "field": "path"
+          },
+          "x": {
+            "signal": "datum.x * factor"
+          },
+          "y": {
+            "signal": "datum.y * factor"
+          },
+          "scaleX": {
+            "signal": "factor"
+          },
+          "scaleY": {
+            "signal": "factor"
+          },
+          "fill": {
+            "value": "#23776f"
+          },
+          "fillOpacity": {
+            "signal": "selectedState === 'All states' || datum.state === selectedState ? 0.85 : 0.2"
+          },
+          "stroke": {
+            "value": "#faf8f2"
+          },
+          "strokeWidth": {
+            "value": 1
+          },
+          "tooltip": {
+            "signal": "{'State':datum.state,'Year':2025,'Teacher FTE':format(datum.teacher_fte,',.1f')}"
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {
+        "data": "states"
+      },
+      "encode": {
+        "update": {
+          "x": {
+            "signal": "datum.x * factor"
+          },
+          "y": {
+            "signal": "datum.y * factor"
+          },
+          "text": {
+            "field": "state"
+          },
+          "align": {
+            "value": "center"
+          },
+          "baseline": {
+            "value": "middle"
+          },
+          "fill": {
+            "value": "#263e3b"
+          },
+          "stroke": {
+            "value": "#faf8f2"
+          },
+          "strokeWidth": {
+            "value": 2
+          },
+          "fontSize": {
+            "value": 12
+          },
+          "fontWeight": {
+            "value": "bold"
+          }
+        }
+      }
+    }
+  ]
+}

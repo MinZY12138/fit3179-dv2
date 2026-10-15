@@ -1,0 +1,14 @@
+{
+  "workforce_rows": 720,
+  "ratio_rows": 2700,
+  "teacher_leaf_rows": 1920,
+  "student_leaf_rows": 18777,
+  "aitsl_tables": 27,
+  "max_ratio_rounding_difference": 0.050158962512295346,
+  "checks": [
+    "Unique source leaf records",
+    "Eight states present",
+    "Matched teacher/student aggregation keys",
+    "All 720 comparable ratios within 0.055; allows one-decimal ratio rounding and student confidentiality adjustment"
+  ]
+}

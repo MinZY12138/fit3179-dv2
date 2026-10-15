@@ -1,0 +1,109 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 290,
+  "data": {
+    "url": "data/processed/age.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "year": "number",
+        "percent": "number",
+        "table": "number"
+      }
+    }
+  },
+  "mark": {
+    "type": "line",
+    "point": true,
+    "strokeWidth": 3
+  },
+  "encoding": {
+    "x": {
+      "field": "age",
+      "type": "ordinal",
+      "sort": [
+        "≤29",
+        "30-39",
+        "40-49",
+        "50-59",
+        "60-68",
+        "69+"
+      ],
+      "title": "Age group",
+      "axis": {
+        "labelAngle": 0
+      }
+    },
+    "y": {
+      "field": "percent",
+      "type": "quantitative",
+      "title": "Share of subgroup (%)",
+      "scale": {
+        "domain": [
+          0,
+          35
+        ]
+      }
+    },
+    "color": {
+      "field": "group",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "School classroom teachers",
+          "Casual relief teachers"
+        ],
+        "range": [
+          "#23776f",
+          "#c5633f"
+        ]
+      }
+    },
+    "tooltip": [
+      {
+        "field": "group",
+        "type": "nominal"
+      },
+      {
+        "field": "age",
+        "type": "ordinal"
+      },
+      {
+        "field": "percent",
+        "type": "quantitative",
+        "format": ".0f",
+        "title": "Reported share (%)"
+      }
+    ]
+  },
+  "config": {
+    "background": "#faf8f2",
+    "font": "Arial",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelColor": "#4d5c5a",
+      "titleColor": "#263e3b",
+      "gridColor": "#e3e5dd",
+      "domain": false,
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "titlePadding": 12
+    },
+    "legend": {
+      "orient": "bottom",
+      "title": null,
+      "labelFontSize": 11
+    },
+    "range": {
+      "category": [
+        "#23776f",
+        "#c5633f",
+        "#a99b65",
+        "#617c93"
+      ]
+    }
+  }
+}

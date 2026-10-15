@@ -1,0 +1,144 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 220,
+  "data": {
+    "url": "data/processed/working_hours.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "year": "number",
+        "hours": "number",
+        "table": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "filter": "datum.year === 2024"
+    },
+    {
+      "pivot": "statistic",
+      "value": "hours",
+      "groupby": [
+        "school"
+      ]
+    }
+  ],
+  "encoding": {
+    "y": {
+      "field": "school",
+      "type": "nominal",
+      "title": null
+    },
+    "x": {
+      "field": "25th percentile",
+      "type": "quantitative",
+      "title": "Weekly working hours during term",
+      "scale": {
+        "domain": [
+          0,
+          80
+        ]
+      }
+    },
+    "tooltip": [
+      {
+        "field": "school",
+        "type": "nominal"
+      },
+      {
+        "field": "5th percentile",
+        "type": "quantitative"
+      },
+      {
+        "field": "25th percentile",
+        "type": "quantitative"
+      },
+      {
+        "field": "Median",
+        "type": "quantitative"
+      },
+      {
+        "field": "75th percentile",
+        "type": "quantitative"
+      },
+      {
+        "field": "95th percentile",
+        "type": "quantitative"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "color": "#a7b9b2"
+      },
+      "encoding": {
+        "x": {
+          "field": "5th percentile",
+          "type": "quantitative"
+        },
+        "x2": {
+          "field": "95th percentile"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "bar",
+        "color": "#23776f",
+        "size": 22
+      },
+      "encoding": {
+        "x2": {
+          "field": "75th percentile"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "tick",
+        "color": "#faf8f2",
+        "size": 22,
+        "thickness": 3
+      },
+      "encoding": {
+        "x": {
+          "field": "Median",
+          "type": "quantitative"
+        }
+      }
+    }
+  ],
+  "config": {
+    "background": "#faf8f2",
+    "font": "Arial",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelColor": "#4d5c5a",
+      "titleColor": "#263e3b",
+      "gridColor": "#e3e5dd",
+      "domain": false,
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "titlePadding": 12
+    },
+    "legend": {
+      "orient": "bottom",
+      "title": null,
+      "labelFontSize": 11
+    },
+    "range": {
+      "category": [
+        "#23776f",
+        "#c5633f",
+        "#a99b65",
+        "#617c93"
+      ]
+    }
+  }
+}

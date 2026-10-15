@@ -1,0 +1,76 @@
+school,statistic,year,hours,table
+Primary,5th percentile,2020,40.0,22
+Primary,5th percentile,2021,40.0,22
+Primary,5th percentile,2022,40.0,22
+Primary,5th percentile,2023,40.0,22
+Primary,5th percentile,2024,40.0,22
+Primary,25th percentile,2020,50.0,22
+Primary,25th percentile,2021,48.0,22
+Primary,25th percentile,2022,48.0,22
+Primary,25th percentile,2023,45.0,22
+Primary,25th percentile,2024,45.0,22
+Primary,Median,2020,55.0,22
+Primary,Median,2021,54.0,22
+Primary,Median,2022,51.0,22
+Primary,Median,2023,50.0,22
+Primary,Median,2024,50.0,22
+Primary,75th percentile,2020,60.0,22
+Primary,75th percentile,2021,60.0,22
+Primary,75th percentile,2022,60.0,22
+Primary,75th percentile,2023,60.0,22
+Primary,75th percentile,2024,60.0,22
+Primary,95th percentile,2020,80.0,22
+Primary,95th percentile,2021,78.0,22
+Primary,95th percentile,2022,72.0,22
+Primary,95th percentile,2023,71.0,22
+Primary,95th percentile,2024,71.0,22
+Secondary,5th percentile,2020,40.0,23
+Secondary,5th percentile,2021,40.0,23
+Secondary,5th percentile,2022,40.0,23
+Secondary,5th percentile,2023,38.0,23
+Secondary,5th percentile,2024,37.0,23
+Secondary,25th percentile,2020,47.0,23
+Secondary,25th percentile,2021,46.0,23
+Secondary,25th percentile,2022,45.0,23
+Secondary,25th percentile,2023,45.0,23
+Secondary,25th percentile,2024,45.0,23
+Secondary,Median,2020,50.0,23
+Secondary,Median,2021,50.0,23
+Secondary,Median,2022,50.0,23
+Secondary,Median,2023,50.0,23
+Secondary,Median,2024,50.0,23
+Secondary,75th percentile,2020,60.0,23
+Secondary,75th percentile,2021,60.0,23
+Secondary,75th percentile,2022,60.0,23
+Secondary,75th percentile,2023,57.0,23
+Secondary,75th percentile,2024,55.0,23
+Secondary,95th percentile,2020,80.0,23
+Secondary,95th percentile,2021,75.0,23
+Secondary,95th percentile,2022,72.0,23
+Secondary,95th percentile,2023,70.0,23
+Secondary,95th percentile,2024,70.0,23
+Combined,5th percentile,2020,40.0,24
+Combined,5th percentile,2021,40.0,24
+Combined,5th percentile,2022,40.0,24
+Combined,5th percentile,2023,38.0,24
+Combined,5th percentile,2024,38.0,24
+Combined,25th percentile,2020,48.0,24
+Combined,25th percentile,2021,47.0,24
+Combined,25th percentile,2022,46.0,24
+Combined,25th percentile,2023,45.0,24
+Combined,25th percentile,2024,45.0,24
+Combined,Median,2020,50.0,24
+Combined,Median,2021,52.0,24
+Combined,Median,2022,50.0,24
+Combined,Median,2023,50.0,24
+Combined,Median,2024,50.0,24
+Combined,75th percentile,2020,60.0,24
+Combined,75th percentile,2021,60.0,24
+Combined,75th percentile,2022,60.0,24
+Combined,75th percentile,2023,60.0,24
+Combined,75th percentile,2024,59.0,24
+Combined,95th percentile,2020,80.0,24
+Combined,95th percentile,2021,75.0,24
+Combined,95th percentile,2022,73.0,24
+Combined,95th percentile,2023,71.0,24
+Combined,95th percentile,2024,70.0,24

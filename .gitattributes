@@ -1,0 +1,8 @@
+* text=auto
+*.json text eol=lf
+*.csv text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.cjs text eol=lf
+# Original downloads are byte-for-byte provenance snapshots.
+/data/raw/** -text -diff

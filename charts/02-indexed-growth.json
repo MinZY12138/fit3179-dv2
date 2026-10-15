@@ -1,0 +1,169 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 290,
+  "data": {
+    "url": "data/processed/workforce.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "year": "number",
+        "teacher_fte": "number",
+        "student_fte": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "filter": "datum.state === 'Australia' && datum.sector === 'All sectors'"
+    },
+    {
+      "fold": [
+        "teacher_fte",
+        "student_fte"
+      ],
+      "as": [
+        "measure",
+        "value"
+      ]
+    },
+    {
+      "joinaggregate": [
+        {
+          "op": "argmin",
+          "field": "year",
+          "as": "base"
+        }
+      ],
+      "groupby": [
+        "measure"
+      ]
+    },
+    {
+      "calculate": "datum.value / datum.base.value * 100",
+      "as": "index"
+    },
+    {
+      "calculate": "datum.measure === 'teacher_fte' ? 'Teaching staff' : 'Students'",
+      "as": "series"
+    },
+    {
+      "calculate": "datum.series + ' +' + format(datum.index - 100, '.1f') + '%'",
+      "as": "growthLabel"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "quantitative",
+      "axis": {
+        "format": "d",
+        "tickCount": 6
+      },
+      "scale": {
+        "zero": false
+      },
+      "title": "Year"
+    },
+    "y": {
+      "field": "index",
+      "type": "quantitative",
+      "title": "Index (2006 = 100)",
+      "scale": {
+        "domain": [
+          95,
+          140
+        ],
+        "zero": false
+      }
+    },
+    "color": {
+      "field": "series",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Teaching staff",
+          "Students"
+        ],
+        "range": [
+          "#23776f",
+          "#c5633f"
+        ]
+      }
+    },
+    "tooltip": [
+      {
+        "field": "year",
+        "type": "quantitative",
+        "format": "d"
+      },
+      {
+        "field": "series",
+        "type": "nominal"
+      },
+      {
+        "field": "index",
+        "type": "quantitative",
+        "format": ".1f"
+      }
+    ]
+  },
+  "config": {
+    "background": "#faf8f2",
+    "font": "Arial",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelColor": "#4d5c5a",
+      "titleColor": "#263e3b",
+      "gridColor": "#e3e5dd",
+      "domain": false,
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "titlePadding": 12
+    },
+    "legend": {
+      "orient": "bottom",
+      "title": null,
+      "labelFontSize": 11
+    },
+    "range": {
+      "category": [
+        "#23776f",
+        "#c5633f",
+        "#a99b65",
+        "#617c93"
+      ]
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "strokeWidth": 3
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.year === 2025"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -6,
+        "dy": -13,
+        "fontSize": 12,
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "text": {
+          "field": "growthLabel",
+          "type": "nominal"
+        }
+      }
+    }
+  ]
+}

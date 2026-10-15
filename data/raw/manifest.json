@@ -1,0 +1,30 @@
+[
+  {
+    "file": "abs_51a.xlsx",
+    "url": "https://www.abs.gov.au/statistics/people/education/schools/2025/Table%2051a%20Full-time%20equivalent%20%28FTE%29%20in-school%20staff%2C%202006-2025.xlsx",
+    "bytes": 546637,
+    "sha256": "06c32966adbecac31deb75953772001edcb7c4860960beafe034c09e2cf32c62",
+    "retrieved": "2026-10-16"
+  },
+  {
+    "file": "abs_53a.xlsx",
+    "url": "https://www.abs.gov.au/statistics/people/education/schools/2025/Table%2053a%20Full-time%20equivalent%20%28FTE%29%20student%20to%20%28FTE%29%20teaching%20staff%20ratios%2C%202006-2025.xlsx",
+    "bytes": 103622,
+    "sha256": "84bb296f69fbe025f5731ae345bce44cb5e16db7c4e7649f6c6a09394ce9ad17",
+    "retrieved": "2026-10-16"
+  },
+  {
+    "file": "abs_43a.xlsx",
+    "url": "https://www.abs.gov.au/statistics/people/education/schools/2025/Table%2043a%20Full-time%20equivalent%20%28FTE%29%20students%2C%202006-2025.xlsx",
+    "bytes": 3434188,
+    "sha256": "7d3b1aa5f2e881818eac0bfa1a6964275c57a386bfa8ede778d694da2ab7791a",
+    "retrieved": "2026-10-16"
+  },
+  {
+    "file": "aitsl_national_trends.html",
+    "url": "https://www.aitsl.edu.au/resources/national-trends-teacher-workforce",
+    "bytes": 1047065,
+    "sha256": "84f21f1959c79cf9c0a4c72139567e6b6de328bfabed7b7a6540a89c62394488",
+    "retrieved": "2026-10-16"
+  }
+]

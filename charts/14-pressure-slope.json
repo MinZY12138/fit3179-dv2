@@ -1,0 +1,99 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 330,
+  "data": {
+    "url": "data/processed/leaving_reasons.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "year": "number",
+        "percent": "number",
+        "table": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "filter": "(datum.year === 2020 || datum.year === 2024) && (datum.reason === 'Workload' || datum.reason === 'Insufficient pay' || datum.reason === 'Student behaviour' || datum.reason === 'Class size')"
+    }
+  ],
+  "mark": {
+    "type": "line",
+    "point": {
+      "filled": true,
+      "size": 70
+    },
+    "strokeWidth": 3
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "ordinal",
+      "axis": {
+        "labelAngle": 0
+      },
+      "title": null
+    },
+    "y": {
+      "field": "percent",
+      "type": "quantitative",
+      "title": "Share selecting reason (%)",
+      "scale": {
+        "domain": [
+          0,
+          100
+        ]
+      }
+    },
+    "color": {
+      "field": "reason",
+      "type": "nominal"
+    },
+    "tooltip": [
+      {
+        "field": "reason",
+        "type": "nominal"
+      },
+      {
+        "field": "year",
+        "type": "quantitative",
+        "format": "d"
+      },
+      {
+        "field": "percent",
+        "type": "quantitative",
+        "title": "Share selecting reason (%)"
+      }
+    ]
+  },
+  "config": {
+    "background": "#faf8f2",
+    "font": "Arial",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelColor": "#4d5c5a",
+      "titleColor": "#263e3b",
+      "gridColor": "#e3e5dd",
+      "domain": false,
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "titlePadding": 12
+    },
+    "legend": {
+      "orient": "bottom",
+      "title": null,
+      "labelFontSize": 11
+    },
+    "range": {
+      "category": [
+        "#23776f",
+        "#c5633f",
+        "#a99b65",
+        "#617c93"
+      ]
+    }
+  }
+}

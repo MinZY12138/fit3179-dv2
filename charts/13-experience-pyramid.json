@@ -1,0 +1,116 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 280,
+  "data": {
+    "url": "data/processed/experience.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "year": "number",
+        "percent": "number",
+        "table": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "filter": "datum.group !== 'Teacher workforce, overall'"
+    },
+    {
+      "calculate": "datum.group === 'School classroom teachers' ? -datum.percent : datum.percent",
+      "as": "side"
+    }
+  ],
+  "mark": {
+    "type": "bar",
+    "size": 26
+  },
+  "encoding": {
+    "x": {
+      "field": "side",
+      "type": "quantitative",
+      "title": "Share within subgroup (%)",
+      "scale": {
+        "domain": [
+          -35,
+          35
+        ]
+      },
+      "axis": {
+        "labelExpr": "abs(datum.value)"
+      }
+    },
+    "y": {
+      "field": "experience",
+      "type": "ordinal",
+      "sort": [
+        "1-5 years",
+        "6-9 years",
+        "10-19 years",
+        "20-29 years",
+        "30-39 years",
+        "40+ years"
+      ],
+      "title": "Teaching experience"
+    },
+    "color": {
+      "field": "group",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "School classroom teachers",
+          "Casual relief teachers"
+        ],
+        "range": [
+          "#23776f",
+          "#c5633f"
+        ]
+      }
+    },
+    "tooltip": [
+      {
+        "field": "group",
+        "type": "nominal"
+      },
+      {
+        "field": "experience",
+        "type": "ordinal"
+      },
+      {
+        "field": "percent",
+        "type": "quantitative",
+        "title": "Share of subgroup (%)"
+      }
+    ]
+  },
+  "config": {
+    "background": "#faf8f2",
+    "font": "Arial",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelColor": "#4d5c5a",
+      "titleColor": "#263e3b",
+      "gridColor": "#e3e5dd",
+      "domain": false,
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "titlePadding": 12
+    },
+    "legend": {
+      "orient": "bottom",
+      "title": null,
+      "labelFontSize": 11
+    },
+    "range": {
+      "category": [
+        "#23776f",
+        "#c5633f",
+        "#a99b65",
+        "#617c93"
+      ]
+    }
+  }
+}

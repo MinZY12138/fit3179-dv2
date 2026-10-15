@@ -1,0 +1,99 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 180,
+  "data": {
+    "url": "data/processed/gender.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "year": "number",
+        "percent": "number",
+        "table": "number"
+      }
+    }
+  },
+  "encoding": {
+    "x": {
+      "field": "percent",
+      "type": "quantitative",
+      "title": "Women within subgroup (%)",
+      "scale": {
+        "domain": [
+          0,
+          100
+        ]
+      }
+    },
+    "y": {
+      "field": "group",
+      "type": "nominal",
+      "title": null,
+      "axis": {
+        "labelLimit": 190
+      }
+    },
+    "tooltip": [
+      {
+        "field": "group",
+        "type": "nominal"
+      },
+      {
+        "field": "percent",
+        "type": "quantitative",
+        "title": "Women (%)"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "color": "#c9d6cd",
+        "strokeWidth": 3
+      },
+      "encoding": {
+        "x2": {
+          "value": 0
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "color": "#23776f",
+        "size": 130
+      }
+    }
+  ],
+  "config": {
+    "background": "#faf8f2",
+    "font": "Arial",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelColor": "#4d5c5a",
+      "titleColor": "#263e3b",
+      "gridColor": "#e3e5dd",
+      "domain": false,
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "titlePadding": 12
+    },
+    "legend": {
+      "orient": "bottom",
+      "title": null,
+      "labelFontSize": 11
+    },
+    "range": {
+      "category": [
+        "#23776f",
+        "#c5633f",
+        "#a99b65",
+        "#617c93"
+      ]
+    }
+  }
+}

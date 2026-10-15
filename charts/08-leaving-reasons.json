@@ -1,0 +1,88 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 390,
+  "data": {
+    "url": "data/processed/leaving_reasons.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "year": "number",
+        "percent": "number",
+        "table": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "filter": "datum.year === 2024"
+    }
+  ],
+  "mark": {
+    "type": "bar",
+    "color": "#c5633f"
+  },
+  "encoding": {
+    "x": {
+      "field": "percent",
+      "type": "quantitative",
+      "title": "Share selecting reason (%)",
+      "scale": {
+        "domain": [
+          0,
+          100
+        ]
+      }
+    },
+    "y": {
+      "field": "reason",
+      "type": "nominal",
+      "sort": "-x",
+      "title": null,
+      "axis": {
+        "labelLimit": 190
+      }
+    },
+    "tooltip": [
+      {
+        "field": "reason",
+        "type": "nominal"
+      },
+      {
+        "field": "percent",
+        "type": "quantitative",
+        "format": ".0f",
+        "title": "Share selecting reason (%)"
+      }
+    ]
+  },
+  "config": {
+    "background": "#faf8f2",
+    "font": "Arial",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelColor": "#4d5c5a",
+      "titleColor": "#263e3b",
+      "gridColor": "#e3e5dd",
+      "domain": false,
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "titlePadding": 12
+    },
+    "legend": {
+      "orient": "bottom",
+      "title": null,
+      "labelFontSize": 11
+    },
+    "range": {
+      "category": [
+        "#23776f",
+        "#c5633f",
+        "#a99b65",
+        "#617c93"
+      ]
+    }
+  }
+}

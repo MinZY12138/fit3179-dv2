@@ -1,0 +1,15 @@
+{
+  "chart_count": 16,
+  "map_idioms": [
+    "Choropleth",
+    "Proportional symbol map",
+    "Non-contiguous area cartogram"
+  ],
+  "asset_count": 31,
+  "chart_csv_bytes": 187096,
+  "browser_data_bytes": 314838,
+  "raw_hashes": "passed",
+  "cartogram_area_invariant": "passed",
+  "checked_base": "http://127.0.0.1:8001/fit3179-dv2/",
+  "asset_requests": "passed"
+}

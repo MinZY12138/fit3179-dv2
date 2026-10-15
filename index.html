@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="An evidence-led exploration of Australia's school teaching workforce, using ABS and AITSL data.">
+<title>Who Teaches Australia?</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+<script defer src="https://cdn.jsdelivr.net/npm/vega@5.33.0/build/vega.min.js">
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/vega-lite@5.23.0/build/vega-lite.min.js">
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/vega-embed@6.26.0/build/vega-embed.min.js">
+</script>
+<script defer src="js/main.js">
+</script>
+</head>
+<body>
+<a class="skip" href="#national">Skip to the story</a>
+<nav aria-label="Chapters">
+<a class="wordmark" href="#top">THE EDUCATION FILE</a>
+<div>
+<a href="#national">01 National</a>
+<a href="#geography">02 Geography</a>
+<a href="#people">03 People</a>
+<a href="#pressures">04 Pressures</a>
+</div>
+</nav>
+<header id="top">
+<p class="eyebrow">AUSTRALIA · EDUCATION &amp; STUDENT LIFE · 2026</p>
+<h1>Who teaches<br>
+<em>Australia?</em>
+</h1>
+<p class="standfirst">The changing shape of Australia's school teaching workforce.</p>
+<p class="intro">More teaching capacity. Uneven patterns. A profession under pressure. Explore how the workforce has changed—and what national totals can tell us about the people behind them.</p>
+<div class="keyfigures">
+<div>
+<strong>325,191</strong>
+<span>teaching staff FTE · ABS 2025<br>Rounded, not a count of people</span>
+</div>
+<div>
+<strong>+35.7%</strong>
+<span>growth in teacher FTE<br>ABS · 2006–2025</span>
+</div>
+<div>
+<strong>+23.0%</strong>
+<span>growth in student FTE<br>ABS · 2006–2025</span>
+</div>
+</div>
+<p class="source">Calculated from ABS Schools 2025, Tables 51a and 43a. <a href="#sources">Sources &amp; methods ↓</a>
+</p>
+</header>
+<main>
+<section id="national">
+<p class="eyebrow">01 / THE NATIONAL PICTURE</p>
+<h2>A growing workforce.<br>A changing balance.</h2>
+<p class="lede">Has teaching capacity kept pace with student enrolments? Over 2006–2025, teacher FTE grew faster than student FTE. Comparing growth from the same starting point makes that difference visible.</p>
+<figure>
+<figcaption>
+<h3>Teaching capacity has grown faster than enrolments</h3>
+<p>Australia · all school sectors · FTE indexed to 2006 = 100</p>
+</figcaption>
+<div class="chart" data-chart="02-indexed-growth" aria-label="Teaching capacity has grown faster than enrolments">
+</div>
+<p class="reading">An index compares rates of change, not the number of students and teachers. The vertical scale begins at 95 to make changes around the baseline readable.</p>
+<p class="source">ABS Schools 2025 · Tables 43a and 51a · 2006–2025</p>
+</figure>
+<div class="pair">
+<figure>
+<figcaption>
+<h3>Growth across three school sectors</h3>
+<p>Australia · teaching staff FTE · 2006–2025</p>
+</figcaption>
+<div class="chart" data-chart="01-teacher-trends" aria-label="Growth across three school sectors">
+</div>
+<p class="reading">Government schools account for the largest teaching workforce. Absolute growth and the share of the workforce answer different questions.</p>
+<p class="source">ABS Schools 2025 · Table 51a</p>
+</figure>
+<figure>
+<figcaption>
+<h3>How the sector balance has shifted</h3>
+<p>Australia · share of teaching staff FTE · 2006–2025</p>
+</figcaption>
+<div class="chart" data-chart="03-sector-shares" aria-label="How the sector balance has shifted">
+</div>
+<p class="reading">Each year sums to 100%. This view separates changes in composition from growth in the overall workforce.</p>
+<p class="source">ABS Schools 2025 · Table 51a · calculated shares</p>
+</figure>
+</div>
+<aside>Full-time equivalent measures working capacity. Two teachers each working half-time contribute one FTE. It should not be read as a headcount.</aside>
+</section>
+<section id="geography">
+<p class="eyebrow">02 / WHERE TEACHERS WORK</p>
+<h2>One country.<br>Different teaching contexts.</h2>
+<p class="lede">A national average combines eight different jurisdictions. Ratios help compare teaching capacity relative to student enrolments, while sector comparisons reveal differences within each state and territory.</p>
+<div class="explorer">
+<div>
+<p class="eyebrow">EXPLORE THE GEOGRAPHIC PATTERN</p>
+<p>Year and sector update the two geographic maps. State highlighting also links the heatmap, sector comparison, cartogram and treemap. The cartogram and treemap stay at 2025, all sectors.</p>
+</div>
+<div class="controls">
+<label>Year <select id="map-year">
+<option value="2006">2006</option>
+<option value="2007">2007</option>
+<option value="2008">2008</option>
+<option value="2009">2009</option>
+<option value="2010">2010</option>
+<option value="2011">2011</option>
+<option value="2012">2012</option>
+<option value="2013">2013</option>
+<option value="2014">2014</option>
+<option value="2015">2015</option>
+<option value="2016">2016</option>
+<option value="2017">2017</option>
+<option value="2018">2018</option>
+<option value="2019">2019</option>
+<option value="2020">2020</option>
+<option value="2021">2021</option>
+<option value="2022">2022</option>
+<option value="2023">2023</option>
+<option value="2024">2024</option>
+<option value="2025" selected>2025</option>
+</select>
+</label>
+<label>School sector <select id="map-sector">
+<option>All sectors</option>
+<option>Government</option>
+<option>Catholic</option>
+<option>Independent</option>
+</select>
+</label>
+<label>Highlight state <select id="state-select">
+<option>All states</option>
+<option>NSW</option>
+<option>VIC</option>
+<option>QLD</option>
+<option>SA</option>
+<option>WA</option>
+<option>TAS</option>
+<option>NT</option>
+<option>ACT</option>
+</select>
+</label>
+<button id="reset-controls" type="button">Reset view</button>
+</div>
+<p id="explorer-status" role="status" aria-live="polite">
+</p>
+<details>
+<summary>Read exact state values</summary>
+<div class="table-wrap">
+<table>
+<caption>Selected year and sector · ABS FTE capacity and published ratios</caption>
+<thead>
+<tr>
+<th scope="col">State</th>
+<th scope="col">Teacher FTE</th>
+<th scope="col">Student FTE</th>
+<th scope="col">Students per teacher FTE</th>
+</tr>
+</thead>
+<tbody id="state-table">
+</tbody>
+</table>
+</div>
+</details>
+</div>
+<figure>
+<figcaption>
+<h3>Where does teaching capacity go further?</h3>
+<p>Choropleth · students per teacher FTE · use the year and sector controls below</p>
+</figcaption>
+<div class="chart" data-chart="09-ratio-choropleth" aria-label="Where does teaching capacity go further?">
+</div>
+<p class="reading">Colour represents a ratio, so large land areas do not imply more teachers. Select a state to highlight it across the geographic comparisons. The ACT is small at this scale; its label and the exact-value table keep it accessible.</p>
+<p class="source">ABS Schools 2025 · Table 53a · ABS ASGS 2021 boundaries</p>
+</figure>
+<figure>
+<figcaption>
+<h3>Most teachers work in the largest school systems</h3>
+<p>Proportional symbol map · teaching staff FTE · area of circle represents FTE</p>
+</figcaption>
+<div class="chart" data-chart="10-teacher-symbols" aria-label="Most teachers work in the largest school systems">
+</div>
+<p class="reading">Compare circle areas, not radii. Symbols sit at official ABS state representative points and summarise each entire jurisdiction; they do not show the locations of schools or individual teachers.</p>
+<p class="source">ABS Schools 2025 · Table 51a · ABS ASGS representative points</p>
+</figure>
+<figure>
+<figcaption>
+<h3>If land area represented teaching capacity</h3>
+<p>Non-contiguous area cartogram · all sectors · 2025, fixed reference year</p>
+</figcaption>
+<div class="chart" data-chart="11-area-cartogram" aria-label="If land area represented teaching capacity">
+</div>
+<p class="reading">Each state outline is resized so its area is proportional to teaching staff FTE. Unlike the geographic maps above, these shapes show workforce scale rather than land area. Positions are schematic and separated to prevent overlaps; ACT is moved east and distances are not meaningful.</p>
+<p class="source">ABS Schools 2025 · Table 51a · shapes derived from ABS ASGS 2021</p>
+</figure>
+<figure>
+<figcaption>
+<h3>Twenty years of student-to-teacher ratios</h3>
+<p>All sectors · all school levels · students (FTE) per teaching staff (FTE)</p>
+</figcaption>
+<div class="chart" data-chart="04-ratio-heatmap" aria-label="Twenty years of student-to-teacher ratios">
+</div>
+<p class="reading">Read across a row to trace a jurisdiction through time. Read down a column to compare jurisdictions in the same year.</p>
+<p class="source">ABS Schools 2025 · Table 53a · 2006–2025</p>
+</figure>
+<figure>
+<figcaption>
+<h3>Does the school sector make a difference?</h3>
+<p>Government and non-government schools · all levels · 2025</p>
+</figcaption>
+<div class="chart" data-chart="05-sector-gap" aria-label="Does the school sector make a difference?">
+</div>
+<p class="reading">The distance between two points shows the sector gap. Non-government combines Catholic and independent schools.</p>
+<p class="source">ABS Schools 2025 · Table 53a</p>
+</figure>
+<figure>
+<figcaption>
+<h3>How state size and school sector fit together</h3>
+<p>Treemap · teaching staff FTE by state and sector · 2025</p>
+</figcaption>
+<div class="chart" data-chart="15-sector-treemap" aria-label="How state size and school sector fit together">
+</div>
+<p class="reading">Area encodes workforce size; colour identifies the sector. State labels repeat within their sector rectangles. Smaller jurisdictions are best read with the tooltip or exact-value table rather than visual area estimates.</p>
+<p class="source">ABS Schools 2025 · Table 51a</p>
+</figure>
+<aside>A ratio is not a class size. These figures compare all student FTE with all teaching staff FTE. They do not measure students in a classroom and cannot, by themselves, establish a teacher shortage or teaching quality.</aside>
+</section>
+<section id="people">
+<p class="eyebrow">03 / THE PEOPLE BEHIND THE PROFESSION</p>
+<h2>The workforce has<br>more than one profile.</h2>
+<p class="lede">ABS describes school staffing capacity. AITSL&#x27;s Australian Teacher Workforce Data adds a survey perspective on the people in the profession. The populations and reference years differ, so these measures are presented separately.</p>
+<figure>
+<figcaption>
+<h3>Classroom and relief teachers have different age profiles</h3>
+<p>Share within each workforce subgroup (%) · AITSL · 2024</p>
+</figcaption>
+<div class="chart" data-chart="06-age-profile" aria-label="Classroom and relief teachers have different age profiles">
+</div>
+<p class="reading">Casual relief teachers have a larger share in the oldest age groups. These are subgroup percentages, not workforce counts.</p>
+<p class="source">AITSL National Trends, June 2026 · Table 3 · reported estimates · rounded percentages</p>
+</figure>
+<figure>
+<figcaption>
+<h3>Women make up most of these teacher groups</h3>
+<p>Women as a share of each subgroup (%) · 2024</p>
+</figcaption>
+<div class="chart" data-chart="16-gender-profile" aria-label="Women make up most of these teacher groups">
+</div>
+<p class="reading">Women represent 76% of school classroom teachers and casual relief teachers, compared with 96% of teachers deployed in early childhood settings. The early childhood group is a different population from school classroom teachers.</p>
+<p class="source">AITSL National Trends, June 2026 · Table 3 · weighted estimates</p>
+</figure>
+<figure>
+<figcaption>
+<h3>Relief teaching spans the beginning and end of a career</h3>
+<p>Experience profile · share within each subgroup (%) · 2024</p>
+</figcaption>
+<div class="chart" data-chart="13-experience-pyramid" aria-label="Relief teaching spans the beginning and end of a career">
+</div>
+<p class="reading">Classroom and casual relief teachers have similar shares in their first five years (27% and 26%). At 40 or more years of experience, relief teachers have a much larger share (24% versus 6%). The mirrored bars compare shares, not numbers of people.</p>
+<p class="source">AITSL National Trends, June 2026 · Table 7 · weighted estimates</p>
+</figure>
+<figure>
+<figcaption>
+<h3>Permanent work is common—but not universal</h3>
+<p>Estimated employment arrangements · teacher workforce overall · 2024</p>
+</figcaption>
+<div class="chart" data-chart="12-employment-waffle" aria-label="Permanent work is common—but not universal">
+</div>
+<p class="reading">Each square represents one percentage point of the estimated workforce: 71% permanent, 16% casual and 13% fixed-term. This overall workforce includes school, early childhood and casual teachers; it differs from the school classroom subgroup above.</p>
+<p class="source">AITSL National Trends, June 2026 · Key findings · exact reported percentages</p>
+</figure>
+<aside>AITSL survey estimates describe participating teacher groups; they are not an exhaustive census. They must not be combined with ABS FTE as though the populations were identical.</aside>
+</section>
+<section id="pressures">
+<p class="eyebrow">04 / WORKFORCE PRESSURES</p>
+<h2>Counting teachers<br>doesn't count the workload.</h2>
+<p class="lede">A growing national workforce can coexist with demanding working conditions. Self-reported hours and reasons for considering departure describe pressures that staffing totals alone cannot capture.</p>
+<figure>
+<figcaption>
+<h3>A working week extends beyond classroom hours</h3>
+<p>Full-time classroom teachers · weekly working hours during term · 2024</p>
+</figcaption>
+<div class="chart" data-chart="07-hours-interval" aria-label="A working week extends beyond classroom hours">
+</div>
+<p class="reading">The median is 50 hours in primary, secondary and combined schools. The thick bar spans the middle 50% of responses; the thin line spans the 5th to 95th percentiles. The light mark shows the median. These are published summary statistics, not reconstructed individual responses.</p>
+<p class="source">AITSL National Trends, June 2026 · Appendix Tables 22–24 · self-reported hours · no holiday adjustment</p>
+</figure>
+<figure>
+<figcaption>
+<h3>Workload features prominently in intentions to leave</h3>
+<p>Reasons selected by teachers intending to leave before retirement (%) · 2024</p>
+</figcaption>
+<div class="chart" data-chart="08-leaving-reasons" aria-label="Workload features prominently in intentions to leave">
+</div>
+<p class="reading">Teachers could select multiple reasons, so these percentages do not sum to 100%. They describe those intending to leave, rather than all teachers. Intentions are not observed departures.</p>
+<p class="source">AITSL National Trends, June 2026 · Table 21</p>
+</figure>
+<figure>
+<figcaption>
+<h3>Some reported pressures have become more prominent</h3>
+<p>Selected reasons for intending to leave · 2020 and 2024</p>
+</figcaption>
+<div class="chart" data-chart="14-pressure-slope" aria-label="Some reported pressures have become more prominent">
+</div>
+<p class="reading">Student behaviour rose from 25% to 47%, insufficient pay from 33% to 48%, and class size from 31% to 41%. These are repeated survey estimates, not the same teachers followed over time. Workload also rose over these endpoints, from 67% to 75%.</p>
+<p class="source">AITSL National Trends, June 2026 · Table 21 · endpoint comparison; intermediate years not shown</p>
+</figure>
+<aside>Workforce growth and individual experience answer different questions. Neither the survey measures nor the national totals alone identify local vacancies or predict departures.</aside>
+</section>
+<section class="conclusion">
+<p class="eyebrow">THE THREAD THAT CONNECTS THE NUMBERS</p>
+<h2>More capacity is progress.<br>It is not the whole picture.</h2>
+<p>Teacher FTE grew faster than student FTE nationally from 2006 to 2025. That broad pattern sits alongside differences between jurisdictions and school sectors. AITSL's survey perspective adds another dimension: teaching capacity depends on people whose roles, career stages and working conditions vary.</p>
+<p>These sources support a careful reading of workforce change. They do not establish why every difference exists, identify local vacancies, or predict who will leave. Understanding those questions requires more detailed evidence.</p>
+</section>
+<section id="sources" class="methods">
+<h2>Sources &amp; methods</h2>
+<p>
+<a href="https://www.abs.gov.au/statistics/people/education/schools/2025">ABS Schools, 2025</a>: Tables 51a (teaching staff FTE), 43a (student FTE) and 53a (published ratios). Other in-school staff are excluded. Student data are subject to ABS confidentiality adjustment. Methodological changes can affect comparisons over time.</p>
+<p>
+<a href="https://www.aitsl.edu.au/resources/national-trends-teacher-workforce">AITSL National Trends: Teacher Workforce, June 2026</a>: exact published tables and numerical key findings, primarily reporting 2024. Survey percentages use weighted counts to adjust demographic and jurisdictional representation. In 2024, 48,068 teachers responded to at least part of the survey (8.5% of registered teachers). These estimates and rounded percentages are not an exhaustive census. Some workforce groups include early childhood settings; charts specify their scope.</p>
+<p>
+<a href="https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs/edition-3-july-2021-june-2026/access-and-downloads/data-services-and-apis">Australian state boundaries and representative points</a>: ABS ASGS Edition 3 (2021), CC BY 4.0. The geographic maps use a conic equal-area projection centred on Australia, with standard parallels at 18°S and 36°S. The cartogram rescales projected outlines by the square root of FTE divided by outline area, then separates them without changing relative areas. Its positions are schematic.</p>
+<p>Hover or tap marks for values. Click a state in a geographic chart or use the state selector to link highlights. Each figure links to its dataset and readable specification. The chart menu offers image export. The geographic explorer includes a table of exact values for accessible comparisons.</p>
+<p>
+<a href="https://github.com/MinZY12138/fit3179-dv2">Repository, reproducible preparation scripts and validation notes ↗</a>
+</p>
+</section>
+</main>
+<footer>
+<p>MinZY12138 · FIT3179 Data Visualisation 2 · 16 October 2026</p>
+<p>AI assistance: OpenAI Codex assisted with source extraction, data preparation, code and editorial drafting. Final academic review remains with the author.</p>
+</footer>
+</body>
+</html>

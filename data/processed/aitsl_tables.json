@@ -1,0 +1,2441 @@
+[
+  [
+    [
+      "Year",
+      "Participating states and territories",
+      "Number of survey responses6",
+      "Number of registered teachers in participating states",
+      "Response rate in participating states"
+    ],
+    [
+      "2018",
+      "37",
+      "16,685",
+      "210,444",
+      "7.9%"
+    ],
+    [
+      "2019",
+      "58",
+      "31,705",
+      "454,818",
+      "7.0%"
+    ],
+    [
+      "2020",
+      "8",
+      "37,023",
+      "516,000*",
+      "7.1%"
+    ],
+    [
+      "2021",
+      "8",
+      "34,336",
+      "533,000*",
+      "6.4%"
+    ],
+    [
+      "2022",
+      "8",
+      "44,708",
+      "544,000*",
+      "8.2%"
+    ],
+    [
+      "2023",
+      "8",
+      "50,616",
+      "553,032",
+      "9.1%"
+    ],
+    [
+      "2024",
+      "8",
+      "48,068",
+      "567,103",
+      "8.5%"
+    ]
+  ],
+  [
+    [
+      "Regulatory authority",
+      "Number of registrations",
+      "Proportion also registered in another state/ territory",
+      "Proportion of Australian resident population14",
+      "Proportion of all registrations"
+    ],
+    [
+      "NSW",
+      "186,267",
+      "5.1%",
+      "31.2%",
+      "31.9%"
+    ],
+    [
+      "VIC",
+      "151,960",
+      "4.1%",
+      "25.7%",
+      "26.1%"
+    ],
+    [
+      "QLD",
+      "119,326",
+      "6.5%",
+      "20.5%",
+      "20.5%"
+    ],
+    [
+      "WA",
+      "61,078",
+      "3.6%",
+      "10.9%",
+      "10.5%"
+    ],
+    [
+      "SA",
+      "37,594",
+      "4.2%",
+      "6.9%",
+      "6.4%"
+    ],
+    [
+      "TAS",
+      "12,163",
+      "7.8%",
+      "2.1%",
+      "2.1%"
+    ],
+    [
+      "NT",
+      "5,817",
+      "34.2%",
+      "0.9%",
+      "1.0%"
+    ],
+    [
+      "ACT",
+      "8,994",
+      "14.2%",
+      "1.7%",
+      "1.5%"
+    ],
+    [
+      "Total registrations",
+      "583,199",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Total registered teachers",
+      "567,103",
+      "",
+      "",
+      ""
+    ]
+  ],
+  [
+    [
+      "",
+      "Gender(% women)",
+      "≤29",
+      "30-39",
+      "40-49",
+      "50-59",
+      "60-68",
+      "69+"
+    ],
+    [
+      "School classroom teachers",
+      "76%",
+      "15%",
+      "28%",
+      "24%",
+      "19%",
+      "11%",
+      "3%"
+    ],
+    [
+      "Deployed in early childhood setting",
+      "96%",
+      "15%",
+      "32%",
+      "27%",
+      "18%",
+      "7%",
+      "1%"
+    ],
+    [
+      "Early career teacher workforce32",
+      "76%",
+      "48%",
+      "31%",
+      "15%",
+      "7%33"
+    ],
+    [
+      "Casual relief teachers",
+      "76%",
+      "14%",
+      "15%",
+      "15%",
+      "15%",
+      "23%",
+      "18%"
+    ],
+    [
+      "Remote/very remote*",
+      "75%",
+      "15%",
+      "32%",
+      "19%",
+      "21%",
+      "11%",
+      "2%"
+    ],
+    [
+      "Outer regional*",
+      "74%",
+      "11%",
+      "25%",
+      "28%",
+      "23%",
+      "11%",
+      "2%"
+    ],
+    [
+      "Inner regional*",
+      "73%",
+      "8%",
+      "25%",
+      "30%",
+      "24%",
+      "10%",
+      "3%"
+    ],
+    [
+      "Major cities*",
+      "74%",
+      "11%",
+      "29%",
+      "26%",
+      "21%",
+      "11%",
+      "2%"
+    ],
+    [
+      "Teacher workforce, overall",
+      "76%",
+      "12%",
+      "26%",
+      "25%",
+      "20%",
+      "13%",
+      "5%"
+    ]
+  ],
+  [
+    [
+      "Subgroups",
+      "English only",
+      "English and another language",
+      "Another language only"
+    ],
+    [
+      "Classroom teachers",
+      "87%",
+      "11%",
+      "2%"
+    ],
+    [
+      "Casual relief teachers",
+      "83%",
+      "14%",
+      "4%"
+    ],
+    [
+      "Deployed in early childhood setting",
+      "65%",
+      "23%",
+      "12%"
+    ],
+    [
+      "Middle leaders",
+      "89%",
+      "10%",
+      "1%"
+    ],
+    [
+      "Senior leaders",
+      "94%",
+      "5%",
+      "1%"
+    ],
+    [
+      "Teacher workforce overall",
+      "85%",
+      "12%",
+      "3%"
+    ]
+  ],
+  [
+    [
+      "Role",
+      "Proportion of migrant teacher workforce",
+      "Proportion of teacher workforce overall"
+    ],
+    [
+      "School classroom teacher",
+      "49%",
+      "51%"
+    ],
+    [
+      "Middle leader",
+      "16%",
+      "17%"
+    ],
+    [
+      "Senior leader",
+      "5%",
+      "8%"
+    ],
+    [
+      "Deployed in early childhood setting",
+      "13%",
+      "8%"
+    ],
+    [
+      "Casual relief teachers",
+      "17%",
+      "16%"
+    ]
+  ],
+  [
+    [
+      "School type",
+      "Proportion of migrant school-deployed workforce",
+      "Proportion of school-deployed workforce overall"
+    ],
+    [
+      "Primary schools",
+      "25%",
+      "40%"
+    ],
+    [
+      "Secondary schools",
+      "33%",
+      "31%"
+    ],
+    [
+      "Combined schools",
+      "42%",
+      "28%"
+    ]
+  ],
+  [
+    [
+      "",
+      "1-5 years",
+      "6-9 years",
+      "10-19 years",
+      "20-29 years",
+      "30-39 years",
+      "40+ years"
+    ],
+    [
+      "School classroom teachers",
+      "27%",
+      "15%",
+      "27%",
+      "16%",
+      "9%",
+      "6%"
+    ],
+    [
+      "Deployed in early childhood setting",
+      "35%",
+      "16%",
+      "26%",
+      "13%",
+      "7%",
+      "3%"
+    ],
+    [
+      "Casual relief teachers",
+      "26%",
+      "7%",
+      "17%",
+      "14%",
+      "12%",
+      "24%"
+    ],
+    [
+      "Remote/very remote*",
+      "28%",
+      "17%",
+      "28%",
+      "14%",
+      "9%",
+      "5%"
+    ],
+    [
+      "Outer regional*",
+      "21%",
+      "13%",
+      "28%",
+      "21%",
+      "12%",
+      "5%"
+    ],
+    [
+      "Inner regional*",
+      "15%",
+      "13%",
+      "31%",
+      "23%",
+      "12%",
+      "6%"
+    ],
+    [
+      "Major cities*",
+      "20%",
+      "14%",
+      "30%",
+      "19%",
+      "11%",
+      "6%"
+    ],
+    [
+      "Teacher workforce, overall",
+      "22%",
+      "13%",
+      "27%",
+      "18%",
+      "11%",
+      "9%"
+    ]
+  ],
+  [
+    [
+      "",
+      "Short fixed-term",
+      "Long fixed-term",
+      "Ongoing"
+    ],
+    [
+      "School classroom teachers",
+      "15%",
+      "5%",
+      "79%"
+    ],
+    [
+      "Deployed in early childhood setting",
+      "6%",
+      "2%",
+      "92%"
+    ],
+    [
+      "Remote/very remote*",
+      "15%",
+      "15%",
+      "70%"
+    ],
+    [
+      "Outer regional*",
+      "11%",
+      "5%",
+      "84%"
+    ],
+    [
+      "Inner regional*",
+      "11%",
+      "4%",
+      "85%"
+    ],
+    [
+      "Major cities*",
+      "11%",
+      "4%",
+      "84%"
+    ],
+    [
+      "Deployed workforce, overall",
+      "11%",
+      "4%",
+      "84%"
+    ]
+  ],
+  [
+    [
+      "",
+      "Full-time",
+      "Part-time (~4 days/week)",
+      "Part-time (~3 days/week or less)"
+    ],
+    [
+      "School classroom teachers",
+      "72%",
+      "11%",
+      "18%"
+    ],
+    [
+      "Deployed in early childhood setting",
+      "63%",
+      "16%",
+      "21%"
+    ],
+    [
+      "Early career teachers (deployed)52",
+      "82%",
+      "7%",
+      "11%"
+    ],
+    [
+      "Casual relief teachers",
+      "27%",
+      "11%",
+      "62%"
+    ],
+    [
+      "Remote/very remote*",
+      "84%",
+      "6%",
+      "10%"
+    ],
+    [
+      "Outer regional*",
+      "79%",
+      "9%",
+      "12%"
+    ],
+    [
+      "Inner regional*",
+      "74%",
+      "11%",
+      "15%"
+    ],
+    [
+      "Major cities*",
+      "77%",
+      "9%",
+      "14%"
+    ],
+    [
+      "Teacher workforce, overall",
+      "69%",
+      "10%",
+      "21%"
+    ]
+  ],
+  [
+    [
+      "",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    [
+      "Primary",
+      "25",
+      "25",
+      "25",
+      "25",
+      "25"
+    ],
+    [
+      "Secondary",
+      "21",
+      "22",
+      "21",
+      "21",
+      "21"
+    ],
+    [
+      "Combined",
+      "23",
+      "25",
+      "24",
+      "24",
+      "25"
+    ]
+  ],
+  [
+    [
+      "",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    [
+      "Middle leaders"
+    ],
+    [
+      "Primary",
+      "23",
+      "22",
+      "22",
+      "22"
+    ],
+    [
+      "Secondary",
+      "19",
+      "18",
+      "18",
+      "18"
+    ],
+    [
+      "Combined",
+      "20",
+      "20",
+      "19",
+      "20"
+    ],
+    [
+      "Senior leaders"
+    ],
+    [
+      "Primary",
+      "NR66",
+      "18",
+      "15",
+      "18"
+    ],
+    [
+      "Secondary",
+      "4",
+      "6",
+      "6",
+      "8"
+    ],
+    [
+      "Combined",
+      "5",
+      "8",
+      "6",
+      "8"
+    ]
+  ],
+  [
+    [
+      "",
+      "Primary",
+      "Secondary",
+      "Combined"
+    ],
+    [
+      "",
+      "0-4 hours",
+      "5-9hours",
+      "10+hours",
+      "0-4hours",
+      "5-9hours",
+      "10+hours",
+      "0-4hours",
+      "5-9hours",
+      "10+hours"
+    ],
+    [
+      "Lesson planning and preparation",
+      "19%",
+      "41%",
+      "40%",
+      "21%",
+      "41%",
+      "38%",
+      "21%",
+      "41%",
+      "37%"
+    ],
+    [
+      "Student supervision",
+      "53%",
+      "9%",
+      "38%",
+      "60%",
+      "9%",
+      "31%",
+      "58%",
+      "11%",
+      "31%"
+    ],
+    [
+      "Marking / assessment of student work",
+      "62%",
+      "27%",
+      "11%",
+      "40%",
+      "36%",
+      "23%",
+      "45%",
+      "35%",
+      "21%"
+    ],
+    [
+      "Administrative work",
+      "50%",
+      "32%",
+      "18%",
+      "46%",
+      "35%",
+      "19%",
+      "49%",
+      "32%",
+      "19%"
+    ],
+    [
+      "Teamwork with colleagues",
+      "70%",
+      "23%",
+      "7%",
+      "68%",
+      "24%",
+      "8%",
+      "69%",
+      "25%",
+      "7%"
+    ],
+    [
+      "Extracurricular activities",
+      "87%",
+      "9%",
+      "3%",
+      "84%",
+      "11%",
+      "5%",
+      "84%",
+      "12%",
+      "5%"
+    ],
+    [
+      "Counselling / pastoral care",
+      "88%",
+      "8%",
+      "4%",
+      "86%",
+      "9%",
+      "5%",
+      "84%",
+      "11%",
+      "5%"
+    ],
+    [
+      "Communication with parents or carers",
+      "86%",
+      "10%",
+      "4%",
+      "88%",
+      "8%",
+      "4%",
+      "85%",
+      "11%",
+      "4%"
+    ]
+  ],
+  [
+    [
+      "",
+      "Primary",
+      "Secondary",
+      "Combined"
+    ],
+    [
+      "",
+      "0-4 hours",
+      "5-9hours",
+      "10+hours",
+      "0-4hours",
+      "5-9hours",
+      "10+hours",
+      "0-4hours",
+      "5-9hours",
+      "10+hours"
+    ],
+    [
+      "Administration / leadership tasks and meetings",
+      "26%",
+      "27%",
+      "47%",
+      "16%",
+      "31%",
+      "54%",
+      "17%",
+      "27%",
+      "56%"
+    ],
+    [
+      "Student interactions",
+      "26%",
+      "20%",
+      "54%",
+      "22%",
+      "20%",
+      "58%",
+      "24%",
+      "22%",
+      "54%"
+    ],
+    [
+      "Teaching responsibilities other than face-to-face teaching",
+      "36%",
+      "29%",
+      "34%",
+      "12%",
+      "26%",
+      "62%",
+      "18%",
+      "29%",
+      "53%"
+    ],
+    [
+      "Instructional leadershiprelated tasks and meetings",
+      "49%",
+      "21%",
+      "30%",
+      "58%",
+      "26%",
+      "16%",
+      "58%",
+      "24%",
+      "18%"
+    ],
+    [
+      "Parent / carer interactions",
+      "77%",
+      "15%",
+      "8%",
+      "74%",
+      "17%",
+      "9%",
+      "75%",
+      "18%",
+      "6%"
+    ],
+    [
+      "Professional learning for school staff",
+      "75%",
+      "17%",
+      "8%",
+      "87%",
+      "10%",
+      "3%",
+      "87%",
+      "9%",
+      "4%"
+    ]
+  ],
+  [
+    [
+      "",
+      "Primary",
+      "Secondary",
+      "Combined"
+    ],
+    [
+      "",
+      "0-4 hours",
+      "5-9hours",
+      "10+hours",
+      "0-4hours",
+      "5-9hours",
+      "10+hours",
+      "0-4hours",
+      "5-9hours",
+      "10+hours"
+    ],
+    [
+      "Administration / leadership tasks and meetings",
+      "8%",
+      "17%",
+      "75%",
+      "5%",
+      "13%",
+      "82%",
+      "4%",
+      "9%",
+      "86%"
+    ],
+    [
+      "Student interactions",
+      "21%",
+      "23%",
+      "56%",
+      "21%",
+      "27%",
+      "53%",
+      "23%",
+      "26%",
+      "51%"
+    ],
+    [
+      "Instructional leadershiprelated tasks and meetings",
+      "34%",
+      "27%",
+      "38%",
+      "32%",
+      "29%",
+      "39%",
+      "30%",
+      "30%",
+      "41%"
+    ],
+    [
+      "Teaching responsibilities other than face-to-face teaching",
+      "48%",
+      "20%",
+      "32%",
+      "49%",
+      "29%",
+      "22%",
+      "55%",
+      "23%",
+      "22%"
+    ],
+    [
+      "Parent / carer interactions",
+      "54%",
+      "26%",
+      "19%",
+      "51%",
+      "29%",
+      "20%",
+      "50%",
+      "29%",
+      "20%"
+    ],
+    [
+      "Professional learning for school staff",
+      "70%",
+      "21%",
+      "9%",
+      "71%",
+      "20%",
+      "9%",
+      "70%",
+      "20%",
+      "10%"
+    ]
+  ],
+  [
+    [
+      "",
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    [
+      "Aligned to my individual professional learning needs"
+    ],
+    [
+      "School classroom teachers",
+      "6%",
+      "11%",
+      "21%",
+      "46%",
+      "16%"
+    ],
+    [
+      "Deployed in early childhood setting",
+      "7%",
+      "4%",
+      "13%",
+      "49%",
+      "28%"
+    ],
+    [
+      "Casual relief teachers",
+      "7%",
+      "5%",
+      "21%",
+      "47%",
+      "21%"
+    ],
+    [
+      "Middle leaders",
+      "6%",
+      "8%",
+      "14%",
+      "49%",
+      "23%"
+    ],
+    [
+      "Senior leaders",
+      "4%",
+      "6%",
+      "12%",
+      "50%",
+      "28%"
+    ],
+    [
+      "Teacher workforce, overall",
+      "6%",
+      "9%",
+      "18%",
+      "47%",
+      "20%"
+    ],
+    [
+      "Have had opportunities to apply what I learned"
+    ],
+    [
+      "School classroom teachers",
+      "4%",
+      "8%",
+      "20%",
+      "53%",
+      "15%"
+    ],
+    [
+      "Deployed in early childhood setting",
+      "5%",
+      "4%",
+      "14%",
+      "55%",
+      "22%"
+    ],
+    [
+      "Casual relief teachers",
+      "6%",
+      "7%",
+      "24%",
+      "50%",
+      "13%"
+    ],
+    [
+      "Middle leaders",
+      "5%",
+      "7%",
+      "15%",
+      "54%",
+      "19%"
+    ],
+    [
+      "Senior leaders",
+      "3%",
+      "4%",
+      "12%",
+      "57%",
+      "24%"
+    ],
+    [
+      "Teacher workforce, overall",
+      "5%",
+      "7%",
+      "19%",
+      "53%",
+      "17%"
+    ]
+  ],
+  [
+    [
+      "",
+      "Primary",
+      "Secondary",
+      "Combined"
+    ],
+    [
+      "Being mentored",
+      "46%",
+      "44%",
+      "45%"
+    ],
+    [
+      "Reduced face-to-face teaching hours",
+      "40%",
+      "48%",
+      "40%"
+    ],
+    [
+      "Observation of experienced teachers",
+      "33%",
+      "23%",
+      "28%"
+    ],
+    [
+      "Orientation program",
+      "18%",
+      "21%",
+      "25%"
+    ],
+    [
+      "Targeted professional learning",
+      "14%",
+      "7%",
+      "11%"
+    ],
+    [
+      "Internal networking",
+      "6%",
+      "9%",
+      "11%"
+    ]
+  ],
+  [
+    [
+      "Subgroups",
+      "All in-field",
+      "Some out-of-field",
+      "All out-of-field"
+    ],
+    [
+      "Classroom teachers",
+      "51%",
+      "43%",
+      "6%"
+    ],
+    [
+      "Early career teachers",
+      "47%",
+      "49%",
+      "4%"
+    ],
+    [
+      "Middle leaders",
+      "59%",
+      "35%",
+      "6%"
+    ],
+    [
+      "Senior leaders",
+      "52%",
+      "32%",
+      "17%"
+    ],
+    [
+      "School-deployed workforce",
+      "54%",
+      "40%",
+      "7%"
+    ]
+  ],
+  [
+    [
+      "",
+      "Out-of-field: no ITE",
+      "Out-of-field: some ITE",
+      "Total out-of-field",
+      "In-field"
+    ],
+    [
+      "Arts",
+      "25%",
+      "5%",
+      "30%",
+      "70%"
+    ],
+    [
+      "Technology",
+      "25%",
+      "7%",
+      "32%",
+      "68%"
+    ],
+    [
+      "Mathematics",
+      "23%",
+      "8%",
+      "31%",
+      "69%"
+    ],
+    [
+      "Health and Physical Education",
+      "22%",
+      "6%",
+      "28%",
+      "72%"
+    ],
+    [
+      "LOTE",
+      "20%",
+      "5%",
+      "25%",
+      "75%"
+    ],
+    [
+      "Humanities",
+      "19%",
+      "6%",
+      "25%",
+      "75%"
+    ],
+    [
+      "English",
+      "17%",
+      "5%",
+      "22%",
+      "78%"
+    ],
+    [
+      "Performing Arts",
+      "16%",
+      "4%",
+      "20%",
+      "80%"
+    ],
+    [
+      "Science",
+      "15%",
+      "4%",
+      "19%",
+      "81%"
+    ],
+    [
+      "Physics",
+      "19%",
+      "5%",
+      "24%",
+      "76%"
+    ],
+    [
+      "Chemistry",
+      "15%",
+      "4%",
+      "19%",
+      "81%"
+    ],
+    [
+      "Biology",
+      "13%",
+      "4%",
+      "17%",
+      "83%"
+    ]
+  ],
+  [
+    [
+      "",
+      "Stay",
+      "Unsure",
+      "Leave"
+    ],
+    [
+      "1 year",
+      "2-4 yrs",
+      "5 yrs",
+      "6-9 yrs",
+      "10+ yrs",
+      "Unsure",
+      "Total"
+    ],
+    [
+      "School classroom teachers",
+      "26%",
+      "36%",
+      "4%",
+      "9%",
+      "9%",
+      "2%",
+      "7%",
+      "7%",
+      "39%"
+    ],
+    [
+      "Early childhood settings",
+      "25%",
+      "40%",
+      "5%",
+      "9%",
+      "9%",
+      "1%",
+      "5%",
+      "7%",
+      "36%"
+    ],
+    [
+      "Early career teachers88 *",
+      "20%",
+      "40%",
+      "4%",
+      "9%",
+      "8%",
+      "2%",
+      "10%",
+      "7%",
+      "40%"
+    ],
+    [
+      "Casual relief teachers",
+      "46%",
+      "29%",
+      "5%",
+      "6%",
+      "4%",
+      "1%",
+      "3%",
+      "7%",
+      "25%"
+    ],
+    [
+      "Remote/very remote*",
+      "27%",
+      "33%",
+      "4%",
+      "8%",
+      "10%",
+      "2%",
+      "8%",
+      "8%",
+      "40%"
+    ],
+    [
+      "Outer regional*",
+      "27%",
+      "35%",
+      "4%",
+      "9%",
+      "10%",
+      "2%",
+      "7%",
+      "7%",
+      "39%"
+    ],
+    [
+      "Inner regional*",
+      "27%",
+      "34%",
+      "4%",
+      "8%",
+      "9%",
+      "3%",
+      "7%",
+      "7%",
+      "39%"
+    ],
+    [
+      "Major cities*",
+      "27%",
+      "35%",
+      "4%",
+      "9%",
+      "9%",
+      "2%",
+      "7%",
+      "7%",
+      "38%"
+    ],
+    [
+      "Teacher workforce, overall",
+      "30%",
+      "34%",
+      "4%",
+      "8%",
+      "8%",
+      "2%",
+      "6%",
+      "7%",
+      "36%"
+    ]
+  ],
+  [
+    [
+      "",
+      "Stay",
+      "Unsure",
+      "Leave"
+    ],
+    [
+      "1 year",
+      "2-4 yrs",
+      "5 yrs",
+      "6-9 yrs",
+      "10+ yrs",
+      "Unsure",
+      "Total"
+    ],
+    [
+      "Middle leaders",
+      "28%",
+      "33%",
+      "4%",
+      "9%",
+      "10%",
+      "2%",
+      "8%",
+      "6%",
+      "38%"
+    ],
+    [
+      "Senior leaders",
+      "37%",
+      "31%",
+      "3%",
+      "7%",
+      "8%",
+      "2%",
+      "7%",
+      "6%",
+      "33%"
+    ],
+    [
+      "Teacher workforce, overall",
+      "30%",
+      "34%",
+      "4%",
+      "8%",
+      "8%",
+      "2%",
+      "6%",
+      "7%",
+      "36%"
+    ]
+  ],
+  [
+    [
+      "",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    [
+      "Workload",
+      "67%",
+      "80%",
+      "78%",
+      "76%",
+      "75%"
+    ],
+    [
+      "Stress/mental health/wellbeing",
+      "56%",
+      "63%",
+      "69%",
+      "70%",
+      "70%"
+    ],
+    [
+      "Work/life balance",
+      "64%",
+      "69%",
+      "72%",
+      "70%",
+      "69%"
+    ],
+    [
+      "Administrative workload*",
+      "",
+      "",
+      "68%",
+      "64%",
+      "65%"
+    ],
+    [
+      "Parent behaviour*",
+      "",
+      "",
+      "38%",
+      "43%",
+      "48%"
+    ],
+    [
+      "Insufficient pay",
+      "33%",
+      "45%",
+      "52%",
+      "54%",
+      "48%"
+    ],
+    [
+      "Demand of professional regulation",
+      "41%",
+      "49%",
+      "52%",
+      "51%",
+      "48%"
+    ],
+    [
+      "Student behaviour",
+      "25%",
+      "29%",
+      "33%",
+      "42%",
+      "47%"
+    ],
+    [
+      "Class size",
+      "31%",
+      "33%",
+      "35%",
+      "39%",
+      "41%"
+    ],
+    [
+      "Insufficient support staff",
+      "29%",
+      "35%",
+      "35%",
+      "35%",
+      "37%"
+    ],
+    [
+      "Poor public image",
+      "30%",
+      "38%",
+      "41%",
+      "37%",
+      "35%"
+    ],
+    [
+      "Insufficient performance recognition",
+      "30%",
+      "30%",
+      "38%",
+      "34%",
+      "35%"
+    ],
+    [
+      "Changes imposed from outside (e.g. by govt)",
+      "44%",
+      "53%",
+      "38%",
+      "34%",
+      "34%"
+    ],
+    [
+      "School culture*",
+      "",
+      "",
+      "28%",
+      "29%",
+      "30%"
+    ],
+    [
+      "Seek employment outside education",
+      "20%",
+      "23%",
+      "23%",
+      "23%",
+      "22%"
+    ],
+    [
+      "Not enjoying teaching",
+      "20%",
+      "24%",
+      "17%",
+      "19%",
+      "19%"
+    ],
+    [
+      "Seek employment elsewhere in education",
+      "26%",
+      "21%",
+      "18%",
+      "18%",
+      "18%"
+    ],
+    [
+      "Dissatisfied with performance appraisal process",
+      "13%",
+      "13%",
+      "15%",
+      "12%",
+      "12%"
+    ],
+    [
+      "Unsatisfactory relationships with staff",
+      "10%",
+      "8%",
+      "8%",
+      "9%",
+      "10%"
+    ],
+    [
+      "Family reasons",
+      "12%",
+      "8%",
+      "8%",
+      "8%",
+      "9%"
+    ],
+    [
+      "Never planned to stay long-term",
+      "5%",
+      "3%",
+      "3%",
+      "2%",
+      "3%"
+    ],
+    [
+      "Not suited to the work",
+      "2%",
+      "2%",
+      "2%",
+      "2%",
+      "2%"
+    ]
+  ],
+  [
+    [
+      "Primary",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    [
+      "During term",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "5th percentile",
+      "40",
+      "40",
+      "40",
+      "40",
+      "40"
+    ],
+    [
+      "25th percentile",
+      "50",
+      "48",
+      "48",
+      "45",
+      "45"
+    ],
+    [
+      "Median",
+      "55",
+      "54",
+      "51",
+      "50",
+      "50"
+    ],
+    [
+      "75th percentile",
+      "60",
+      "60",
+      "60",
+      "60",
+      "60"
+    ],
+    [
+      "95th percentile",
+      "80",
+      "78",
+      "72",
+      "71",
+      "71"
+    ],
+    [
+      "With holidays",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "5th percentile",
+      "",
+      "36",
+      "36",
+      "36",
+      "35"
+    ],
+    [
+      "25th percentile",
+      "",
+      "44",
+      "44",
+      "42",
+      "42"
+    ],
+    [
+      "Median",
+      "",
+      "49",
+      "48",
+      "47",
+      "46"
+    ],
+    [
+      "75th percentile",
+      "",
+      "56",
+      "55",
+      "54",
+      "54"
+    ],
+    [
+      "95th percentile",
+      "",
+      "72",
+      "69",
+      "68",
+      "68"
+    ]
+  ],
+  [
+    [
+      "Secondary",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    [
+      "During term",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "5th percentile",
+      "40",
+      "40",
+      "40",
+      "38",
+      "37"
+    ],
+    [
+      "25th percentile",
+      "47",
+      "46",
+      "45",
+      "45",
+      "45"
+    ],
+    [
+      "Median",
+      "50",
+      "50",
+      "50",
+      "50",
+      "50"
+    ],
+    [
+      "75th percentile",
+      "60",
+      "60",
+      "60",
+      "57",
+      "55"
+    ],
+    [
+      "95th percentile",
+      "80",
+      "75",
+      "72",
+      "70",
+      "70"
+    ],
+    [
+      "With holidays",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "5th percentile",
+      "",
+      "35",
+      "35",
+      "35",
+      "34"
+    ],
+    [
+      "25th percentile",
+      "",
+      "42",
+      "42",
+      "41",
+      "40"
+    ],
+    [
+      "Median",
+      "",
+      "48",
+      "47",
+      "46",
+      "46"
+    ],
+    [
+      "75th percentile",
+      "",
+      "55",
+      "54",
+      "53",
+      "52"
+    ],
+    [
+      "95th percentile",
+      "",
+      "70",
+      "67",
+      "67",
+      "66"
+    ]
+  ],
+  [
+    [
+      "Combined",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    [
+      "During term",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "5th percentile",
+      "40",
+      "40",
+      "40",
+      "38",
+      "38"
+    ],
+    [
+      "25th percentile",
+      "48",
+      "47",
+      "46",
+      "45",
+      "45"
+    ],
+    [
+      "Median",
+      "50",
+      "52",
+      "50",
+      "50",
+      "50"
+    ],
+    [
+      "75th percentile",
+      "60",
+      "60",
+      "60",
+      "60",
+      "59"
+    ],
+    [
+      "95th percentile",
+      "80",
+      "75",
+      "73",
+      "71",
+      "70"
+    ],
+    [
+      "With holidays",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "5th percentile",
+      "",
+      "35",
+      "36",
+      "35",
+      "35"
+    ],
+    [
+      "25th percentile",
+      "",
+      "43",
+      "43",
+      "41",
+      "41"
+    ],
+    [
+      "Median",
+      "",
+      "48",
+      "47",
+      "47",
+      "46"
+    ],
+    [
+      "75th percentile",
+      "",
+      "55",
+      "55",
+      "54",
+      "53"
+    ],
+    [
+      "95th percentile",
+      "",
+      "71",
+      "68",
+      "67",
+      "67"
+    ]
+  ],
+  [
+    [
+      "Primary",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    [
+      "Middle leaders"
+    ],
+    [
+      "During term",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "5th percentile",
+      "40",
+      "40",
+      "40",
+      "40"
+    ],
+    [
+      "25th percentile",
+      "50",
+      "49",
+      "47",
+      "48"
+    ],
+    [
+      "Median",
+      "55",
+      "52",
+      "50",
+      "50"
+    ],
+    [
+      "75th percentile",
+      "60",
+      "60",
+      "60",
+      "60"
+    ],
+    [
+      "95th percentile",
+      "76",
+      "71",
+      "70",
+      "70"
+    ],
+    [
+      "With holidays",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "5th percentile",
+      "37",
+      "37",
+      "37",
+      "37"
+    ],
+    [
+      "25th percentile",
+      "45",
+      "44",
+      "43",
+      "44"
+    ],
+    [
+      "Median",
+      "50",
+      "49",
+      "47",
+      "47"
+    ],
+    [
+      "75th percentile",
+      "56",
+      "55",
+      "53",
+      "54"
+    ],
+    [
+      "95th percentile",
+      "70",
+      "68",
+      "65",
+      "68"
+    ],
+    [
+      "Senior leaders"
+    ],
+    [
+      "During term",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "5th percentile",
+      "45",
+      "45",
+      "44",
+      "42"
+    ],
+    [
+      "25th percentile",
+      "50",
+      "50",
+      "50",
+      "50"
+    ],
+    [
+      "Median",
+      "60",
+      "60",
+      "56",
+      "56"
+    ],
+    [
+      "75th percentile",
+      "65",
+      "63",
+      "64",
+      "63"
+    ],
+    [
+      "95th percentile",
+      "80",
+      "75",
+      "80",
+      "80"
+    ],
+    [
+      "With holidays",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "5th percentile",
+      "41",
+      "40",
+      "40",
+      "39"
+    ],
+    [
+      "25th percentile",
+      "47",
+      "47",
+      "46",
+      "46"
+    ],
+    [
+      "Median",
+      "55",
+      "53",
+      "52",
+      "53"
+    ],
+    [
+      "75th percentile",
+      "60",
+      "59",
+      "59",
+      "59"
+    ],
+    [
+      "95th percentile",
+      "72",
+      "71",
+      "73",
+      "73"
+    ]
+  ],
+  [
+    [
+      "Secondary",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    [
+      "Middle leaders"
+    ],
+    [
+      "During term",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "5th percentile",
+      "42",
+      "41",
+      "40",
+      "40"
+    ],
+    [
+      "25th percentile",
+      "50",
+      "50",
+      "48",
+      "48"
+    ],
+    [
+      "Median",
+      "55",
+      "55",
+      "53",
+      "52"
+    ],
+    [
+      "75th percentile",
+      "60",
+      "60",
+      "60",
+      "60"
+    ],
+    [
+      "95th percentile",
+      "80",
+      "72",
+      "75",
+      "74"
+    ],
+    [
+      "With holidays",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "5th percentile",
+      "38",
+      "38",
+      "37",
+      "37"
+    ],
+    [
+      "25th percentile",
+      "45",
+      "45",
+      "44",
+      "44"
+    ],
+    [
+      "Median",
+      "52",
+      "50",
+      "49",
+      "49"
+    ],
+    [
+      "75th percentile",
+      "57",
+      "56",
+      "55",
+      "55"
+    ],
+    [
+      "95th percentile",
+      "72",
+      "68",
+      "70",
+      "69"
+    ],
+    [
+      "Senior leaders"
+    ],
+    [
+      "During term",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "5th percentile",
+      "45",
+      "45",
+      "44",
+      "42"
+    ],
+    [
+      "25th percentile",
+      "50",
+      "50",
+      "50",
+      "50"
+    ],
+    [
+      "Median",
+      "60",
+      "60",
+      "58",
+      "56"
+    ],
+    [
+      "75th percentile",
+      "65",
+      "65",
+      "65",
+      "64"
+    ],
+    [
+      "95th percentile",
+      "79",
+      "75",
+      "80",
+      "80"
+    ],
+    [
+      "With holidays",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "5th percentile",
+      "40",
+      "40",
+      "40",
+      "38"
+    ],
+    [
+      "25th percentile",
+      "47",
+      "47",
+      "46",
+      "46"
+    ],
+    [
+      "Median",
+      "54",
+      "53",
+      "53",
+      "53"
+    ],
+    [
+      "75th percentile",
+      "60",
+      "59",
+      "59",
+      "59"
+    ],
+    [
+      "95th percentile",
+      "72",
+      "71",
+      "73",
+      "73"
+    ]
+  ],
+  [
+    [
+      "Combined",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    [
+      "Middle leaders"
+    ],
+    [
+      "During term",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "5th percentile",
+      "40",
+      "41",
+      "40",
+      "40"
+    ],
+    [
+      "25th percentile",
+      "50",
+      "50",
+      "48",
+      "48"
+    ],
+    [
+      "Median",
+      "55",
+      "55",
+      "53",
+      "52"
+    ],
+    [
+      "75th percentile",
+      "60",
+      "60",
+      "60",
+      "60"
+    ],
+    [
+      "95th percentile",
+      "75",
+      "75",
+      "75",
+      "75"
+    ],
+    [
+      "With holidays",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "5th percentile",
+      "37",
+      "38",
+      "36",
+      "37"
+    ],
+    [
+      "25th percentile",
+      "45",
+      "45",
+      "44",
+      "44"
+    ],
+    [
+      "Median",
+      "50",
+      "50",
+      "49",
+      "49"
+    ],
+    [
+      "75th percentile",
+      "57",
+      "56",
+      "55",
+      "55"
+    ],
+    [
+      "95th percentile",
+      "70",
+      "69",
+      "69",
+      "69"
+    ],
+    [
+      "Senior leaders"
+    ],
+    [
+      "During term",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "5th percentile",
+      "45",
+      "45",
+      "43",
+      "42"
+    ],
+    [
+      "25th percentile",
+      "50",
+      "50",
+      "50",
+      "50"
+    ],
+    [
+      "Median",
+      "60",
+      "60",
+      "56",
+      "57"
+    ],
+    [
+      "75th percentile",
+      "68",
+      "65",
+      "65",
+      "64"
+    ],
+    [
+      "95th percentile",
+      "80",
+      "80",
+      "80",
+      "80"
+    ],
+    [
+      "With holidays",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "5th percentile",
+      "40",
+      "40",
+      "39",
+      "39"
+    ],
+    [
+      "25th percentile",
+      "47",
+      "47",
+      "46",
+      "47"
+    ],
+    [
+      "Median",
+      "55",
+      "54",
+      "52",
+      "53"
+    ],
+    [
+      "75th percentile",
+      "64",
+      "61",
+      "60",
+      "59"
+    ],
+    [
+      "95th percentile",
+      "75",
+      "73",
+      "76",
+      "73"
+    ]
+  ]
+]

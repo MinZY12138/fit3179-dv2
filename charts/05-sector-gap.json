@@ -1,0 +1,110 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 290,
+  "data": {
+    "url": "data/processed/ratios.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "year": "number",
+        "ratio": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "filter": "datum.year === 2025 && datum.state !== 'Australia' && datum.level === 'All Levels' && (datum.sector === 'Government' || datum.sector === 'Non-Government')"
+    }
+  ],
+  "encoding": {
+    "y": {
+      "field": "state",
+      "type": "nominal",
+      "title": null
+    },
+    "x": {
+      "field": "ratio",
+      "type": "quantitative",
+      "title": "Students per teacher FTE",
+      "scale": {
+        "domain": [
+          0,
+          16
+        ]
+      }
+    },
+    "tooltip": [
+      {
+        "field": "state",
+        "type": "nominal"
+      },
+      {
+        "field": "sector",
+        "type": "nominal"
+      },
+      {
+        "field": "ratio",
+        "type": "quantitative",
+        "format": ".1f"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "color": "#b6c3be",
+        "strokeWidth": 3
+      },
+      "encoding": {
+        "detail": {
+          "field": "state",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 110
+      },
+      "encoding": {
+        "color": {
+          "field": "sector",
+          "type": "nominal"
+        }
+      }
+    }
+  ],
+  "config": {
+    "background": "#faf8f2",
+    "font": "Arial",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelColor": "#4d5c5a",
+      "titleColor": "#263e3b",
+      "gridColor": "#e3e5dd",
+      "domain": false,
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "titlePadding": 12
+    },
+    "legend": {
+      "orient": "bottom",
+      "title": null,
+      "labelFontSize": 11
+    },
+    "range": {
+      "category": [
+        "#23776f",
+        "#c5633f",
+        "#a99b65",
+        "#617c93"
+      ]
+    }
+  }
+}

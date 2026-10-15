@@ -1,0 +1,641 @@
+year,state,sector,teacher_fte,student_fte,ratio,key
+2006,ACT,Government,2735.2,35107.9,12.8,ACT|2006|Government
+2006,ACT,Catholic,1081.9,17212.6,15.9,ACT|2006|Catholic
+2006,ACT,Independent,581.9,7323.1,12.6,ACT|2006|Independent
+2006,ACT,All sectors,4399.0,59643.6,13.6,ACT|2006|All sectors
+2006,NSW,Government,51384.6,740415.0,14.4,NSW|2006|Government
+2006,NSW,Catholic,15623.1,239438.4,15.3,NSW|2006|Catholic
+2006,NSW,Independent,11152.2,130462.2,11.7,NSW|2006|Independent
+2006,NSW,All sectors,78159.9,1110315.6,14.2,NSW|2006|All sectors
+2006,NT,Government,2309.1,28962.8,12.5,NT|2006|Government
+2006,NT,Catholic,307.2,4485.0,14.6,NT|2006|Catholic
+2006,NT,Independent,358.8,4610.1,12.8,NT|2006|Independent
+2006,NT,All sectors,2975.1,38057.9,12.8,NT|2006|All sectors
+2006,QLD,Government,31609.3,456739.1,14.4,QLD|2006|Government
+2006,QLD,Catholic,7609.2,113148.3,14.9,QLD|2006|Catholic
+2006,QLD,Independent,6827.2,89677.8,13.1,QLD|2006|Independent
+2006,QLD,All sectors,46045.7,659565.2,14.3,QLD|2006|All sectors
+2006,SA,Government,11630.1,166821.5,14.3,SA|2006|Government
+2006,SA,Catholic,3123.7,46230.4,14.8,SA|2006|Catholic
+2006,SA,Independent,3018.7,40176.2,13.3,SA|2006|Independent
+2006,SA,All sectors,17772.5,253228.1,14.2,SA|2006|All sectors
+2006,TAS,Government,4185.2,60976.5,14.6,TAS|2006|Government
+2006,TAS,Catholic,852.3,13680.8,16.1,TAS|2006|Catholic
+2006,TAS,Independent,739.7,8778.4,11.9,TAS|2006|Independent
+2006,TAS,All sectors,5777.2,83435.7,14.4,TAS|2006|All sectors
+2006,VIC,Government,38608.2,537646.0,13.9,VIC|2006|Government
+2006,VIC,Catholic,12225.1,182669.0,14.9,VIC|2006|Catholic
+2006,VIC,Independent,10019.8,111312.0,11.1,VIC|2006|Independent
+2006,VIC,All sectors,60853.1,831627.0,13.7,VIC|2006|All sectors
+2006,WA,Government,15732.5,230858.5,14.7,WA|2006|Government
+2006,WA,Catholic,4047.7,62808.0,15.5,WA|2006|Catholic
+2006,WA,Independent,3876.2,49804.2,12.8,WA|2006|Independent
+2006,WA,All sectors,23656.4,343470.7,14.5,WA|2006|All sectors
+2007,ACT,Government,2673.1,34640.3,13.0,ACT|2007|Government
+2007,ACT,Catholic,1081.0,17298.0,16.0,ACT|2007|Catholic
+2007,ACT,Independent,614.1,7553.3,12.3,ACT|2007|Independent
+2007,ACT,All sectors,4368.2,59491.6,13.6,ACT|2007|All sectors
+2007,NSW,Government,51286.0,738635.7,14.4,NSW|2007|Government
+2007,NSW,Catholic,15665.3,239464.4,15.3,NSW|2007|Catholic
+2007,NSW,Independent,11284.3,132357.5,11.7,NSW|2007|Independent
+2007,NSW,All sectors,78235.6,1110457.6,14.2,NSW|2007|All sectors
+2007,NT,Government,2293.1,29236.8,12.7,NT|2007|Government
+2007,NT,Catholic,317.3,4693.4,14.8,NT|2007|Catholic
+2007,NT,Independent,373.8,4679.4,12.5,NT|2007|Independent
+2007,NT,All sectors,2984.2,38609.6,12.9,NT|2007|All sectors
+2007,QLD,Government,33203.0,480829.4,14.5,QLD|2007|Government
+2007,QLD,Catholic,7853.4,121628.8,15.5,QLD|2007|Catholic
+2007,QLD,Independent,7169.2,97562.0,13.6,QLD|2007|Independent
+2007,QLD,All sectors,48225.6,700020.2,14.5,QLD|2007|All sectors
+2007,SA,Government,11608.8,166896.0,14.4,SA|2007|Government
+2007,SA,Catholic,3140.9,46715.7,14.9,SA|2007|Catholic
+2007,SA,Independent,3108.8,41181.7,13.2,SA|2007|Independent
+2007,SA,All sectors,17858.5,254793.4,14.3,SA|2007|All sectors
+2007,TAS,Government,4148.2,59865.3,14.4,TAS|2007|Government
+2007,TAS,Catholic,874.3,13883.6,15.9,TAS|2007|Catholic
+2007,TAS,Independent,777.6,9062.8,11.7,TAS|2007|Independent
+2007,TAS,All sectors,5800.1,82811.7,14.3,TAS|2007|All sectors
+2007,VIC,Government,38943.2,537142.2,13.8,VIC|2007|Government
+2007,VIC,Catholic,12685.8,183820.5,14.5,VIC|2007|Catholic
+2007,VIC,Independent,10507.6,114436.6,10.9,VIC|2007|Independent
+2007,VIC,All sectors,62136.6,835399.3,13.4,VIC|2007|All sectors
+2007,WA,Government,16635.7,230189.4,13.8,WA|2007|Government
+2007,WA,Catholic,4098.4,63737.7,15.6,WA|2007|Catholic
+2007,WA,Independent,4014.9,51505.3,12.8,WA|2007|Independent
+2007,WA,All sectors,24749.0,345432.4,14.0,WA|2007|All sectors
+2008,ACT,Government,2645.9,34030.6,12.9,ACT|2008|Government
+2008,ACT,Catholic,1087.6,17279.5,15.9,ACT|2008|Catholic
+2008,ACT,Independent,627.8,7951.8,12.7,ACT|2008|Independent
+2008,ACT,All sectors,4361.3,59261.9,13.6,ACT|2008|All sectors
+2008,NSW,Government,51619.3,735778.7,14.3,NSW|2008|Government
+2008,NSW,Catholic,15674.3,238878.6,15.2,NSW|2008|Catholic
+2008,NSW,Independent,11588.2,135292.2,11.7,NSW|2008|Independent
+2008,NSW,All sectors,78881.8,1109949.5,14.1,NSW|2008|All sectors
+2008,NT,Government,2356.1,29318.4,12.4,NT|2008|Government
+2008,NT,Catholic,342.2,4806.0,14.0,NT|2008|Catholic
+2008,NT,Independent,419.1,5092.6,12.2,NT|2008|Independent
+2008,NT,All sectors,3117.4,39217.0,12.6,NT|2008|All sectors
+2008,QLD,Government,33379.8,481799.6,14.4,QLD|2008|Government
+2008,QLD,Catholic,8079.0,124710.4,15.4,QLD|2008|Catholic
+2008,QLD,Independent,7505.6,102102.6,13.6,QLD|2008|Independent
+2008,QLD,All sectors,48964.4,708612.6,14.5,QLD|2008|All sectors
+2008,SA,Government,11575.4,165304.7,14.3,SA|2008|Government
+2008,SA,Catholic,3196.9,47052.9,14.7,SA|2008|Catholic
+2008,SA,Independent,3226.7,42353.8,13.1,SA|2008|Independent
+2008,SA,All sectors,17999.0,254711.4,14.2,SA|2008|All sectors
+2008,TAS,Government,4121.7,59137.8,14.3,TAS|2008|Government
+2008,TAS,Catholic,890.7,14067.4,15.8,TAS|2008|Catholic
+2008,TAS,Independent,803.6,9260.7,11.5,TAS|2008|Independent
+2008,TAS,All sectors,5816.0,82465.9,14.2,TAS|2008|All sectors
+2008,VIC,Government,38914.5,536444.6,13.8,VIC|2008|Government
+2008,VIC,Catholic,12945.8,185798.4,14.4,VIC|2008|Catholic
+2008,VIC,Independent,10894.1,117661.9,10.8,VIC|2008|Independent
+2008,VIC,All sectors,62754.4,839904.9,13.4,VIC|2008|All sectors
+2008,WA,Government,16738.6,231438.0,13.8,WA|2008|Government
+2008,WA,Catholic,4173.1,64420.4,15.4,WA|2008|Catholic
+2008,WA,Independent,4300.4,54492.0,12.7,WA|2008|Independent
+2008,WA,All sectors,25212.1,350350.4,13.9,WA|2008|All sectors
+2009,ACT,Government,2696.6,34330.5,12.7,ACT|2009|Government
+2009,ACT,Catholic,1081.6,17320.9,16.0,ACT|2009|Catholic
+2009,ACT,Independent,658.2,8224.9,12.5,ACT|2009|Independent
+2009,ACT,All sectors,4436.4,59876.3,13.5,ACT|2009|All sectors
+2009,NSW,Government,51718.7,736646.8,14.2,NSW|2009|Government
+2009,NSW,Catholic,15648.1,239395.6,15.3,NSW|2009|Catholic
+2009,NSW,Independent,11492.7,136126.4,11.8,NSW|2009|Independent
+2009,NSW,All sectors,78859.5,1112168.8,14.1,NSW|2009|All sectors
+2009,NT,Government,2484.7,28613.2,11.5,NT|2009|Government
+2009,NT,Catholic,357.2,4739.0,13.3,NT|2009|Catholic
+2009,NT,Independent,442.2,5280.6,11.9,NT|2009|Independent
+2009,NT,All sectors,3284.1,38632.8,11.8,NT|2009|All sectors
+2009,QLD,Government,34020.3,486803.2,14.3,QLD|2009|Government
+2009,QLD,Catholic,8280.5,128251.0,15.5,QLD|2009|Catholic
+2009,QLD,Independent,7583.3,105317.6,13.9,QLD|2009|Independent
+2009,QLD,All sectors,49884.1,720371.8,14.4,QLD|2009|All sectors
+2009,SA,Government,11516.4,165562.9,14.4,SA|2009|Government
+2009,SA,Catholic,3224.4,47268.8,14.7,SA|2009|Catholic
+2009,SA,Independent,3292.5,43956.7,13.4,SA|2009|Independent
+2009,SA,All sectors,18033.3,256788.4,14.2,SA|2009|All sectors
+2009,TAS,Government,4209.4,58659.9,13.9,TAS|2009|Government
+2009,TAS,Catholic,903.8,14172.0,15.7,TAS|2009|Catholic
+2009,TAS,Independent,823.4,9260.8,11.2,TAS|2009|Independent
+2009,TAS,All sectors,5936.6,82092.7,13.8,TAS|2009|All sectors
+2009,VIC,Government,38935.2,538684.7,13.8,VIC|2009|Government
+2009,VIC,Catholic,13011.0,187967.0,14.4,VIC|2009|Catholic
+2009,VIC,Independent,11044.2,119283.1,10.8,VIC|2009|Independent
+2009,VIC,All sectors,62990.4,845934.8,13.4,VIC|2009|All sectors
+2009,WA,Government,16984.3,233940.6,13.8,WA|2009|Government
+2009,WA,Catholic,4300.8,65390.6,15.2,WA|2009|Catholic
+2009,WA,Independent,4486.4,57188.3,12.7,WA|2009|Independent
+2009,WA,All sectors,25771.5,356519.5,13.8,WA|2009|All sectors
+2010,ACT,Government,2755.7,34492.1,12.5,ACT|2010|Government
+2010,ACT,Catholic,1074.7,17386.4,16.2,ACT|2010|Catholic
+2010,ACT,Independent,664.7,8488.0,12.8,ACT|2010|Independent
+2010,ACT,All sectors,4495.1,60366.5,13.4,ACT|2010|All sectors
+2010,NSW,Government,52285.3,742141.2,14.2,NSW|2010|Government
+2010,NSW,Catholic,15703.8,240992.1,15.3,NSW|2010|Catholic
+2010,NSW,Independent,11544.1,137296.4,11.9,NSW|2010|Independent
+2010,NSW,All sectors,79533.2,1120429.7,14.1,NSW|2010|All sectors
+2010,NT,Government,2481.8,29102.3,11.7,NT|2010|Government
+2010,NT,Catholic,362.3,4745.0,13.1,NT|2010|Catholic
+2010,NT,Independent,449.1,5505.1,12.3,NT|2010|Independent
+2010,NT,All sectors,3293.2,39352.4,11.9,NT|2010|All sectors
+2010,QLD,Government,34233.2,488062.7,14.3,QLD|2010|Government
+2010,QLD,Catholic,8494.6,131799.8,15.5,QLD|2010|Catholic
+2010,QLD,Independent,7729.5,107532.3,13.9,QLD|2010|Independent
+2010,QLD,All sectors,50457.3,727394.8,14.4,QLD|2010|All sectors
+2010,SA,Government,11535.7,165854.8,14.4,SA|2010|Government
+2010,SA,Catholic,3266.6,47300.1,14.5,SA|2010|Catholic
+2010,SA,Independent,3346.9,44832.4,13.4,SA|2010|Independent
+2010,SA,All sectors,18149.2,257987.3,14.2,SA|2010|All sectors
+2010,TAS,Government,4261.4,58509.0,13.7,TAS|2010|Government
+2010,TAS,Catholic,927.6,14463.8,15.6,TAS|2010|Catholic
+2010,TAS,Independent,790.5,9078.8,11.5,TAS|2010|Independent
+2010,TAS,All sectors,5979.5,82051.6,13.7,TAS|2010|All sectors
+2010,VIC,Government,39155.4,539227.1,13.8,VIC|2010|Government
+2010,VIC,Catholic,13208.0,190553.1,14.4,VIC|2010|Catholic
+2010,VIC,Independent,11155.7,121071.5,10.9,VIC|2010|Independent
+2010,VIC,All sectors,63519.1,850851.7,13.4,VIC|2010|All sectors
+2010,WA,Government,16988.9,234408.8,13.8,WA|2010|Government
+2010,WA,Catholic,4353.4,66383.2,15.2,WA|2010|Catholic
+2010,WA,Independent,4652.9,58341.3,12.5,WA|2010|Independent
+2010,WA,All sectors,25995.2,359133.3,13.8,WA|2010|All sectors
+2011,ACT,Government,2707.8,34616.0,12.8,ACT|2011|Government
+2011,ACT,Catholic,1087.0,17248.3,15.9,ACT|2011|Catholic
+2011,ACT,Independent,709.4,9010.0,12.7,ACT|2011|Independent
+2011,ACT,All sectors,4504.2,60874.3,13.5,ACT|2011|All sectors
+2011,NSW,Government,52802.0,745540.3,14.1,NSW|2011|Government
+2011,NSW,Catholic,15998.1,243996.9,15.3,NSW|2011|Catholic
+2011,NSW,Independent,11861.2,140212.0,11.8,NSW|2011|Independent
+2011,NSW,All sectors,80661.3,1129749.2,14.0,NSW|2011|All sectors
+2011,NT,Government,2579.5,29164.6,11.3,NT|2011|Government
+2011,NT,Catholic,357.0,4561.0,12.8,NT|2011|Catholic
+2011,NT,Independent,463.9,5692.2,12.3,NT|2011|Independent
+2011,NT,All sectors,3400.4,39417.8,11.6,NT|2011|All sectors
+2011,QLD,Government,34631.5,491779.7,14.2,QLD|2011|Government
+2011,QLD,Catholic,8707.1,135038.6,15.5,QLD|2011|Catholic
+2011,QLD,Independent,7919.7,109295.6,13.8,QLD|2011|Independent
+2011,QLD,All sectors,51258.3,736113.9,14.4,QLD|2011|All sectors
+2011,SA,Government,11581.8,165899.3,14.3,SA|2011|Government
+2011,SA,Catholic,3338.6,48146.9,14.4,SA|2011|Catholic
+2011,SA,Independent,3388.1,44876.1,13.2,SA|2011|Independent
+2011,SA,All sectors,18308.5,258922.3,14.1,SA|2011|All sectors
+2011,TAS,Government,4264.6,58451.1,13.7,TAS|2011|Government
+2011,TAS,Catholic,956.2,14603.8,15.3,TAS|2011|Catholic
+2011,TAS,Independent,821.1,9102.3,11.1,TAS|2011|Independent
+2011,TAS,All sectors,6041.9,82157.2,13.6,TAS|2011|All sectors
+2011,VIC,Government,39757.5,541212.1,13.6,VIC|2011|Government
+2011,VIC,Catholic,13495.1,193757.2,14.4,VIC|2011|Catholic
+2011,VIC,Independent,11468.3,122702.7,10.7,VIC|2011|Independent
+2011,VIC,All sectors,64720.9,857672.0,13.3,VIC|2011|All sectors
+2011,WA,Government,16947.6,237118.4,14.0,WA|2011|Government
+2011,WA,Catholic,4453.8,66966.2,15.0,WA|2011|Catholic
+2011,WA,Independent,4813.5,60527.6,12.6,WA|2011|Independent
+2011,WA,All sectors,26214.9,364612.2,13.9,WA|2011|All sectors
+2012,ACT,Government,2764.7,35611.8,12.9,ACT|2012|Government
+2012,ACT,Catholic,1105.6,17486.0,15.8,ACT|2012|Catholic
+2012,ACT,Independent,737.4,9057.7,12.3,ACT|2012|Independent
+2012,ACT,All sectors,4607.7,62155.5,13.5,ACT|2012|All sectors
+2012,NSW,Government,53134.7,748234.1,14.1,NSW|2012|Government
+2012,NSW,Catholic,16236.7,247443.3,15.2,NSW|2012|Catholic
+2012,NSW,Independent,12185.5,143312.9,11.8,NSW|2012|Independent
+2012,NSW,All sectors,81556.9,1138990.3,14.0,NSW|2012|All sectors
+2012,NT,Government,2667.3,29445.7,11.0,NT|2012|Government
+2012,NT,Catholic,382.2,4629.1,12.1,NT|2012|Catholic
+2012,NT,Independent,463.6,5888.1,12.7,NT|2012|Independent
+2012,NT,All sectors,3513.1,39962.9,11.4,NT|2012|All sectors
+2012,QLD,Government,35173.0,500625.8,14.2,QLD|2012|Government
+2012,QLD,Catholic,8965.7,138262.9,15.4,QLD|2012|Catholic
+2012,QLD,Independent,8092.8,111578.0,13.8,QLD|2012|Independent
+2012,QLD,All sectors,52231.5,750466.7,14.4,QLD|2012|All sectors
+2012,SA,Government,11696.0,166479.0,14.2,SA|2012|Government
+2012,SA,Catholic,3352.3,48375.5,14.4,SA|2012|Catholic
+2012,SA,Independent,3484.5,45646.2,13.1,SA|2012|Independent
+2012,SA,All sectors,18532.8,260500.7,14.1,SA|2012|All sectors
+2012,TAS,Government,4163.9,57703.4,13.9,TAS|2012|Government
+2012,TAS,Catholic,957.9,14625.4,15.3,TAS|2012|Catholic
+2012,TAS,Independent,830.2,9052.3,10.9,TAS|2012|Independent
+2012,TAS,All sectors,5952.0,81381.1,13.7,TAS|2012|All sectors
+2012,VIC,Government,40396.7,546310.5,13.5,VIC|2012|Government
+2012,VIC,Catholic,13885.4,197841.4,14.2,VIC|2012|Catholic
+2012,VIC,Independent,11675.6,124168.4,10.6,VIC|2012|Independent
+2012,VIC,All sectors,65957.7,868320.3,13.2,VIC|2012|All sectors
+2012,WA,Government,17155.6,245505.1,14.3,WA|2012|Government
+2012,WA,Catholic,4541.2,67694.8,14.9,WA|2012|Catholic
+2012,WA,Independent,4937.1,61775.3,12.5,WA|2012|Independent
+2012,WA,All sectors,26633.9,374975.2,14.1,WA|2012|All sectors
+2013,ACT,Government,2897.2,36383.2,12.6,ACT|2013|Government
+2013,ACT,Catholic,1131.9,17794.9,15.7,ACT|2013|Catholic
+2013,ACT,Independent,739.9,9154.6,12.4,ACT|2013|Independent
+2013,ACT,All sectors,4769.0,63332.7,13.3,ACT|2013|All sectors
+2013,NSW,Government,53907.2,755345.7,14.0,NSW|2013|Government
+2013,NSW,Catholic,16610.5,251369.8,15.1,NSW|2013|Catholic
+2013,NSW,Independent,12445.4,147443.5,11.8,NSW|2013|Independent
+2013,NSW,All sectors,82963.1,1154159.0,13.9,NSW|2013|All sectors
+2013,NT,Government,2518.8,29440.9,11.7,NT|2013|Government
+2013,NT,Catholic,386.2,4812.9,12.5,NT|2013|Catholic
+2013,NT,Independent,482.1,6231.7,12.9,NT|2013|Independent
+2013,NT,All sectors,3387.1,40485.5,12.0,NT|2013|All sectors
+2013,QLD,Government,35180.9,509671.2,14.5,QLD|2013|Government
+2013,QLD,Catholic,9159.9,141048.1,15.4,QLD|2013|Catholic
+2013,QLD,Independent,8213.9,113584.6,13.8,QLD|2013|Independent
+2013,QLD,All sectors,52554.7,764303.9,14.5,QLD|2013|All sectors
+2013,SA,Government,11796.4,167614.2,14.2,SA|2013|Government
+2013,SA,Catholic,3366.7,48651.0,14.5,SA|2013|Catholic
+2013,SA,Independent,3552.7,46046.2,13.0,SA|2013|Independent
+2013,SA,All sectors,18715.8,262311.4,14.0,SA|2013|All sectors
+2013,TAS,Government,4046.8,56490.5,14.0,TAS|2013|Government
+2013,TAS,Catholic,967.7,14777.5,15.3,TAS|2013|Catholic
+2013,TAS,Independent,825.0,9137.9,11.1,TAS|2013|Independent
+2013,TAS,All sectors,5839.5,80405.9,13.8,TAS|2013|All sectors
+2013,VIC,Government,39960.1,554782.1,13.9,VIC|2013|Government
+2013,VIC,Catholic,14267.5,201803.5,14.1,VIC|2013|Catholic
+2013,VIC,Independent,11810.9,126110.7,10.7,VIC|2013|Independent
+2013,VIC,All sectors,66038.5,882696.3,13.4,VIC|2013|All sectors
+2013,WA,Government,17595.9,253953.1,14.4,WA|2013|Government
+2013,WA,Catholic,4636.9,68550.7,14.8,WA|2013|Catholic
+2013,WA,Independent,5084.5,63240.1,12.4,WA|2013|Independent
+2013,WA,All sectors,27317.3,385743.9,14.1,WA|2013|All sectors
+2014,ACT,Government,2928.8,37296.5,12.7,ACT|2014|Government
+2014,ACT,Catholic,1175.4,17993.8,15.3,ACT|2014|Catholic
+2014,ACT,Independent,760.6,9250.4,12.2,ACT|2014|Independent
+2014,ACT,All sectors,4864.8,64540.7,13.3,ACT|2014|All sectors
+2014,NSW,Government,53904.4,763697.7,14.2,NSW|2014|Government
+2014,NSW,Catholic,16637.2,253981.9,15.3,NSW|2014|Catholic
+2014,NSW,Independent,12717.7,150641.2,11.8,NSW|2014|Independent
+2014,NSW,All sectors,83259.3,1168320.8,14.0,NSW|2014|All sectors
+2014,NT,Government,2468.8,29494.1,11.9,NT|2014|Government
+2014,NT,Catholic,386.8,5054.2,13.1,NT|2014|Catholic
+2014,NT,Independent,520.4,6200.9,11.9,NT|2014|Independent
+2014,NT,All sectors,3376.0,40749.2,12.1,NT|2014|All sectors
+2014,QLD,Government,36490.2,518079.5,14.2,QLD|2014|Government
+2014,QLD,Catholic,9336.3,142950.1,15.3,QLD|2014|Catholic
+2014,QLD,Independent,8297.7,115004.3,13.9,QLD|2014|Independent
+2014,QLD,All sectors,54124.2,776033.9,14.3,QLD|2014|All sectors
+2014,SA,Government,11738.4,166191.2,14.2,SA|2014|Government
+2014,SA,Catholic,3252.1,48482.1,14.9,SA|2014|Catholic
+2014,SA,Independent,3581.7,46349.6,12.9,SA|2014|Independent
+2014,SA,All sectors,18572.2,261022.9,14.1,SA|2014|All sectors
+2014,TAS,Government,4034.4,56634.1,14.0,TAS|2014|Government
+2014,TAS,Catholic,965.7,14828.4,15.4,TAS|2014|Catholic
+2014,TAS,Independent,840.8,9238.2,11.0,TAS|2014|Independent
+2014,TAS,All sectors,5840.9,80700.7,13.8,TAS|2014|All sectors
+2014,VIC,Government,40254.9,564863.4,14.0,VIC|2014|Government
+2014,VIC,Catholic,14481.8,204847.6,14.1,VIC|2014|Catholic
+2014,VIC,Independent,12043.0,128837.0,10.7,VIC|2014|Independent
+2014,VIC,All sectors,66779.7,898548.0,13.5,VIC|2014|All sectors
+2014,WA,Government,17379.2,259182.4,14.9,WA|2014|Government
+2014,WA,Catholic,4701.0,69360.1,14.8,WA|2014|Catholic
+2014,WA,Independent,5167.8,63890.4,12.4,WA|2014|Independent
+2014,WA,All sectors,27248.0,392432.9,14.4,WA|2014|All sectors
+2015,ACT,Government,2946.5,38706.0,13.1,ACT|2015|Government
+2015,ACT,Catholic,1183.8,18063.5,15.3,ACT|2015|Catholic
+2015,ACT,Independent,787.4,9275.0,11.8,ACT|2015|Independent
+2015,ACT,All sectors,4917.7,66044.5,13.4,ACT|2015|All sectors
+2015,NSW,Government,54031.2,771978.1,14.3,NSW|2015|Government
+2015,NSW,Catholic,16957.0,255625.1,15.1,NSW|2015|Catholic
+2015,NSW,Independent,13177.4,154002.1,11.7,NSW|2015|Independent
+2015,NSW,All sectors,84165.6,1181605.3,14.0,NSW|2015|All sectors
+2015,NT,Government,2294.0,28881.8,12.6,NT|2015|Government
+2015,NT,Catholic,403.4,5134.0,12.7,NT|2015|Catholic
+2015,NT,Independent,533.7,6537.0,12.2,NT|2015|Independent
+2015,NT,All sectors,3231.1,40552.8,12.6,NT|2015|All sectors
+2015,QLD,Government,37801.2,524963.0,13.9,QLD|2015|Government
+2015,QLD,Catholic,9818.7,145460.3,14.8,QLD|2015|Catholic
+2015,QLD,Independent,8670.2,116571.2,13.4,QLD|2015|Independent
+2015,QLD,All sectors,56290.1,786994.5,14.0,QLD|2015|All sectors
+2015,SA,Government,11842.1,168439.0,14.2,SA|2015|Government
+2015,SA,Catholic,3256.0,47835.7,14.7,SA|2015|Catholic
+2015,SA,Independent,3630.1,46987.7,12.9,SA|2015|Independent
+2015,SA,All sectors,18728.2,263262.4,14.1,SA|2015|All sectors
+2015,TAS,Government,3895.6,56495.3,14.5,TAS|2015|Government
+2015,TAS,Catholic,986.7,14900.9,15.1,TAS|2015|Catholic
+2015,TAS,Independent,851.0,9210.2,10.8,TAS|2015|Independent
+2015,TAS,All sectors,5733.3,80606.4,14.1,TAS|2015|All sectors
+2015,VIC,Government,40853.8,576832.3,14.1,VIC|2015|Government
+2015,VIC,Catholic,14733.1,206450.5,14.0,VIC|2015|Catholic
+2015,VIC,Independent,12267.2,131834.6,10.7,VIC|2015|Independent
+2015,VIC,All sectors,67854.1,915117.4,13.5,VIC|2015|All sectors
+2015,WA,Government,18098.7,267414.1,14.8,WA|2015|Government
+2015,WA,Catholic,4821.4,71813.7,14.9,WA|2015|Catholic
+2015,WA,Independent,5360.2,65430.8,12.2,WA|2015|Independent
+2015,WA,All sectors,28280.3,404658.6,14.3,WA|2015|All sectors
+2016,ACT,Government,3022.1,40255.2,13.3,ACT|2016|Government
+2016,ACT,Catholic,1181.1,17835.0,15.1,ACT|2016|Catholic
+2016,ACT,Independent,801.7,9513.2,11.9,ACT|2016|Independent
+2016,ACT,All sectors,5004.9,67603.4,13.5,ACT|2016|All sectors
+2016,NSW,Government,54705.4,780599.9,14.3,NSW|2016|Government
+2016,NSW,Catholic,17278.7,256002.9,14.8,NSW|2016|Catholic
+2016,NSW,Independent,13579.8,157584.8,11.6,NSW|2016|Independent
+2016,NSW,All sectors,85563.9,1194187.6,14.0,NSW|2016|All sectors
+2016,NT,Government,2391.0,29430.2,12.3,NT|2016|Government
+2016,NT,Catholic,411.9,5185.8,12.6,NT|2016|Catholic
+2016,NT,Independent,553.0,6453.1,11.7,NT|2016|Independent
+2016,NT,All sectors,3355.9,41069.1,12.2,NT|2016|All sectors
+2016,QLD,Government,39128.4,534080.7,13.6,QLD|2016|Government
+2016,QLD,Catholic,10058.9,145960.7,14.5,QLD|2016|Catholic
+2016,QLD,Independent,8800.6,117416.4,13.3,QLD|2016|Independent
+2016,QLD,All sectors,57987.9,797457.8,13.8,QLD|2016|All sectors
+2016,SA,Government,11919.8,170772.7,14.3,SA|2016|Government
+2016,SA,Catholic,3220.9,46806.2,14.5,SA|2016|Catholic
+2016,SA,Independent,3690.6,47212.4,12.8,SA|2016|Independent
+2016,SA,All sectors,18831.3,264791.3,14.1,SA|2016|All sectors
+2016,TAS,Government,3979.6,56398.9,14.2,TAS|2016|Government
+2016,TAS,Catholic,1013.6,15032.8,14.8,TAS|2016|Catholic
+2016,TAS,Independent,848.8,9184.2,10.8,TAS|2016|Independent
+2016,TAS,All sectors,5842.0,80615.9,13.8,TAS|2016|All sectors
+2016,VIC,Government,42654.0,590105.0,13.8,VIC|2016|Government
+2016,VIC,Catholic,15060.0,207871.8,13.8,VIC|2016|Catholic
+2016,VIC,Independent,12685.6,134631.6,10.6,VIC|2016|Independent
+2016,VIC,All sectors,70399.6,932608.4,13.2,VIC|2016|All sectors
+2016,WA,Government,19018.5,271022.3,14.3,WA|2016|Government
+2016,WA,Catholic,4928.5,72125.0,14.6,WA|2016|Catholic
+2016,WA,Independent,5397.3,64935.6,12.0,WA|2016|Independent
+2016,WA,All sectors,29344.3,408082.9,13.9,WA|2016|All sectors
+2017,ACT,Government,3085.3,41814.5,13.6,ACT|2017|Government
+2017,ACT,Catholic,1172.2,17774.9,15.2,ACT|2017|Catholic
+2017,ACT,Independent,824.3,9723.6,11.8,ACT|2017|Independent
+2017,ACT,All sectors,5081.8,69313.0,13.6,ACT|2017|All sectors
+2017,NSW,Government,55536.2,791039.8,14.2,NSW|2017|Government
+2017,NSW,Catholic,17548.8,255876.4,14.6,NSW|2017|Catholic
+2017,NSW,Independent,13972.4,161553.9,11.6,NSW|2017|Independent
+2017,NSW,All sectors,87057.4,1208470.1,13.9,NSW|2017|All sectors
+2017,NT,Government,2461.4,30347.1,12.3,NT|2017|Government
+2017,NT,Catholic,398.6,4960.5,12.4,NT|2017|Catholic
+2017,NT,Independent,518.8,6214.5,12.0,NT|2017|Independent
+2017,NT,All sectors,3378.8,41522.1,12.3,NT|2017|All sectors
+2017,QLD,Government,39994.7,542878.4,13.6,QLD|2017|Government
+2017,QLD,Catholic,10206.9,146585.8,14.4,QLD|2017|Catholic
+2017,QLD,Independent,9025.7,118942.1,13.2,QLD|2017|Independent
+2017,QLD,All sectors,59227.3,808406.3,13.6,QLD|2017|All sectors
+2017,SA,Government,12344.3,172534.3,14.0,SA|2017|Government
+2017,SA,Catholic,3202.5,45769.1,14.3,SA|2017|Catholic
+2017,SA,Independent,3717.8,47325.1,12.7,SA|2017|Independent
+2017,SA,All sectors,19264.6,265628.5,13.8,SA|2017|All sectors
+2017,TAS,Government,4021.6,56506.3,14.1,TAS|2017|Government
+2017,TAS,Catholic,1025.9,15030.7,14.7,TAS|2017|Catholic
+2017,TAS,Independent,867.6,9271.7,10.7,TAS|2017|Independent
+2017,TAS,All sectors,5915.1,80808.7,13.7,TAS|2017|All sectors
+2017,VIC,Government,44071.0,605071.4,13.7,VIC|2017|Government
+2017,VIC,Catholic,15295.9,208617.1,13.6,VIC|2017|Catholic
+2017,VIC,Independent,12935.2,139374.3,10.8,VIC|2017|Independent
+2017,VIC,All sectors,72302.1,953062.8,13.2,VIC|2017|All sectors
+2017,WA,Government,19458.1,276285.9,14.2,WA|2017|Government
+2017,WA,Catholic,4988.5,72035.7,14.4,WA|2017|Catholic
+2017,WA,Independent,5385.7,64716.2,12.0,WA|2017|Independent
+2017,WA,All sectors,29832.3,413037.8,13.8,WA|2017|All sectors
+2018,ACT,Government,3151.5,43191.6,13.7,ACT|2018|Government
+2018,ACT,Catholic,1190.7,17792.4,14.9,ACT|2018|Catholic
+2018,ACT,Independent,818.1,9940.1,12.2,ACT|2018|Independent
+2018,ACT,All sectors,5160.3,70924.1,13.7,ACT|2018|All sectors
+2018,NSW,Government,56743.7,798022.2,14.1,NSW|2018|Government
+2018,NSW,Catholic,17771.2,254912.8,14.3,NSW|2018|Catholic
+2018,NSW,Independent,14511.1,165756.9,11.4,NSW|2018|Independent
+2018,NSW,All sectors,89026.0,1218691.9,13.7,NSW|2018|All sectors
+2018,NT,Government,2388.4,29620.5,12.4,NT|2018|Government
+2018,NT,Catholic,409.8,4793.9,11.7,NT|2018|Catholic
+2018,NT,Independent,486.5,6127.3,12.6,NT|2018|Independent
+2018,NT,All sectors,3284.7,40541.7,12.3,NT|2018|All sectors
+2018,QLD,Government,41224.1,551598.2,13.4,QLD|2018|Government
+2018,QLD,Catholic,10371.9,147125.1,14.2,QLD|2018|Catholic
+2018,QLD,Independent,9208.2,120745.8,13.1,QLD|2018|Independent
+2018,QLD,All sectors,60804.2,819469.1,13.5,QLD|2018|All sectors
+2018,SA,Government,12591.7,174143.5,13.8,SA|2018|Government
+2018,SA,Catholic,3175.8,45447.3,14.3,SA|2018|Catholic
+2018,SA,Independent,3785.1,48827.4,12.9,SA|2018|Independent
+2018,SA,All sectors,19552.6,268418.2,13.7,SA|2018|All sectors
+2018,TAS,Government,4071.6,56789.7,13.9,TAS|2018|Government
+2018,TAS,Catholic,1044.0,14874.8,14.2,TAS|2018|Catholic
+2018,TAS,Independent,874.3,9381.5,10.7,TAS|2018|Independent
+2018,TAS,All sectors,5989.9,81046.0,13.5,TAS|2018|All sectors
+2018,VIC,Government,45795.4,619533.9,13.5,VIC|2018|Government
+2018,VIC,Catholic,15513.7,208717.0,13.5,VIC|2018|Catholic
+2018,VIC,Independent,13380.2,143353.0,10.7,VIC|2018|Independent
+2018,VIC,All sectors,74689.3,971603.9,13.0,VIC|2018|All sectors
+2018,WA,Government,19491.6,280624.7,14.4,WA|2018|Government
+2018,WA,Catholic,5033.6,71848.7,14.3,WA|2018|Catholic
+2018,WA,Independent,5550.8,65385.6,11.8,WA|2018|Independent
+2018,WA,All sectors,30076.0,417859.0,13.9,WA|2018|All sectors
+2019,ACT,Government,3327.6,44209.3,13.3,ACT|2019|Government
+2019,ACT,Catholic,1208.3,17778.5,14.7,ACT|2019|Catholic
+2019,ACT,Independent,875.0,10361.9,11.8,ACT|2019|Independent
+2019,ACT,All sectors,5410.9,72349.7,13.4,ACT|2019|All sectors
+2019,NSW,Government,51808.1,805672.8,15.6,NSW|2019|Government
+2019,NSW,Catholic,17996.1,255413.9,14.2,NSW|2019|Catholic
+2019,NSW,Independent,14944.5,170577.1,11.4,NSW|2019|Independent
+2019,NSW,All sectors,84748.7,1231663.8,14.5,NSW|2019|All sectors
+2019,NT,Government,2520.2,29850.3,11.8,NT|2019|Government
+2019,NT,Catholic,418.7,4845.8,11.6,NT|2019|Catholic
+2019,NT,Independent,492.4,5864.4,11.9,NT|2019|Independent
+2019,NT,All sectors,3431.3,40560.5,11.8,NT|2019|All sectors
+2019,QLD,Government,41945.8,559878.3,13.3,QLD|2019|Government
+2019,QLD,Catholic,10620.5,149131.2,14.0,QLD|2019|Catholic
+2019,QLD,Independent,9463.9,124554.9,13.2,QLD|2019|Independent
+2019,QLD,All sectors,62030.2,833564.4,13.4,QLD|2019|All sectors
+2019,SA,Government,12791.7,176370.5,13.8,SA|2019|Government
+2019,SA,Catholic,3206.9,45720.2,14.3,SA|2019|Catholic
+2019,SA,Independent,3927.3,49476.4,12.6,SA|2019|Independent
+2019,SA,All sectors,19925.9,271567.1,13.6,SA|2019|All sectors
+2019,TAS,Government,4153.5,56829.6,13.7,TAS|2019|Government
+2019,TAS,Catholic,1092.1,14921.7,13.7,TAS|2019|Catholic
+2019,TAS,Independent,899.7,9711.4,10.8,TAS|2019|Independent
+2019,TAS,All sectors,6145.3,81462.7,13.3,TAS|2019|All sectors
+2019,VIC,Government,46840.1,632714.8,13.5,VIC|2019|Government
+2019,VIC,Catholic,15760.9,209517.2,13.3,VIC|2019|Catholic
+2019,VIC,Independent,13750.4,147005.8,10.7,VIC|2019|Independent
+2019,VIC,All sectors,76351.4,989237.8,13.0,VIC|2019|All sectors
+2019,WA,Government,19572.1,284850.5,14.6,WA|2019|Government
+2019,WA,Catholic,5068.4,72162.6,14.2,WA|2019|Catholic
+2019,WA,Independent,5609.8,66291.8,11.8,WA|2019|Independent
+2019,WA,All sectors,30250.3,423304.9,14.0,WA|2019|All sectors
+2020,ACT,Government,3430.6,45544.6,13.3,ACT|2020|Government
+2020,ACT,Catholic,1244.0,18176.8,14.6,ACT|2020|Catholic
+2020,ACT,Independent,853.9,10402.2,12.2,ACT|2020|Independent
+2020,ACT,All sectors,5528.5,74123.6,13.4,ACT|2020|All sectors
+2020,NSW,Government,54501.7,810076.8,14.9,NSW|2020|Government
+2020,NSW,Catholic,18488.6,257058.6,13.9,NSW|2020|Catholic
+2020,NSW,Independent,15102.6,174096.6,11.5,NSW|2020|Independent
+2020,NSW,All sectors,88092.9,1241232.0,14.1,NSW|2020|All sectors
+2020,NT,Government,2572.1,30319.2,11.8,NT|2020|Government
+2020,NT,Catholic,413.1,4786.4,11.6,NT|2020|Catholic
+2020,NT,Independent,473.9,5604.0,11.8,NT|2020|Independent
+2020,NT,All sectors,3459.1,40709.6,11.8,NT|2020|All sectors
+2020,QLD,Government,42895.5,572807.6,13.4,QLD|2020|Government
+2020,QLD,Catholic,10893.2,153740.3,14.1,QLD|2020|Catholic
+2020,QLD,Independent,9819.0,130138.3,13.3,QLD|2020|Independent
+2020,QLD,All sectors,63607.7,856686.2,13.5,QLD|2020|All sectors
+2020,SA,Government,12876.6,176173.1,13.7,SA|2020|Government
+2020,SA,Catholic,3249.1,46386.2,14.3,SA|2020|Catholic
+2020,SA,Independent,3988.5,50196.7,12.6,SA|2020|Independent
+2020,SA,All sectors,20114.2,272756.0,13.6,SA|2020|All sectors
+2020,TAS,Government,4266.5,56785.8,13.3,TAS|2020|Government
+2020,TAS,Catholic,1106.5,15045.1,13.6,TAS|2020|Catholic
+2020,TAS,Independent,922.8,9969.3,10.8,TAS|2020|Independent
+2020,TAS,All sectors,6295.8,81800.2,13.0,TAS|2020|All sectors
+2020,VIC,Government,48411.6,643114.6,13.3,VIC|2020|Government
+2020,VIC,Catholic,16209.8,210911.2,13.0,VIC|2020|Catholic
+2020,VIC,Independent,14017.4,150926.0,10.8,VIC|2020|Independent
+2020,VIC,All sectors,78638.8,1004951.8,12.8,VIC|2020|All sectors
+2020,WA,Government,20114.8,289876.3,14.4,WA|2020|Government
+2020,WA,Catholic,5040.8,72291.7,14.3,WA|2020|Catholic
+2020,WA,Independent,5623.5,67459.2,12.0,WA|2020|Independent
+2020,WA,All sectors,30779.1,429627.2,14.0,WA|2020|All sectors
+2021,ACT,Government,3456.6,46092.4,13.3,ACT|2021|Government
+2021,ACT,Catholic,1280.6,18534.5,14.5,ACT|2021|Catholic
+2021,ACT,Independent,853.4,10626.9,12.5,ACT|2021|Independent
+2021,ACT,All sectors,5590.6,75253.8,13.5,ACT|2021|All sectors
+2021,NSW,Government,56005.1,802182.4,14.3,NSW|2021|Government
+2021,NSW,Catholic,18939.2,259690.1,13.7,NSW|2021|Catholic
+2021,NSW,Independent,15665.2,181277.2,11.6,NSW|2021|Independent
+2021,NSW,All sectors,90609.5,1243149.7,13.7,NSW|2021|All sectors
+2021,NT,Government,2535.3,30002.4,11.8,NT|2021|Government
+2021,NT,Catholic,403.7,4844.4,12.0,NT|2021|Catholic
+2021,NT,Independent,473.5,5617.0,11.9,NT|2021|Independent
+2021,NT,All sectors,3412.5,40463.8,11.9,NT|2021|All sectors
+2021,QLD,Government,42990.3,573832.2,13.3,QLD|2021|Government
+2021,QLD,Catholic,10916.8,156063.4,14.3,QLD|2021|Catholic
+2021,QLD,Independent,10361.5,135992.1,13.1,QLD|2021|Independent
+2021,QLD,All sectors,64268.6,865887.7,13.5,QLD|2021|All sectors
+2021,SA,Government,12826.1,173471.1,13.5,SA|2021|Government
+2021,SA,Catholic,3418.4,48265.2,14.1,SA|2021|Catholic
+2021,SA,Independent,4119.9,51679.1,12.5,SA|2021|Independent
+2021,SA,All sectors,20364.4,273415.4,13.4,SA|2021|All sectors
+2021,TAS,Government,4314.5,55839.1,12.9,TAS|2021|Government
+2021,TAS,Catholic,1139.9,15254.7,13.4,TAS|2021|Catholic
+2021,TAS,Independent,972.1,10409.7,10.7,TAS|2021|Independent
+2021,TAS,All sectors,6426.5,81503.5,12.7,TAS|2021|All sectors
+2021,VIC,Government,50340.1,644237.9,12.8,VIC|2021|Government
+2021,VIC,Catholic,16474.0,210963.5,12.8,VIC|2021|Catholic
+2021,VIC,Independent,14365.9,154377.3,10.7,VIC|2021|Independent
+2021,VIC,All sectors,81180.0,1009578.7,12.4,VIC|2021|All sectors
+2021,WA,Government,20718.4,292450.1,14.1,WA|2021|Government
+2021,WA,Catholic,5094.6,73379.0,14.4,WA|2021|Catholic
+2021,WA,Independent,5874.0,70350.2,12.0,WA|2021|Independent
+2021,WA,All sectors,31687.0,436179.3,13.8,WA|2021|All sectors
+2022,ACT,Government,3502.0,46188.2,13.2,ACT|2022|Government
+2022,ACT,Catholic,1313.6,18748.8,14.3,ACT|2022|Catholic
+2022,ACT,Independent,866.0,10896.7,12.6,ACT|2022|Independent
+2022,ACT,All sectors,5681.6,75833.7,13.3,ACT|2022|All sectors
+2022,NSW,Government,55877.1,790848.7,14.2,NSW|2022|Government
+2022,NSW,Catholic,19205.6,262861.1,13.7,NSW|2022|Catholic
+2022,NSW,Independent,16290.5,187854.4,11.5,NSW|2022|Independent
+2022,NSW,All sectors,91373.2,1241564.2,13.6,NSW|2022|All sectors
+2022,NT,Government,2576.1,29330.5,11.4,NT|2022|Government
+2022,NT,Catholic,417.5,4787.4,11.5,NT|2022|Catholic
+2022,NT,Independent,511.1,5863.0,11.5,NT|2022|Independent
+2022,NT,All sectors,3504.7,39980.9,11.4,NT|2022|All sectors
+2022,QLD,Government,43134.5,570109.7,13.2,QLD|2022|Government
+2022,QLD,Catholic,11169.7,157936.4,14.1,QLD|2022|Catholic
+2022,QLD,Independent,10740.9,141218.3,13.1,QLD|2022|Independent
+2022,QLD,All sectors,65045.1,869264.4,13.4,QLD|2022|All sectors
+2022,SA,Government,12844.0,171982.7,13.4,SA|2022|Government
+2022,SA,Catholic,3599.4,50291.5,14.0,SA|2022|Catholic
+2022,SA,Independent,4288.1,52711.3,12.3,SA|2022|Independent
+2022,SA,All sectors,20731.5,274985.5,13.3,SA|2022|All sectors
+2022,TAS,Government,4337.3,55185.1,12.7,TAS|2022|Government
+2022,TAS,Catholic,1182.9,15407.1,13.0,TAS|2022|Catholic
+2022,TAS,Independent,1017.9,10704.8,10.5,TAS|2022|Independent
+2022,TAS,All sectors,6538.1,81297.0,12.4,TAS|2022|All sectors
+2022,VIC,Government,50960.9,644598.0,12.6,VIC|2022|Government
+2022,VIC,Catholic,16586.6,210844.4,12.7,VIC|2022|Catholic
+2022,VIC,Independent,14809.8,158850.8,10.7,VIC|2022|Independent
+2022,VIC,All sectors,82357.3,1014293.2,12.3,VIC|2022|All sectors
+2022,WA,Government,20699.7,292818.4,14.1,WA|2022|Government
+2022,WA,Catholic,5190.2,74326.4,14.3,WA|2022|Catholic
+2022,WA,Independent,6106.8,72751.1,11.9,WA|2022|Independent
+2022,WA,All sectors,31996.7,439895.9,13.7,WA|2022|All sectors
+2023,ACT,Government,3495.5,46108.6,13.2,ACT|2023|Government
+2023,ACT,Catholic,1323.8,18950.6,14.3,ACT|2023|Catholic
+2023,ACT,Independent,876.2,11517.3,13.1,ACT|2023|Independent
+2023,ACT,All sectors,5695.5,76576.5,13.4,ACT|2023|All sectors
+2023,NSW,Government,55605.7,785847.4,14.1,NSW|2023|Government
+2023,NSW,Catholic,19452.2,267252.7,13.7,NSW|2023|Catholic
+2023,NSW,Independent,16908.9,195355.8,11.6,NSW|2023|Independent
+2023,NSW,All sectors,91966.8,1248455.9,13.6,NSW|2023|All sectors
+2023,NT,Government,2489.6,29038.6,11.7,NT|2023|Government
+2023,NT,Catholic,429.4,4812.0,11.2,NT|2023|Catholic
+2023,NT,Independent,511.7,5898.0,11.5,NT|2023|Independent
+2023,NT,All sectors,3430.7,39748.6,11.6,NT|2023|All sectors
+2023,QLD,Government,43133.2,568725.2,13.2,QLD|2023|Government
+2023,QLD,Catholic,11443.4,160259.3,14.0,QLD|2023|Catholic
+2023,QLD,Independent,11194.7,147039.2,13.1,QLD|2023|Independent
+2023,QLD,All sectors,65771.3,876023.7,13.3,QLD|2023|All sectors
+2023,SA,Government,12863.5,171543.4,13.3,SA|2023|Government
+2023,SA,Catholic,3793.1,51175.1,13.5,SA|2023|Catholic
+2023,SA,Independent,4375.1,53690.6,12.3,SA|2023|Independent
+2023,SA,All sectors,21031.7,276409.1,13.1,SA|2023|All sectors
+2023,TAS,Government,4279.0,54146.5,12.7,TAS|2023|Government
+2023,TAS,Catholic,1226.0,15602.4,12.7,TAS|2023|Catholic
+2023,TAS,Independent,1035.1,11093.6,10.7,TAS|2023|Independent
+2023,TAS,All sectors,6540.1,80842.5,12.4,TAS|2023|All sectors
+2023,VIC,Government,52143.4,655653.3,12.6,VIC|2023|Government
+2023,VIC,Catholic,17116.5,212777.4,12.4,VIC|2023|Catholic
+2023,VIC,Independent,15380.0,165780.2,10.8,VIC|2023|Independent
+2023,VIC,All sectors,84639.9,1034210.9,12.2,VIC|2023|All sectors
+2023,WA,Government,20939.4,298232.9,14.2,WA|2023|Government
+2023,WA,Catholic,5266.3,75351.0,14.3,WA|2023|Catholic
+2023,WA,Independent,6373.1,75779.4,11.9,WA|2023|Independent
+2023,WA,All sectors,32578.8,449363.3,13.8,WA|2023|All sectors
+2024,ACT,Government,3543.3,45896.2,13.0,ACT|2024|Government
+2024,ACT,Catholic,1293.4,19167.0,14.8,ACT|2024|Catholic
+2024,ACT,Independent,915.1,11852.4,13.0,ACT|2024|Independent
+2024,ACT,All sectors,5751.8,76915.6,13.4,ACT|2024|All sectors
+2024,NSW,Government,57737.5,780336.4,13.5,NSW|2024|Government
+2024,NSW,Catholic,20068.7,271776.9,13.5,NSW|2024|Catholic
+2024,NSW,Independent,17605.6,203071.0,11.5,NSW|2024|Independent
+2024,NSW,All sectors,95411.8,1255184.3,13.2,NSW|2024|All sectors
+2024,NT,Government,2547.1,28723.8,11.3,NT|2024|Government
+2024,NT,Catholic,430.5,5148.4,12.0,NT|2024|Catholic
+2024,NT,Independent,529.0,5978.0,11.3,NT|2024|Independent
+2024,NT,All sectors,3506.6,39850.2,11.4,NT|2024|All sectors
+2024,QLD,Government,43504.5,566517.4,13.0,QLD|2024|Government
+2024,QLD,Catholic,11645.9,162638.2,14.0,QLD|2024|Catholic
+2024,QLD,Independent,11822.1,152635.2,12.9,QLD|2024|Independent
+2024,QLD,All sectors,66972.5,881790.8,13.2,QLD|2024|All sectors
+2024,SA,Government,13052.5,174483.5,13.4,SA|2024|Government
+2024,SA,Catholic,3935.0,52958.2,13.5,SA|2024|Catholic
+2024,SA,Independent,4521.0,55022.3,12.2,SA|2024|Independent
+2024,SA,All sectors,21508.5,282464.0,13.1,SA|2024|All sectors
+2024,TAS,Government,4387.9,53166.6,12.1,TAS|2024|Government
+2024,TAS,Catholic,1234.7,15902.5,12.9,TAS|2024|Catholic
+2024,TAS,Independent,1068.6,11316.9,10.6,TAS|2024|Independent
+2024,TAS,All sectors,6691.2,80386.0,12.0,TAS|2024|All sectors
+2024,VIC,Government,53564.6,662241.6,12.4,VIC|2024|Government
+2024,VIC,Catholic,17525.4,215761.4,12.3,VIC|2024|Catholic
+2024,VIC,Independent,16075.2,172670.3,10.7,VIC|2024|Independent
+2024,VIC,All sectors,87165.2,1050673.3,12.1,VIC|2024|All sectors
+2024,WA,Government,21286.0,303142.5,14.2,WA|2024|Government
+2024,WA,Catholic,5462.7,76707.9,14.0,WA|2024|Catholic
+2024,WA,Independent,6621.0,79337.2,12.0,WA|2024|Independent
+2024,WA,All sectors,33369.7,459187.6,13.8,WA|2024|All sectors
+2025,ACT,Government,3635.3,46104.7,12.7,ACT|2025|Government
+2025,ACT,Catholic,1387.7,19692.0,14.2,ACT|2025|Catholic
+2025,ACT,Independent,935.9,11960.3,12.8,ACT|2025|Independent
+2025,ACT,All sectors,5958.9,77757.0,13.0,ACT|2025|All sectors
+2025,NSW,Government,56817.5,773377.3,13.6,NSW|2025|Government
+2025,NSW,Catholic,20392.9,274735.3,13.5,NSW|2025|Catholic
+2025,NSW,Independent,18220.9,208944.6,11.5,NSW|2025|Independent
+2025,NSW,All sectors,95431.3,1257057.2,13.2,NSW|2025|All sectors
+2025,NT,Government,2676.6,28612.4,10.7,NT|2025|Government
+2025,NT,Catholic,442.8,5343.0,12.1,NT|2025|Catholic
+2025,NT,Independent,520.1,5911.0,11.4,NT|2025|Independent
+2025,NT,All sectors,3639.5,39866.4,11.0,NT|2025|All sectors
+2025,QLD,Government,44296.5,563023.0,12.7,QLD|2025|Government
+2025,QLD,Catholic,11927.5,164881.1,13.8,QLD|2025|Catholic
+2025,QLD,Independent,12335.3,159812.2,13.0,QLD|2025|Independent
+2025,QLD,All sectors,68559.3,887716.3,12.9,QLD|2025|All sectors
+2025,SA,Government,13069.9,172875.4,13.2,SA|2025|Government
+2025,SA,Catholic,4110.8,54811.2,13.3,SA|2025|Catholic
+2025,SA,Independent,4635.4,56240.1,12.1,SA|2025|Independent
+2025,SA,All sectors,21816.1,283926.7,13.0,SA|2025|All sectors
+2025,TAS,Government,4372.1,52245.9,12.0,TAS|2025|Government
+2025,TAS,Catholic,1277.1,16119.3,12.6,TAS|2025|Catholic
+2025,TAS,Independent,1110.0,11643.7,10.5,TAS|2025|Independent
+2025,TAS,All sectors,6759.2,80008.9,11.8,TAS|2025|All sectors
+2025,VIC,Government,54742.5,665682.9,12.2,VIC|2025|Government
+2025,VIC,Catholic,17657.0,218152.4,12.4,VIC|2025|Catholic
+2025,VIC,Independent,16615.6,178786.8,10.8,VIC|2025|Independent
+2025,VIC,All sectors,89015.1,1062622.1,11.9,VIC|2025|All sectors
+2025,WA,Government,21668.3,306176.7,14.1,WA|2025|Government
+2025,WA,Catholic,5515.9,77800.2,14.1,WA|2025|Catholic
+2025,WA,Independent,6826.9,82087.3,12.0,WA|2025|Independent
+2025,WA,All sectors,34011.1,466064.2,13.7,WA|2025|All sectors

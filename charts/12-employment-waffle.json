@@ -1,0 +1,130 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 160,
+  "data": {
+    "url": "data/processed/employment.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "year": "number",
+        "percent": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "calculate": "datum.arrangement === 'Permanent' ? 0 : datum.arrangement === 'Casual' ? 1 : 2",
+      "as": "order"
+    },
+    {
+      "window": [
+        {
+          "op": "sum",
+          "field": "percent",
+          "as": "end"
+        }
+      ],
+      "sort": [
+        {
+          "field": "order",
+          "order": "ascending"
+        }
+      ],
+      "frame": [
+        null,
+        0
+      ]
+    },
+    {
+      "calculate": "sequence(datum.end - datum.percent, datum.end)",
+      "as": "cells"
+    },
+    {
+      "flatten": [
+        "cells"
+      ]
+    },
+    {
+      "calculate": "datum.cells % 20",
+      "as": "column"
+    },
+    {
+      "calculate": "floor(datum.cells / 20)",
+      "as": "row"
+    }
+  ],
+  "mark": {
+    "type": "rect",
+    "stroke": "#faf8f2",
+    "strokeWidth": 3
+  },
+  "encoding": {
+    "x": {
+      "field": "column",
+      "type": "ordinal",
+      "axis": null
+    },
+    "y": {
+      "field": "row",
+      "type": "ordinal",
+      "axis": null
+    },
+    "color": {
+      "field": "arrangement",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Permanent",
+          "Casual",
+          "Fixed-term"
+        ],
+        "range": [
+          "#23776f",
+          "#c5633f",
+          "#a99b65"
+        ]
+      }
+    },
+    "tooltip": [
+      {
+        "field": "arrangement",
+        "type": "nominal"
+      },
+      {
+        "field": "percent",
+        "type": "quantitative",
+        "title": "Share of workforce (%)"
+      }
+    ]
+  },
+  "config": {
+    "background": "#faf8f2",
+    "font": "Arial",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelColor": "#4d5c5a",
+      "titleColor": "#263e3b",
+      "gridColor": "#e3e5dd",
+      "domain": false,
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "titlePadding": 12
+    },
+    "legend": {
+      "orient": "bottom",
+      "title": null,
+      "labelFontSize": 11
+    },
+    "range": {
+      "category": [
+        "#23776f",
+        "#c5633f",
+        "#a99b65",
+        "#617c93"
+      ]
+    }
+  }
+}

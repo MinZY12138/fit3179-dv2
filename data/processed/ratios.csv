@@ -1,0 +1,2701 @@
+year,state,sector,level,ratio
+2025,NSW,Government,Primary School,14.3
+2025,NSW,Government,Secondary School,12.7
+2025,NSW,Government,All Levels,13.6
+2025,NSW,Non-Government,Primary School,14.6
+2025,NSW,Non-Government,Secondary School,11.1
+2025,NSW,Non-Government,All Levels,12.5
+2025,NSW,Catholic,Primary School,15.4
+2025,NSW,Catholic,Secondary School,12.0
+2025,NSW,Catholic,All Levels,13.5
+2025,NSW,Independent,Primary School,13.5
+2025,NSW,Independent,Secondary School,10.2
+2025,NSW,Independent,All Levels,11.5
+2025,NSW,All sectors,Primary School,14.4
+2025,NSW,All sectors,Secondary School,12.0
+2025,NSW,All sectors,All Levels,13.2
+2025,VIC,Government,Primary School,12.8
+2025,VIC,Government,Secondary School,11.4
+2025,VIC,Government,All Levels,12.2
+2025,VIC,Non-Government,Primary School,13.2
+2025,VIC,Non-Government,Secondary School,10.5
+2025,VIC,Non-Government,All Levels,11.6
+2025,VIC,Catholic,Primary School,13.4
+2025,VIC,Catholic,Secondary School,11.4
+2025,VIC,Catholic,All Levels,12.4
+2025,VIC,Independent,Primary School,12.9
+2025,VIC,Independent,Secondary School,9.6
+2025,VIC,Independent,All Levels,10.8
+2025,VIC,All sectors,Primary School,12.9
+2025,VIC,All sectors,Secondary School,11.0
+2025,VIC,All sectors,All Levels,11.9
+2025,QLD,Government,Primary School,13.9
+2025,QLD,Government,Secondary School,11.4
+2025,QLD,Government,All Levels,12.7
+2025,QLD,Non-Government,Primary School,15.5
+2025,QLD,Non-Government,Secondary School,11.9
+2025,QLD,Non-Government,All Levels,13.4
+2025,QLD,Catholic,Primary School,15.9
+2025,QLD,Catholic,Secondary School,12.2
+2025,QLD,Catholic,All Levels,13.8
+2025,QLD,Independent,Primary School,15.1
+2025,QLD,Independent,Secondary School,11.7
+2025,QLD,Independent,All Levels,13.0
+2025,QLD,All sectors,Primary School,14.4
+2025,QLD,All sectors,Secondary School,11.6
+2025,QLD,All sectors,All Levels,12.9
+2025,SA,Government,Primary School,13.3
+2025,SA,Government,Secondary School,13.1
+2025,SA,Government,All Levels,13.2
+2025,SA,Non-Government,Primary School,14.1
+2025,SA,Non-Government,Secondary School,11.6
+2025,SA,Non-Government,All Levels,12.7
+2025,SA,Catholic,Primary School,14.5
+2025,SA,Catholic,Secondary School,12.3
+2025,SA,Catholic,All Levels,13.3
+2025,SA,Independent,Primary School,13.7
+2025,SA,Independent,Secondary School,11.0
+2025,SA,Independent,All Levels,12.1
+2025,SA,All sectors,Primary School,13.6
+2025,SA,All sectors,Secondary School,12.4
+2025,SA,All sectors,All Levels,13.0
+2025,WA,Government,Primary School,15.2
+2025,WA,Government,Secondary School,12.8
+2025,WA,Government,All Levels,14.1
+2025,WA,Non-Government,Primary School,14.8
+2025,WA,Non-Government,Secondary School,11.7
+2025,WA,Non-Government,All Levels,13.0
+2025,WA,Catholic,Primary School,16.2
+2025,WA,Catholic,Secondary School,12.5
+2025,WA,Catholic,All Levels,14.1
+2025,WA,Independent,Primary School,13.5
+2025,WA,Independent,Secondary School,11.2
+2025,WA,Independent,All Levels,12.0
+2025,WA,All sectors,Primary School,15.1
+2025,WA,All sectors,Secondary School,12.3
+2025,WA,All sectors,All Levels,13.7
+2025,TAS,Government,Primary School,12.4
+2025,TAS,Government,Secondary School,11.4
+2025,TAS,Government,All Levels,12.0
+2025,TAS,Non-Government,Primary School,13.4
+2025,TAS,Non-Government,Secondary School,10.4
+2025,TAS,Non-Government,All Levels,11.6
+2025,TAS,Catholic,Primary School,14.4
+2025,TAS,Catholic,Secondary School,11.3
+2025,TAS,Catholic,All Levels,12.6
+2025,TAS,Independent,Primary School,12.1
+2025,TAS,Independent,Secondary School,9.5
+2025,TAS,Independent,All Levels,10.5
+2025,TAS,All sectors,Primary School,12.7
+2025,TAS,All sectors,Secondary School,11.0
+2025,TAS,All sectors,All Levels,11.8
+2025,NT,Government,Primary School,10.8
+2025,NT,Government,Secondary School,10.6
+2025,NT,Government,All Levels,10.7
+2025,NT,Non-Government,Primary School,12.2
+2025,NT,Non-Government,Secondary School,11.2
+2025,NT,Non-Government,All Levels,11.7
+2025,NT,Catholic,Primary School,12.3
+2025,NT,Catholic,Secondary School,11.9
+2025,NT,Catholic,All Levels,12.1
+2025,NT,Independent,Primary School,12.2
+2025,NT,Independent,Secondary School,10.8
+2025,NT,Independent,All Levels,11.4
+2025,NT,All sectors,Primary School,11.1
+2025,NT,All sectors,Secondary School,10.8
+2025,NT,All sectors,All Levels,11.0
+2025,ACT,Government,Primary School,12.8
+2025,ACT,Government,Secondary School,12.6
+2025,ACT,Government,All Levels,12.7
+2025,ACT,Non-Government,Primary School,15.9
+2025,ACT,Non-Government,Secondary School,12.0
+2025,ACT,Non-Government,All Levels,13.6
+2025,ACT,Catholic,Primary School,16.4
+2025,ACT,Catholic,Secondary School,12.5
+2025,ACT,Catholic,All Levels,14.2
+2025,ACT,Independent,Primary School,15.1
+2025,ACT,Independent,Secondary School,11.2
+2025,ACT,Independent,All Levels,12.8
+2025,ACT,All sectors,Primary School,13.8
+2025,ACT,All sectors,Secondary School,12.3
+2025,ACT,All sectors,All Levels,13.0
+2025,Australia,Government,Primary School,13.7
+2025,Australia,Government,Secondary School,12.0
+2025,Australia,Government,All Levels,13.0
+2025,Australia,Non-Government,Primary School,14.3
+2025,Australia,Non-Government,Secondary School,11.2
+2025,Australia,Non-Government,All Levels,12.5
+2025,Australia,Catholic,Primary School,14.9
+2025,Australia,Catholic,Secondary School,11.9
+2025,Australia,Catholic,All Levels,13.3
+2025,Australia,Independent,Primary School,13.7
+2025,Australia,Independent,Secondary School,10.5
+2025,Australia,Independent,All Levels,11.7
+2025,Australia,All sectors,Primary School,13.9
+2025,Australia,All sectors,Secondary School,11.7
+2025,Australia,All sectors,All Levels,12.8
+2024,NSW,Government,Primary School,14.1
+2024,NSW,Government,Secondary School,12.7
+2024,NSW,Government,All Levels,13.5
+2024,NSW,Non-Government,Primary School,14.7
+2024,NSW,Non-Government,Secondary School,11.1
+2024,NSW,Non-Government,All Levels,12.6
+2024,NSW,Catholic,Primary School,15.6
+2024,NSW,Catholic,Secondary School,12.0
+2024,NSW,Catholic,All Levels,13.5
+2024,NSW,Independent,Primary School,13.6
+2024,NSW,Independent,Secondary School,10.2
+2024,NSW,Independent,All Levels,11.5
+2024,NSW,All sectors,Primary School,14.3
+2024,NSW,All sectors,Secondary School,12.0
+2024,NSW,All sectors,All Levels,13.2
+2024,VIC,Government,Primary School,13.0
+2024,VIC,Government,Secondary School,11.5
+2024,VIC,Government,All Levels,12.4
+2024,VIC,Non-Government,Primary School,13.2
+2024,VIC,Non-Government,Secondary School,10.4
+2024,VIC,Non-Government,All Levels,11.6
+2024,VIC,Catholic,Primary School,13.3
+2024,VIC,Catholic,Secondary School,11.4
+2024,VIC,Catholic,All Levels,12.3
+2024,VIC,Independent,Primary School,12.9
+2024,VIC,Independent,Secondary School,9.6
+2024,VIC,Independent,All Levels,10.7
+2024,VIC,All sectors,Primary School,13.1
+2024,VIC,All sectors,Secondary School,11.0
+2024,VIC,All sectors,All Levels,12.1
+2024,QLD,Government,Primary School,14.1
+2024,QLD,Government,Secondary School,11.8
+2024,QLD,Government,All Levels,13.0
+2024,QLD,Non-Government,Primary School,15.6
+2024,QLD,Non-Government,Secondary School,11.9
+2024,QLD,Non-Government,All Levels,13.4
+2024,QLD,Catholic,Primary School,16.1
+2024,QLD,Catholic,Secondary School,12.3
+2024,QLD,Catholic,All Levels,14.0
+2024,QLD,Independent,Primary School,15.1
+2024,QLD,Independent,Secondary School,11.6
+2024,QLD,Independent,All Levels,12.9
+2024,QLD,All sectors,Primary School,14.5
+2024,QLD,All sectors,Secondary School,11.9
+2024,QLD,All sectors,All Levels,13.2
+2024,SA,Government,Primary School,13.6
+2024,SA,Government,Secondary School,13.0
+2024,SA,Government,All Levels,13.4
+2024,SA,Non-Government,Primary School,14.3
+2024,SA,Non-Government,Secondary School,11.5
+2024,SA,Non-Government,All Levels,12.8
+2024,SA,Catholic,Primary School,14.6
+2024,SA,Catholic,Secondary School,12.4
+2024,SA,Catholic,All Levels,13.5
+2024,SA,Independent,Primary School,14.0
+2024,SA,Independent,Secondary School,10.9
+2024,SA,Independent,All Levels,12.2
+2024,SA,All sectors,Primary School,13.9
+2024,SA,All sectors,Secondary School,12.4
+2024,SA,All sectors,All Levels,13.1
+2024,WA,Government,Primary School,15.4
+2024,WA,Government,Secondary School,12.8
+2024,WA,Government,All Levels,14.2
+2024,WA,Non-Government,Primary School,14.8
+2024,WA,Non-Government,Secondary School,11.6
+2024,WA,Non-Government,All Levels,12.9
+2024,WA,Catholic,Primary School,16.2
+2024,WA,Catholic,Secondary School,12.4
+2024,WA,Catholic,All Levels,14.0
+2024,WA,Independent,Primary School,13.6
+2024,WA,Independent,Secondary School,11.0
+2024,WA,Independent,All Levels,12.0
+2024,WA,All sectors,Primary School,15.2
+2024,WA,All sectors,Secondary School,12.3
+2024,WA,All sectors,All Levels,13.8
+2024,TAS,Government,Primary School,12.7
+2024,TAS,Government,Secondary School,11.4
+2024,TAS,Government,All Levels,12.1
+2024,TAS,Non-Government,Primary School,13.4
+2024,TAS,Non-Government,Secondary School,10.7
+2024,TAS,Non-Government,All Levels,11.8
+2024,TAS,Catholic,Primary School,14.5
+2024,TAS,Catholic,Secondary School,11.6
+2024,TAS,Catholic,All Levels,12.9
+2024,TAS,Independent,Primary School,11.9
+2024,TAS,Independent,Secondary School,9.7
+2024,TAS,Independent,All Levels,10.6
+2024,TAS,All sectors,Primary School,12.9
+2024,TAS,All sectors,Secondary School,11.1
+2024,TAS,All sectors,All Levels,12.0
+2024,NT,Government,Primary School,11.3
+2024,NT,Government,Secondary School,11.3
+2024,NT,Government,All Levels,11.3
+2024,NT,Non-Government,Primary School,13.8
+2024,NT,Non-Government,Secondary School,10.1
+2024,NT,Non-Government,All Levels,11.6
+2024,NT,Catholic,Primary School,13.8
+2024,NT,Catholic,Secondary School,10.5
+2024,NT,Catholic,All Levels,12.0
+2024,NT,Independent,Primary School,13.7
+2024,NT,Independent,Secondary School,9.8
+2024,NT,Independent,All Levels,11.3
+2024,NT,All sectors,Primary School,11.7
+2024,NT,All sectors,Secondary School,10.9
+2024,NT,All sectors,All Levels,11.4
+2024,ACT,Government,Primary School,13.0
+2024,ACT,Government,Secondary School,12.9
+2024,ACT,Government,All Levels,13.0
+2024,ACT,Non-Government,Primary School,16.2
+2024,ACT,Non-Government,Secondary School,12.4
+2024,ACT,Non-Government,All Levels,14.0
+2024,ACT,Catholic,Primary School,17.4
+2024,ACT,Catholic,Secondary School,12.9
+2024,ACT,Catholic,All Levels,14.8
+2024,ACT,Independent,Primary School,14.5
+2024,ACT,Independent,Secondary School,11.8
+2024,ACT,Independent,All Levels,13.0
+2024,ACT,All sectors,Primary School,14.0
+2024,ACT,All sectors,Secondary School,12.7
+2024,ACT,All sectors,All Levels,13.4
+2024,Australia,Government,Primary School,13.8
+2024,Australia,Government,Secondary School,12.2
+2024,Australia,Government,All Levels,13.1
+2024,Australia,Non-Government,Primary School,14.4
+2024,Australia,Non-Government,Secondary School,11.2
+2024,Australia,Non-Government,All Levels,12.5
+2024,Australia,Catholic,Primary School,15.0
+2024,Australia,Catholic,Secondary School,11.9
+2024,Australia,Catholic,All Levels,13.3
+2024,Australia,Independent,Primary School,13.7
+2024,Australia,Independent,Secondary School,10.5
+2024,Australia,Independent,All Levels,11.7
+2024,Australia,All sectors,Primary School,14.0
+2024,Australia,All sectors,Secondary School,11.7
+2024,Australia,All sectors,All Levels,12.9
+2023,NSW,Government,Primary School,14.9
+2023,NSW,Government,Secondary School,13.2
+2023,NSW,Government,All Levels,14.1
+2023,NSW,Non-Government,Primary School,15.1
+2023,NSW,Non-Government,Secondary School,11.1
+2023,NSW,Non-Government,All Levels,12.7
+2023,NSW,Catholic,Primary School,15.8
+2023,NSW,Catholic,Secondary School,12.1
+2023,NSW,Catholic,All Levels,13.7
+2023,NSW,Independent,Primary School,14.1
+2023,NSW,Independent,Secondary School,10.0
+2023,NSW,Independent,All Levels,11.6
+2023,NSW,All sectors,Primary School,14.9
+2023,NSW,All sectors,Secondary School,12.2
+2023,NSW,All sectors,All Levels,13.6
+2023,VIC,Government,Primary School,13.4
+2023,VIC,Government,Secondary School,11.5
+2023,VIC,Government,All Levels,12.6
+2023,VIC,Non-Government,Primary School,13.2
+2023,VIC,Non-Government,Secondary School,10.5
+2023,VIC,Non-Government,All Levels,11.6
+2023,VIC,Catholic,Primary School,13.4
+2023,VIC,Catholic,Secondary School,11.5
+2023,VIC,Catholic,All Levels,12.4
+2023,VIC,Independent,Primary School,12.9
+2023,VIC,Independent,Secondary School,9.6
+2023,VIC,Independent,All Levels,10.8
+2023,VIC,All sectors,Primary School,13.3
+2023,VIC,All sectors,Secondary School,11.1
+2023,VIC,All sectors,All Levels,12.2
+2023,QLD,Government,Primary School,14.2
+2023,QLD,Government,Secondary School,12.0
+2023,QLD,Government,All Levels,13.2
+2023,QLD,Non-Government,Primary School,15.8
+2023,QLD,Non-Government,Secondary School,12.0
+2023,QLD,Non-Government,All Levels,13.6
+2023,QLD,Catholic,Primary School,16.1
+2023,QLD,Catholic,Secondary School,12.3
+2023,QLD,Catholic,All Levels,14.0
+2023,QLD,Independent,Primary School,15.3
+2023,QLD,Independent,Secondary School,11.8
+2023,QLD,Independent,All Levels,13.1
+2023,QLD,All sectors,Primary School,14.6
+2023,QLD,All sectors,Secondary School,12.0
+2023,QLD,All sectors,All Levels,13.3
+2023,SA,Government,Primary School,13.7
+2023,SA,Government,Secondary School,12.9
+2023,SA,Government,All Levels,13.3
+2023,SA,Non-Government,Primary School,14.5
+2023,SA,Non-Government,Secondary School,11.5
+2023,SA,Non-Government,All Levels,12.8
+2023,SA,Catholic,Primary School,14.8
+2023,SA,Catholic,Secondary School,12.3
+2023,SA,Catholic,All Levels,13.5
+2023,SA,Independent,Primary School,14.2
+2023,SA,Independent,Secondary School,10.9
+2023,SA,Independent,All Levels,12.3
+2023,SA,All sectors,Primary School,14.0
+2023,SA,All sectors,Secondary School,12.3
+2023,SA,All sectors,All Levels,13.1
+2023,WA,Government,Primary School,15.4
+2023,WA,Government,Secondary School,12.7
+2023,WA,Government,All Levels,14.2
+2023,WA,Non-Government,Primary School,14.9
+2023,WA,Non-Government,Secondary School,11.7
+2023,WA,Non-Government,All Levels,13.0
+2023,WA,Catholic,Primary School,16.3
+2023,WA,Catholic,Secondary School,12.7
+2023,WA,Catholic,All Levels,14.3
+2023,WA,Independent,Primary School,13.6
+2023,WA,Independent,Secondary School,10.9
+2023,WA,Independent,All Levels,11.9
+2023,WA,All sectors,Primary School,15.3
+2023,WA,All sectors,Secondary School,12.3
+2023,WA,All sectors,All Levels,13.8
+2023,TAS,Government,Primary School,13.3
+2023,TAS,Government,Secondary School,11.8
+2023,TAS,Government,All Levels,12.7
+2023,TAS,Non-Government,Primary School,13.7
+2023,TAS,Non-Government,Secondary School,10.4
+2023,TAS,Non-Government,All Levels,11.8
+2023,TAS,Catholic,Primary School,14.7
+2023,TAS,Catholic,Secondary School,11.2
+2023,TAS,Catholic,All Levels,12.7
+2023,TAS,Independent,Primary School,12.5
+2023,TAS,Independent,Secondary School,9.6
+2023,TAS,Independent,All Levels,10.7
+2023,TAS,All sectors,Primary School,13.4
+2023,TAS,All sectors,Secondary School,11.3
+2023,TAS,All sectors,All Levels,12.4
+2023,NT,Government,Primary School,11.8
+2023,NT,Government,Secondary School,11.4
+2023,NT,Government,All Levels,11.7
+2023,NT,Non-Government,Primary School,13.0
+2023,NT,Non-Government,Secondary School,10.2
+2023,NT,Non-Government,All Levels,11.4
+2023,NT,Catholic,Primary School,12.6
+2023,NT,Catholic,Secondary School,10.1
+2023,NT,Catholic,All Levels,11.2
+2023,NT,Independent,Primary School,13.3
+2023,NT,Independent,Secondary School,10.3
+2023,NT,Independent,All Levels,11.5
+2023,NT,All sectors,Primary School,12.0
+2023,NT,All sectors,Secondary School,11.0
+2023,NT,All sectors,All Levels,11.6
+2023,ACT,Government,Primary School,13.5
+2023,ACT,Government,Secondary School,12.8
+2023,ACT,Government,All Levels,13.2
+2023,ACT,Non-Government,Primary School,16.0
+2023,ACT,Non-Government,Secondary School,12.2
+2023,ACT,Non-Government,All Levels,13.8
+2023,ACT,Catholic,Primary School,16.4
+2023,ACT,Catholic,Secondary School,12.7
+2023,ACT,Catholic,All Levels,14.3
+2023,ACT,Independent,Primary School,15.3
+2023,ACT,Independent,Secondary School,11.6
+2023,ACT,Independent,All Levels,13.1
+2023,ACT,All sectors,Primary School,14.3
+2023,ACT,All sectors,Secondary School,12.6
+2023,ACT,All sectors,All Levels,13.4
+2023,Australia,Government,Primary School,14.2
+2023,Australia,Government,Secondary School,12.3
+2023,Australia,Government,All Levels,13.4
+2023,Australia,Non-Government,Primary School,14.6
+2023,Australia,Non-Government,Secondary School,11.2
+2023,Australia,Non-Government,All Levels,12.6
+2023,Australia,Catholic,Primary School,15.1
+2023,Australia,Catholic,Secondary School,12.0
+2023,Australia,Catholic,All Levels,13.4
+2023,Australia,Independent,Primary School,14.0
+2023,Australia,Independent,Secondary School,10.4
+2023,Australia,Independent,All Levels,11.8
+2023,Australia,All sectors,Primary School,14.3
+2023,Australia,All sectors,Secondary School,11.8
+2023,Australia,All sectors,All Levels,13.1
+2022,NSW,Government,Primary School,15.0
+2022,NSW,Government,Secondary School,13.0
+2022,NSW,Government,All Levels,14.2
+2022,NSW,Non-Government,Primary School,15.0
+2022,NSW,Non-Government,Secondary School,11.1
+2022,NSW,Non-Government,All Levels,12.7
+2022,NSW,Catholic,Primary School,15.8
+2022,NSW,Catholic,Secondary School,12.1
+2022,NSW,Catholic,All Levels,13.7
+2022,NSW,Independent,Primary School,14.1
+2022,NSW,Independent,Secondary School,10.0
+2022,NSW,Independent,All Levels,11.5
+2022,NSW,All sectors,Primary School,15.0
+2022,NSW,All sectors,Secondary School,12.1
+2022,NSW,All sectors,All Levels,13.6
+2022,VIC,Government,Primary School,13.5
+2022,VIC,Government,Secondary School,11.6
+2022,VIC,Government,All Levels,12.6
+2022,VIC,Non-Government,Primary School,13.2
+2022,VIC,Non-Government,Secondary School,10.7
+2022,VIC,Non-Government,All Levels,11.8
+2022,VIC,Catholic,Primary School,13.6
+2022,VIC,Catholic,Secondary School,11.9
+2022,VIC,Catholic,All Levels,12.7
+2022,VIC,Independent,Primary School,12.7
+2022,VIC,Independent,Secondary School,9.6
+2022,VIC,Independent,All Levels,10.7
+2022,VIC,All sectors,Primary School,13.4
+2022,VIC,All sectors,Secondary School,11.2
+2022,VIC,All sectors,All Levels,12.3
+2022,QLD,Government,Primary School,14.2
+2022,QLD,Government,Secondary School,12.1
+2022,QLD,Government,All Levels,13.2
+2022,QLD,Non-Government,Primary School,15.9
+2022,QLD,Non-Government,Secondary School,12.1
+2022,QLD,Non-Government,All Levels,13.7
+2022,QLD,Catholic,Primary School,16.2
+2022,QLD,Catholic,Secondary School,12.4
+2022,QLD,Catholic,All Levels,14.1
+2022,QLD,Independent,Primary School,15.5
+2022,QLD,Independent,Secondary School,11.7
+2022,QLD,Independent,All Levels,13.1
+2022,QLD,All sectors,Primary School,14.7
+2022,QLD,All sectors,Secondary School,12.1
+2022,QLD,All sectors,All Levels,13.4
+2022,SA,Government,Primary School,13.8
+2022,SA,Government,Secondary School,12.9
+2022,SA,Government,All Levels,13.4
+2022,SA,Non-Government,Primary School,15.1
+2022,SA,Non-Government,Secondary School,11.4
+2022,SA,Non-Government,All Levels,13.1
+2022,SA,Catholic,Primary School,15.8
+2022,SA,Catholic,Secondary School,12.3
+2022,SA,Catholic,All Levels,14.0
+2022,SA,Independent,Primary School,14.5
+2022,SA,Independent,Secondary School,10.8
+2022,SA,Independent,All Levels,12.3
+2022,SA,All sectors,Primary School,14.3
+2022,SA,All sectors,Secondary School,12.2
+2022,SA,All sectors,All Levels,13.3
+2022,WA,Government,Primary School,15.3
+2022,WA,Government,Secondary School,12.6
+2022,WA,Government,All Levels,14.1
+2022,WA,Non-Government,Primary School,15.0
+2022,WA,Non-Government,Secondary School,11.7
+2022,WA,Non-Government,All Levels,13.0
+2022,WA,Catholic,Primary School,16.4
+2022,WA,Catholic,Secondary School,12.7
+2022,WA,Catholic,All Levels,14.3
+2022,WA,Independent,Primary School,13.7
+2022,WA,Independent,Secondary School,10.9
+2022,WA,Independent,All Levels,11.9
+2022,WA,All sectors,Primary School,15.3
+2022,WA,All sectors,Secondary School,12.2
+2022,WA,All sectors,All Levels,13.7
+2022,TAS,Government,Primary School,13.4
+2022,TAS,Government,Secondary School,12.0
+2022,TAS,Government,All Levels,12.7
+2022,TAS,Non-Government,Primary School,13.7
+2022,TAS,Non-Government,Secondary School,10.5
+2022,TAS,Non-Government,All Levels,11.9
+2022,TAS,Catholic,Primary School,14.8
+2022,TAS,Catholic,Secondary School,11.6
+2022,TAS,Catholic,All Levels,13.0
+2022,TAS,Independent,Primary School,12.3
+2022,TAS,Independent,Secondary School,9.4
+2022,TAS,Independent,All Levels,10.5
+2022,TAS,All sectors,Primary School,13.4
+2022,TAS,All sectors,Secondary School,11.4
+2022,TAS,All sectors,All Levels,12.4
+2022,NT,Government,Primary School,11.4
+2022,NT,Government,Secondary School,11.4
+2022,NT,Government,All Levels,11.4
+2022,NT,Non-Government,Primary School,12.5
+2022,NT,Non-Government,Secondary School,10.6
+2022,NT,Non-Government,All Levels,11.5
+2022,NT,Catholic,Primary School,11.6
+2022,NT,Catholic,Secondary School,11.3
+2022,NT,Catholic,All Levels,11.5
+2022,NT,Independent,Primary School,13.3
+2022,NT,Independent,Secondary School,10.2
+2022,NT,Independent,All Levels,11.5
+2022,NT,All sectors,Primary School,11.6
+2022,NT,All sectors,Secondary School,11.1
+2022,NT,All sectors,All Levels,11.4
+2022,ACT,Government,Primary School,13.6
+2022,ACT,Government,Secondary School,12.7
+2022,ACT,Government,All Levels,13.2
+2022,ACT,Non-Government,Primary School,15.9
+2022,ACT,Non-Government,Secondary School,11.9
+2022,ACT,Non-Government,All Levels,13.6
+2022,ACT,Catholic,Primary School,16.6
+2022,ACT,Catholic,Secondary School,12.5
+2022,ACT,Catholic,All Levels,14.3
+2022,ACT,Independent,Primary School,14.8
+2022,ACT,Independent,Secondary School,11.0
+2022,ACT,Independent,All Levels,12.6
+2022,ACT,All sectors,Primary School,14.3
+2022,ACT,All sectors,Secondary School,12.3
+2022,ACT,All sectors,All Levels,13.3
+2022,Australia,Government,Primary School,14.3
+2022,Australia,Government,Secondary School,12.3
+2022,Australia,Government,All Levels,13.4
+2022,Australia,Non-Government,Primary School,14.7
+2022,Australia,Non-Government,Secondary School,11.2
+2022,Australia,Non-Government,All Levels,12.7
+2022,Australia,Catholic,Primary School,15.2
+2022,Australia,Catholic,Secondary School,12.2
+2022,Australia,Catholic,All Levels,13.6
+2022,Australia,Independent,Primary School,14.0
+2022,Australia,Independent,Secondary School,10.4
+2022,Australia,Independent,All Levels,11.7
+2022,Australia,All sectors,Primary School,14.4
+2022,Australia,All sectors,Secondary School,11.8
+2022,Australia,All sectors,All Levels,13.1
+2021,NSW,Government,Primary School,15.2
+2021,NSW,Government,Secondary School,13.2
+2021,NSW,Government,All Levels,14.3
+2021,NSW,Non-Government,Primary School,15.0
+2021,NSW,Non-Government,Secondary School,11.1
+2021,NSW,Non-Government,All Levels,12.7
+2021,NSW,Catholic,Primary School,15.8
+2021,NSW,Catholic,Secondary School,12.1
+2021,NSW,Catholic,All Levels,13.7
+2021,NSW,Independent,Primary School,14.0
+2021,NSW,Independent,Secondary School,10.0
+2021,NSW,Independent,All Levels,11.6
+2021,NSW,All sectors,Primary School,15.1
+2021,NSW,All sectors,Secondary School,12.2
+2021,NSW,All sectors,All Levels,13.7
+2021,VIC,Government,Primary School,13.5
+2021,VIC,Government,Secondary School,11.8
+2021,VIC,Government,All Levels,12.8
+2021,VIC,Non-Government,Primary School,13.3
+2021,VIC,Non-Government,Secondary School,10.7
+2021,VIC,Non-Government,All Levels,11.8
+2021,VIC,Catholic,Primary School,13.7
+2021,VIC,Catholic,Secondary School,12.0
+2021,VIC,Catholic,All Levels,12.8
+2021,VIC,Independent,Primary School,12.8
+2021,VIC,Independent,Secondary School,9.7
+2021,VIC,Independent,All Levels,10.7
+2021,VIC,All sectors,Primary School,13.5
+2021,VIC,All sectors,Secondary School,11.3
+2021,VIC,All sectors,All Levels,12.4
+2021,QLD,Government,Primary School,14.4
+2021,QLD,Government,Secondary School,12.1
+2021,QLD,Government,All Levels,13.3
+2021,QLD,Non-Government,Primary School,16.0
+2021,QLD,Non-Government,Secondary School,12.1
+2021,QLD,Non-Government,All Levels,13.7
+2021,QLD,Catholic,Primary School,16.4
+2021,QLD,Catholic,Secondary School,12.5
+2021,QLD,Catholic,All Levels,14.3
+2021,QLD,Independent,Primary School,15.4
+2021,QLD,Independent,Secondary School,11.7
+2021,QLD,Independent,All Levels,13.1
+2021,QLD,All sectors,Primary School,14.9
+2021,QLD,All sectors,Secondary School,12.1
+2021,QLD,All sectors,All Levels,13.5
+2021,SA,Government,Primary School,14.5
+2021,SA,Government,Secondary School,12.1
+2021,SA,Government,All Levels,13.5
+2021,SA,Non-Government,Primary School,15.1
+2021,SA,Non-Government,Secondary School,11.7
+2021,SA,Non-Government,All Levels,13.3
+2021,SA,Catholic,Primary School,16.0
+2021,SA,Catholic,Secondary School,12.4
+2021,SA,Catholic,All Levels,14.1
+2021,SA,Independent,Primary School,14.3
+2021,SA,Independent,Secondary School,11.2
+2021,SA,Independent,All Levels,12.5
+2021,SA,All sectors,Primary School,14.7
+2021,SA,All sectors,Secondary School,11.9
+2021,SA,All sectors,All Levels,13.4
+2021,WA,Government,Primary School,15.3
+2021,WA,Government,Secondary School,12.6
+2021,WA,Government,All Levels,14.1
+2021,WA,Non-Government,Primary School,15.3
+2021,WA,Non-Government,Secondary School,11.6
+2021,WA,Non-Government,All Levels,13.1
+2021,WA,Catholic,Primary School,16.6
+2021,WA,Catholic,Secondary School,12.6
+2021,WA,Catholic,All Levels,14.4
+2021,WA,Independent,Primary School,13.9
+2021,WA,Independent,Secondary School,10.9
+2021,WA,Independent,All Levels,12.0
+2021,WA,All sectors,Primary School,15.3
+2021,WA,All sectors,Secondary School,12.2
+2021,WA,All sectors,All Levels,13.8
+2021,TAS,Government,Primary School,13.7
+2021,TAS,Government,Secondary School,12.0
+2021,TAS,Government,All Levels,12.9
+2021,TAS,Non-Government,Primary School,14.3
+2021,TAS,Non-Government,Secondary School,10.6
+2021,TAS,Non-Government,All Levels,12.2
+2021,TAS,Catholic,Primary School,15.6
+2021,TAS,Catholic,Secondary School,11.7
+2021,TAS,Catholic,All Levels,13.4
+2021,TAS,Independent,Primary School,12.5
+2021,TAS,Independent,Secondary School,9.5
+2021,TAS,Independent,All Levels,10.7
+2021,TAS,All sectors,Primary School,13.9
+2021,TAS,All sectors,Secondary School,11.5
+2021,TAS,All sectors,All Levels,12.7
+2021,NT,Government,Primary School,11.8
+2021,NT,Government,Secondary School,11.9
+2021,NT,Government,All Levels,11.8
+2021,NT,Non-Government,Primary School,13.3
+2021,NT,Non-Government,Secondary School,10.8
+2021,NT,Non-Government,All Levels,11.9
+2021,NT,Catholic,Primary School,13.4
+2021,NT,Catholic,Secondary School,10.8
+2021,NT,Catholic,All Levels,12.0
+2021,NT,Independent,Primary School,13.3
+2021,NT,Independent,Secondary School,10.8
+2021,NT,Independent,All Levels,11.9
+2021,NT,All sectors,Primary School,12.1
+2021,NT,All sectors,Secondary School,11.5
+2021,NT,All sectors,All Levels,11.9
+2021,ACT,Government,Primary School,13.4
+2021,ACT,Government,Secondary School,13.3
+2021,ACT,Government,All Levels,13.3
+2021,ACT,Non-Government,Primary School,16.0
+2021,ACT,Non-Government,Secondary School,11.9
+2021,ACT,Non-Government,All Levels,13.7
+2021,ACT,Catholic,Primary School,17.1
+2021,ACT,Catholic,Secondary School,12.5
+2021,ACT,Catholic,All Levels,14.5
+2021,ACT,Independent,Primary School,14.4
+2021,ACT,Independent,Secondary School,11.0
+2021,ACT,Independent,All Levels,12.5
+2021,ACT,All sectors,Primary School,14.2
+2021,ACT,All sectors,Secondary School,12.6
+2021,ACT,All sectors,All Levels,13.5
+2021,Australia,Government,Primary School,14.4
+2021,Australia,Government,Secondary School,12.4
+2021,Australia,Government,All Levels,13.6
+2021,Australia,Non-Government,Primary School,14.8
+2021,Australia,Non-Government,Secondary School,11.3
+2021,Australia,Non-Government,All Levels,12.8
+2021,Australia,Catholic,Primary School,15.4
+2021,Australia,Catholic,Secondary School,12.2
+2021,Australia,Catholic,All Levels,13.6
+2021,Australia,Independent,Primary School,14.0
+2021,Australia,Independent,Secondary School,10.5
+2021,Australia,Independent,All Levels,11.8
+2021,Australia,All sectors,Primary School,14.5
+2021,Australia,All sectors,Secondary School,11.9
+2021,Australia,All sectors,All Levels,13.3
+2020,NSW,Government,Primary School,16.0
+2020,NSW,Government,Secondary School,13.4
+2020,NSW,Government,All Levels,14.9
+2020,NSW,Non-Government,Primary School,15.2
+2020,NSW,Non-Government,Secondary School,11.1
+2020,NSW,Non-Government,All Levels,12.8
+2020,NSW,Catholic,Primary School,16.1
+2020,NSW,Catholic,Secondary School,12.2
+2020,NSW,Catholic,All Levels,13.9
+2020,NSW,Independent,Primary School,14.1
+2020,NSW,Independent,Secondary School,10.0
+2020,NSW,Independent,All Levels,11.5
+2020,NSW,All sectors,Primary School,15.8
+2020,NSW,All sectors,Secondary School,12.4
+2020,NSW,All sectors,All Levels,14.1
+2020,VIC,Government,Primary School,14.1
+2020,VIC,Government,Secondary School,12.2
+2020,VIC,Government,All Levels,13.3
+2020,VIC,Non-Government,Primary School,13.5
+2020,VIC,Non-Government,Secondary School,10.8
+2020,VIC,Non-Government,All Levels,12.0
+2020,VIC,Catholic,Primary School,14.0
+2020,VIC,Catholic,Secondary School,12.0
+2020,VIC,Catholic,All Levels,13.0
+2020,VIC,Independent,Primary School,12.7
+2020,VIC,Independent,Secondary School,9.7
+2020,VIC,Independent,All Levels,10.8
+2020,VIC,All sectors,Primary School,13.9
+2020,VIC,All sectors,Secondary School,11.5
+2020,VIC,All sectors,All Levels,12.8
+2020,QLD,Government,Primary School,14.3
+2020,QLD,Government,Secondary School,12.1
+2020,QLD,Government,All Levels,13.4
+2020,QLD,Non-Government,Primary School,15.9
+2020,QLD,Non-Government,Secondary School,12.1
+2020,QLD,Non-Government,All Levels,13.7
+2020,QLD,Catholic,Primary School,16.3
+2020,QLD,Catholic,Secondary School,12.3
+2020,QLD,Catholic,All Levels,14.1
+2020,QLD,Independent,Primary School,15.5
+2020,QLD,Independent,Secondary School,11.9
+2020,QLD,Independent,All Levels,13.3
+2020,QLD,All sectors,Primary School,14.8
+2020,QLD,All sectors,Secondary School,12.1
+2020,QLD,All sectors,All Levels,13.5
+2020,SA,Government,Primary School,14.5
+2020,SA,Government,Secondary School,12.5
+2020,SA,Government,All Levels,13.7
+2020,SA,Non-Government,Primary School,14.9
+2020,SA,Non-Government,Secondary School,12.1
+2020,SA,Non-Government,All Levels,13.3
+2020,SA,Catholic,Primary School,16.0
+2020,SA,Catholic,Secondary School,12.7
+2020,SA,Catholic,All Levels,14.3
+2020,SA,Independent,Primary School,13.9
+2020,SA,Independent,Secondary School,11.5
+2020,SA,Independent,All Levels,12.6
+2020,SA,All sectors,Primary School,14.6
+2020,SA,All sectors,Secondary School,12.3
+2020,SA,All sectors,All Levels,13.6
+2020,WA,Government,Primary School,15.6
+2020,WA,Government,Secondary School,12.8
+2020,WA,Government,All Levels,14.4
+2020,WA,Non-Government,Primary School,15.2
+2020,WA,Non-Government,Secondary School,11.7
+2020,WA,Non-Government,All Levels,13.1
+2020,WA,Catholic,Primary School,16.5
+2020,WA,Catholic,Secondary School,12.6
+2020,WA,Catholic,All Levels,14.3
+2020,WA,Independent,Primary School,13.8
+2020,WA,Independent,Secondary School,11.0
+2020,WA,Independent,All Levels,12.0
+2020,WA,All sectors,Primary School,15.5
+2020,WA,All sectors,Secondary School,12.3
+2020,WA,All sectors,All Levels,14.0
+2020,TAS,Government,Primary School,13.9
+2020,TAS,Government,Secondary School,12.5
+2020,TAS,Government,All Levels,13.3
+2020,TAS,Non-Government,Primary School,14.3
+2020,TAS,Non-Government,Secondary School,10.8
+2020,TAS,Non-Government,All Levels,12.3
+2020,TAS,Catholic,Primary School,15.4
+2020,TAS,Catholic,Secondary School,12.1
+2020,TAS,Catholic,All Levels,13.6
+2020,TAS,Independent,Primary School,12.8
+2020,TAS,Independent,Secondary School,9.5
+2020,TAS,Independent,All Levels,10.8
+2020,TAS,All sectors,Primary School,14.1
+2020,TAS,All sectors,Secondary School,11.9
+2020,TAS,All sectors,All Levels,13.0
+2020,NT,Government,Primary School,11.8
+2020,NT,Government,Secondary School,11.8
+2020,NT,Government,All Levels,11.8
+2020,NT,Non-Government,Primary School,13.3
+2020,NT,Non-Government,Secondary School,10.5
+2020,NT,Non-Government,All Levels,11.7
+2020,NT,Catholic,Primary School,12.9
+2020,NT,Catholic,Secondary School,10.6
+2020,NT,Catholic,All Levels,11.6
+2020,NT,Independent,Primary School,13.7
+2020,NT,Independent,Secondary School,10.5
+2020,NT,Independent,All Levels,11.8
+2020,NT,All sectors,Primary School,12.1
+2020,NT,All sectors,Secondary School,11.4
+2020,NT,All sectors,All Levels,11.8
+2020,ACT,Government,Primary School,13.9
+2020,ACT,Government,Secondary School,12.4
+2020,ACT,Government,All Levels,13.3
+2020,ACT,Non-Government,Primary School,15.9
+2020,ACT,Non-Government,Secondary School,11.9
+2020,ACT,Non-Government,All Levels,13.6
+2020,ACT,Catholic,Primary School,17.1
+2020,ACT,Catholic,Secondary School,12.7
+2020,ACT,Catholic,All Levels,14.6
+2020,ACT,Independent,Primary School,14.1
+2020,ACT,Independent,Secondary School,10.7
+2020,ACT,Independent,All Levels,12.2
+2020,ACT,All sectors,Primary School,14.5
+2020,ACT,All sectors,Secondary School,12.2
+2020,ACT,All sectors,All Levels,13.4
+2020,Australia,Government,Primary School,14.8
+2020,Australia,Government,Secondary School,12.6
+2020,Australia,Government,All Levels,13.9
+2020,Australia,Non-Government,Primary School,14.8
+2020,Australia,Non-Government,Secondary School,11.4
+2020,Australia,Non-Government,All Levels,12.8
+2020,Australia,Catholic,Primary School,15.5
+2020,Australia,Catholic,Secondary School,12.2
+2020,Australia,Catholic,All Levels,13.7
+2020,Australia,Independent,Primary School,13.9
+2020,Australia,Independent,Secondary School,10.5
+2020,Australia,Independent,All Levels,11.8
+2020,Australia,All sectors,Primary School,14.8
+2020,Australia,All sectors,Secondary School,12.1
+2020,Australia,All sectors,All Levels,13.5
+2019,NSW,Government,Primary School,16.8
+2019,NSW,Government,Secondary School,13.9
+2019,NSW,Government,All Levels,15.6
+2019,NSW,Non-Government,Primary School,15.3
+2019,NSW,Non-Government,Secondary School,11.2
+2019,NSW,Non-Government,All Levels,12.9
+2019,NSW,Catholic,Primary School,16.6
+2019,NSW,Catholic,Secondary School,12.3
+2019,NSW,Catholic,All Levels,14.2
+2019,NSW,Independent,Primary School,13.6
+2019,NSW,Independent,Secondary School,10.0
+2019,NSW,Independent,All Levels,11.4
+2019,NSW,All sectors,Primary School,16.3
+2019,NSW,All sectors,Secondary School,12.7
+2019,NSW,All sectors,All Levels,14.5
+2019,VIC,Government,Primary School,14.4
+2019,VIC,Government,Secondary School,12.3
+2019,VIC,Government,All Levels,13.5
+2019,VIC,Non-Government,Primary School,13.7
+2019,VIC,Non-Government,Secondary School,10.8
+2019,VIC,Non-Government,All Levels,12.1
+2019,VIC,Catholic,Primary School,14.4
+2019,VIC,Catholic,Secondary School,12.2
+2019,VIC,Catholic,All Levels,13.3
+2019,VIC,Independent,Primary School,12.6
+2019,VIC,Independent,Secondary School,9.6
+2019,VIC,Independent,All Levels,10.7
+2019,VIC,All sectors,Primary School,14.2
+2019,VIC,All sectors,Secondary School,11.6
+2019,VIC,All sectors,All Levels,13.0
+2019,QLD,Government,Primary School,14.3
+2019,QLD,Government,Secondary School,12.1
+2019,QLD,Government,All Levels,13.3
+2019,QLD,Non-Government,Primary School,15.9
+2019,QLD,Non-Government,Secondary School,11.9
+2019,QLD,Non-Government,All Levels,13.6
+2019,QLD,Catholic,Primary School,16.3
+2019,QLD,Catholic,Secondary School,12.1
+2019,QLD,Catholic,All Levels,14.0
+2019,QLD,Independent,Primary School,15.4
+2019,QLD,Independent,Secondary School,11.8
+2019,QLD,Independent,All Levels,13.2
+2019,QLD,All sectors,Primary School,14.7
+2019,QLD,All sectors,Secondary School,12.1
+2019,QLD,All sectors,All Levels,13.4
+2019,SA,Government,Primary School,14.5
+2019,SA,Government,Secondary School,12.7
+2019,SA,Government,All Levels,13.8
+2019,SA,Non-Government,Primary School,14.5
+2019,SA,Non-Government,Secondary School,12.3
+2019,SA,Non-Government,All Levels,13.3
+2019,SA,Catholic,Primary School,15.2
+2019,SA,Catholic,Secondary School,13.2
+2019,SA,Catholic,All Levels,14.3
+2019,SA,Independent,Primary School,13.8
+2019,SA,Independent,Secondary School,11.6
+2019,SA,Independent,All Levels,12.6
+2019,SA,All sectors,Primary School,14.5
+2019,SA,All sectors,Secondary School,12.5
+2019,SA,All sectors,All Levels,13.6
+2019,WA,Government,Primary School,15.8
+2019,WA,Government,Secondary School,12.8
+2019,WA,Government,All Levels,14.6
+2019,WA,Non-Government,Primary School,14.9
+2019,WA,Non-Government,Secondary School,11.6
+2019,WA,Non-Government,All Levels,13.0
+2019,WA,Catholic,Primary School,16.2
+2019,WA,Catholic,Secondary School,12.6
+2019,WA,Catholic,All Levels,14.2
+2019,WA,Independent,Primary School,13.4
+2019,WA,Independent,Secondary School,10.9
+2019,WA,Independent,All Levels,11.8
+2019,WA,All sectors,Primary School,15.6
+2019,WA,All sectors,Secondary School,12.3
+2019,WA,All sectors,All Levels,14.0
+2019,TAS,Government,Primary School,14.4
+2019,TAS,Government,Secondary School,12.7
+2019,TAS,Government,All Levels,13.7
+2019,TAS,Non-Government,Primary School,14.3
+2019,TAS,Non-Government,Secondary School,10.9
+2019,TAS,Non-Government,All Levels,12.4
+2019,TAS,Catholic,Primary School,15.5
+2019,TAS,Catholic,Secondary School,12.1
+2019,TAS,Catholic,All Levels,13.7
+2019,TAS,Independent,Primary School,12.6
+2019,TAS,Independent,Secondary School,9.6
+2019,TAS,Independent,All Levels,10.8
+2019,TAS,All sectors,Primary School,14.4
+2019,TAS,All sectors,Secondary School,12.0
+2019,TAS,All sectors,All Levels,13.3
+2019,NT,Government,Primary School,11.8
+2019,NT,Government,Secondary School,11.9
+2019,NT,Government,All Levels,11.8
+2019,NT,Non-Government,Primary School,13.4
+2019,NT,Non-Government,Secondary School,10.5
+2019,NT,Non-Government,All Levels,11.8
+2019,NT,Catholic,Primary School,12.4
+2019,NT,Catholic,Secondary School,10.8
+2019,NT,Catholic,All Levels,11.6
+2019,NT,Independent,Primary School,14.4
+2019,NT,Independent,Secondary School,10.2
+2019,NT,Independent,All Levels,11.9
+2019,NT,All sectors,Primary School,12.1
+2019,NT,All sectors,Secondary School,11.4
+2019,NT,All sectors,All Levels,11.8
+2019,ACT,Government,Primary School,14.0
+2019,ACT,Government,Secondary School,12.3
+2019,ACT,Government,All Levels,13.3
+2019,ACT,Non-Government,Primary School,15.8
+2019,ACT,Non-Government,Secondary School,11.7
+2019,ACT,Non-Government,All Levels,13.5
+2019,ACT,Catholic,Primary School,17.1
+2019,ACT,Catholic,Secondary School,12.8
+2019,ACT,Catholic,All Levels,14.7
+2019,ACT,Independent,Primary School,14.0
+2019,ACT,Independent,Secondary School,10.3
+2019,ACT,Independent,All Levels,11.8
+2019,ACT,All sectors,Primary School,14.6
+2019,ACT,All sectors,Secondary School,12.0
+2019,ACT,All sectors,All Levels,13.4
+2019,Australia,Government,Primary School,15.2
+2019,Australia,Government,Secondary School,12.8
+2019,Australia,Government,All Levels,14.2
+2019,Australia,Non-Government,Primary School,14.8
+2019,Australia,Non-Government,Secondary School,11.4
+2019,Australia,Non-Government,All Levels,12.8
+2019,Australia,Catholic,Primary School,15.7
+2019,Australia,Catholic,Secondary School,12.3
+2019,Australia,Catholic,All Levels,13.9
+2019,Australia,Independent,Primary School,13.7
+2019,Australia,Independent,Secondary School,10.4
+2019,Australia,Independent,All Levels,11.7
+2019,Australia,All sectors,Primary School,15.1
+2019,Australia,All sectors,Secondary School,12.2
+2019,Australia,All sectors,All Levels,13.7
+2018,NSW,Government,Primary School,15.4
+2018,NSW,Government,Secondary School,12.3
+2018,NSW,Government,All Levels,14.1
+2018,NSW,Non-Government,Primary School,15.5
+2018,NSW,Non-Government,Secondary School,11.3
+2018,NSW,Non-Government,All Levels,13.0
+2018,NSW,Catholic,Primary School,16.9
+2018,NSW,Catholic,Secondary School,12.4
+2018,NSW,Catholic,All Levels,14.3
+2018,NSW,Independent,Primary School,13.6
+2018,NSW,Independent,Secondary School,10.0
+2018,NSW,Independent,All Levels,11.4
+2018,NSW,All sectors,Primary School,15.4
+2018,NSW,All sectors,Secondary School,11.9
+2018,NSW,All sectors,All Levels,13.7
+2018,VIC,Government,Primary School,14.6
+2018,VIC,Government,Secondary School,12.1
+2018,VIC,Government,All Levels,13.5
+2018,VIC,Non-Government,Primary School,13.9
+2018,VIC,Non-Government,Secondary School,10.9
+2018,VIC,Non-Government,All Levels,12.2
+2018,VIC,Catholic,Primary School,14.7
+2018,VIC,Catholic,Secondary School,12.2
+2018,VIC,Catholic,All Levels,13.5
+2018,VIC,Independent,Primary School,12.6
+2018,VIC,Independent,Secondary School,9.7
+2018,VIC,Independent,All Levels,10.7
+2018,VIC,All sectors,Primary School,14.3
+2018,VIC,All sectors,Secondary School,11.6
+2018,VIC,All sectors,All Levels,13.0
+2018,QLD,Government,Primary School,14.2
+2018,QLD,Government,Secondary School,12.2
+2018,QLD,Government,All Levels,13.4
+2018,QLD,Non-Government,Primary School,15.9
+2018,QLD,Non-Government,Secondary School,12.0
+2018,QLD,Non-Government,All Levels,13.7
+2018,QLD,Catholic,Primary School,16.4
+2018,QLD,Catholic,Secondary School,12.2
+2018,QLD,Catholic,All Levels,14.2
+2018,QLD,Independent,Primary School,15.3
+2018,QLD,Independent,Secondary School,11.7
+2018,QLD,Independent,All Levels,13.1
+2018,QLD,All sectors,Primary School,14.7
+2018,QLD,All sectors,Secondary School,12.1
+2018,QLD,All sectors,All Levels,13.5
+2018,SA,Government,Primary School,14.5
+2018,SA,Government,Secondary School,12.7
+2018,SA,Government,All Levels,13.8
+2018,SA,Non-Government,Primary School,16.5
+2018,SA,Non-Government,Secondary School,10.8
+2018,SA,Non-Government,All Levels,13.5
+2018,SA,Catholic,Primary School,16.9
+2018,SA,Catholic,Secondary School,11.6
+2018,SA,Catholic,All Levels,14.3
+2018,SA,Independent,Primary School,16.2
+2018,SA,Independent,Secondary School,10.1
+2018,SA,Independent,All Levels,12.9
+2018,SA,All sectors,Primary School,15.1
+2018,SA,All sectors,Secondary School,11.9
+2018,SA,All sectors,All Levels,13.7
+2018,WA,Government,Primary School,15.7
+2018,WA,Government,Secondary School,12.6
+2018,WA,Government,All Levels,14.4
+2018,WA,Non-Government,Primary School,14.9
+2018,WA,Non-Government,Secondary School,11.6
+2018,WA,Non-Government,All Levels,13.0
+2018,WA,Catholic,Primary School,16.4
+2018,WA,Catholic,Secondary School,12.6
+2018,WA,Catholic,All Levels,14.3
+2018,WA,Independent,Primary School,13.3
+2018,WA,Independent,Secondary School,10.8
+2018,WA,Independent,All Levels,11.8
+2018,WA,All sectors,Primary School,15.5
+2018,WA,All sectors,Secondary School,12.2
+2018,WA,All sectors,All Levels,13.9
+2018,TAS,Government,Primary School,14.8
+2018,TAS,Government,Secondary School,12.9
+2018,TAS,Government,All Levels,13.9
+2018,TAS,Non-Government,Primary School,14.9
+2018,TAS,Non-Government,Secondary School,11.0
+2018,TAS,Non-Government,All Levels,12.6
+2018,TAS,Catholic,Primary School,16.6
+2018,TAS,Catholic,Secondary School,12.3
+2018,TAS,Catholic,All Levels,14.2
+2018,TAS,Independent,Primary School,12.5
+2018,TAS,Independent,Secondary School,9.6
+2018,TAS,Independent,All Levels,10.7
+2018,TAS,All sectors,Primary School,14.8
+2018,TAS,All sectors,Secondary School,12.2
+2018,TAS,All sectors,All Levels,13.5
+2018,NT,Government,Primary School,12.6
+2018,NT,Government,Secondary School,12.1
+2018,NT,Government,All Levels,12.4
+2018,NT,Non-Government,Primary School,14.6
+2018,NT,Non-Government,Secondary School,10.5
+2018,NT,Non-Government,All Levels,12.2
+2018,NT,Catholic,Primary School,13.6
+2018,NT,Catholic,Secondary School,10.2
+2018,NT,Catholic,All Levels,11.7
+2018,NT,Independent,Primary School,15.5
+2018,NT,Independent,Secondary School,10.7
+2018,NT,Independent,All Levels,12.6
+2018,NT,All sectors,Primary School,13.0
+2018,NT,All sectors,Secondary School,11.5
+2018,NT,All sectors,All Levels,12.3
+2018,ACT,Government,Primary School,14.9
+2018,ACT,Government,Secondary School,12.3
+2018,ACT,Government,All Levels,13.7
+2018,ACT,Non-Government,Primary School,16.3
+2018,ACT,Non-Government,Secondary School,11.9
+2018,ACT,Non-Government,All Levels,13.8
+2018,ACT,Catholic,Primary School,17.6
+2018,ACT,Catholic,Secondary School,12.8
+2018,ACT,Catholic,All Levels,14.9
+2018,ACT,Independent,Primary School,14.2
+2018,ACT,Independent,Secondary School,10.7
+2018,ACT,Independent,All Levels,12.2
+2018,ACT,All sectors,Primary School,15.3
+2018,ACT,All sectors,Secondary School,12.1
+2018,ACT,All sectors,All Levels,13.7
+2018,Australia,Government,Primary School,14.8
+2018,Australia,Government,Secondary School,12.3
+2018,Australia,Government,All Levels,13.8
+2018,Australia,Non-Government,Primary School,15.1
+2018,Australia,Non-Government,Secondary School,11.3
+2018,Australia,Non-Government,All Levels,12.9
+2018,Australia,Catholic,Primary School,16.1
+2018,Australia,Catholic,Secondary School,12.3
+2018,Australia,Catholic,All Levels,14.0
+2018,Australia,Independent,Primary School,13.9
+2018,Australia,Independent,Secondary School,10.3
+2018,Australia,Independent,All Levels,11.7
+2018,Australia,All sectors,Primary School,14.9
+2018,Australia,All sectors,Secondary School,11.9
+2018,Australia,All sectors,All Levels,13.5
+2017,NSW,Government,Primary School,15.8
+2017,NSW,Government,Secondary School,12.4
+2017,NSW,Government,All Levels,14.2
+2017,NSW,Non-Government,Primary School,15.8
+2017,NSW,Non-Government,Secondary School,11.4
+2017,NSW,Non-Government,All Levels,13.2
+2017,NSW,Catholic,Primary School,17.2
+2017,NSW,Catholic,Secondary School,12.6
+2017,NSW,Catholic,All Levels,14.6
+2017,NSW,Independent,Primary School,13.9
+2017,NSW,Independent,Secondary School,10.0
+2017,NSW,Independent,All Levels,11.6
+2017,NSW,All sectors,Primary School,15.8
+2017,NSW,All sectors,Secondary School,11.9
+2017,NSW,All sectors,All Levels,13.9
+2017,VIC,Government,Primary School,14.8
+2017,VIC,Government,Secondary School,12.3
+2017,VIC,Government,All Levels,13.7
+2017,VIC,Non-Government,Primary School,14.1
+2017,VIC,Non-Government,Secondary School,11.0
+2017,VIC,Non-Government,All Levels,12.3
+2017,VIC,Catholic,Primary School,15.0
+2017,VIC,Catholic,Secondary School,12.4
+2017,VIC,Catholic,All Levels,13.6
+2017,VIC,Independent,Primary School,12.8
+2017,VIC,Independent,Secondary School,9.7
+2017,VIC,Independent,All Levels,10.8
+2017,VIC,All sectors,Primary School,14.6
+2017,VIC,All sectors,Secondary School,11.7
+2017,VIC,All sectors,All Levels,13.2
+2017,QLD,Government,Primary School,14.4
+2017,QLD,Government,Secondary School,12.4
+2017,QLD,Government,All Levels,13.6
+2017,QLD,Non-Government,Primary School,16.0
+2017,QLD,Non-Government,Secondary School,12.1
+2017,QLD,Non-Government,All Levels,13.8
+2017,QLD,Catholic,Primary School,16.6
+2017,QLD,Catholic,Secondary School,12.4
+2017,QLD,Catholic,All Levels,14.4
+2017,QLD,Independent,Primary School,15.3
+2017,QLD,Independent,Secondary School,11.8
+2017,QLD,Independent,All Levels,13.2
+2017,QLD,All sectors,Primary School,14.9
+2017,QLD,All sectors,Secondary School,12.3
+2017,QLD,All sectors,All Levels,13.6
+2017,SA,Government,Primary School,14.6
+2017,SA,Government,Secondary School,12.9
+2017,SA,Government,All Levels,14.0
+2017,SA,Non-Government,Primary School,15.9
+2017,SA,Non-Government,Secondary School,11.2
+2017,SA,Non-Government,All Levels,13.5
+2017,SA,Catholic,Primary School,16.5
+2017,SA,Catholic,Secondary School,12.0
+2017,SA,Catholic,All Levels,14.3
+2017,SA,Independent,Primary School,15.2
+2017,SA,Independent,Secondary School,10.5
+2017,SA,Independent,All Levels,12.7
+2017,SA,All sectors,Primary School,15.0
+2017,SA,All sectors,Secondary School,12.2
+2017,SA,All sectors,All Levels,13.8
+2017,WA,Government,Primary School,15.6
+2017,WA,Government,Secondary School,12.4
+2017,WA,Government,All Levels,14.2
+2017,WA,Non-Government,Primary School,15.1
+2017,WA,Non-Government,Secondary School,11.8
+2017,WA,Non-Government,All Levels,13.2
+2017,WA,Catholic,Primary School,16.5
+2017,WA,Catholic,Secondary School,12.7
+2017,WA,Catholic,All Levels,14.4
+2017,WA,Independent,Primary School,13.5
+2017,WA,Independent,Secondary School,11.1
+2017,WA,Independent,All Levels,12.0
+2017,WA,All sectors,Primary School,15.4
+2017,WA,All sectors,Secondary School,12.1
+2017,WA,All sectors,All Levels,13.8
+2017,TAS,Government,Primary School,14.8
+2017,TAS,Government,Secondary School,13.1
+2017,TAS,Government,All Levels,14.1
+2017,TAS,Non-Government,Primary School,15.1
+2017,TAS,Non-Government,Secondary School,11.2
+2017,TAS,Non-Government,All Levels,12.8
+2017,TAS,Catholic,Primary School,16.9
+2017,TAS,Catholic,Secondary School,12.8
+2017,TAS,Catholic,All Levels,14.7
+2017,TAS,Independent,Primary School,12.7
+2017,TAS,Independent,Secondary School,9.4
+2017,TAS,Independent,All Levels,10.7
+2017,TAS,All sectors,Primary School,14.9
+2017,TAS,All sectors,Secondary School,12.3
+2017,TAS,All sectors,All Levels,13.7
+2017,NT,Government,Primary School,12.3
+2017,NT,Government,Secondary School,12.4
+2017,NT,Government,All Levels,12.3
+2017,NT,Non-Government,Primary School,14.6
+2017,NT,Non-Government,Secondary School,10.5
+2017,NT,Non-Government,All Levels,12.2
+2017,NT,Catholic,Primary School,14.6
+2017,NT,Catholic,Secondary School,10.7
+2017,NT,Catholic,All Levels,12.4
+2017,NT,Independent,Primary School,14.5
+2017,NT,Independent,Secondary School,10.4
+2017,NT,Independent,All Levels,12.0
+2017,NT,All sectors,Primary School,12.7
+2017,NT,All sectors,Secondary School,11.6
+2017,NT,All sectors,All Levels,12.3
+2017,ACT,Government,Primary School,15.0
+2017,ACT,Government,Secondary School,11.9
+2017,ACT,Government,All Levels,13.6
+2017,ACT,Non-Government,Primary School,16.0
+2017,ACT,Non-Government,Secondary School,12.0
+2017,ACT,Non-Government,All Levels,13.8
+2017,ACT,Catholic,Primary School,17.4
+2017,ACT,Catholic,Secondary School,13.3
+2017,ACT,Catholic,All Levels,15.2
+2017,ACT,Independent,Primary School,13.8
+2017,ACT,Independent,Secondary School,10.3
+2017,ACT,Independent,All Levels,11.8
+2017,ACT,All sectors,Primary School,15.4
+2017,ACT,All sectors,Secondary School,11.9
+2017,ACT,All sectors,All Levels,13.6
+2017,Australia,Government,Primary School,15.0
+2017,Australia,Government,Secondary School,12.4
+2017,Australia,Government,All Levels,13.9
+2017,Australia,Non-Government,Primary School,15.3
+2017,Australia,Non-Government,Secondary School,11.4
+2017,Australia,Non-Government,All Levels,13.1
+2017,Australia,Catholic,Primary School,16.3
+2017,Australia,Catholic,Secondary School,12.5
+2017,Australia,Catholic,All Levels,14.2
+2017,Australia,Independent,Primary School,14.0
+2017,Australia,Independent,Secondary School,10.4
+2017,Australia,Independent,All Levels,11.8
+2017,Australia,All sectors,Primary School,15.1
+2017,Australia,All sectors,Secondary School,12.0
+2017,Australia,All sectors,All Levels,13.6
+2016,NSW,Government,Primary School,15.6
+2016,NSW,Government,Secondary School,12.5
+2016,NSW,Government,All Levels,14.3
+2016,NSW,Non-Government,Primary School,16.1
+2016,NSW,Non-Government,Secondary School,11.5
+2016,NSW,Non-Government,All Levels,13.4
+2016,NSW,Catholic,Primary School,17.6
+2016,NSW,Catholic,Secondary School,12.7
+2016,NSW,Catholic,All Levels,14.8
+2016,NSW,Independent,Primary School,14.0
+2016,NSW,Independent,Secondary School,10.1
+2016,NSW,Independent,All Levels,11.6
+2016,NSW,All sectors,Primary School,15.8
+2016,NSW,All sectors,Secondary School,12.1
+2016,NSW,All sectors,All Levels,14.0
+2016,VIC,Government,Primary School,14.8
+2016,VIC,Government,Secondary School,12.5
+2016,VIC,Government,All Levels,13.8
+2016,VIC,Non-Government,Primary School,14.2
+2016,VIC,Non-Government,Secondary School,11.0
+2016,VIC,Non-Government,All Levels,12.3
+2016,VIC,Catholic,Primary School,15.1
+2016,VIC,Catholic,Secondary School,12.5
+2016,VIC,Catholic,All Levels,13.8
+2016,VIC,Independent,Primary School,12.7
+2016,VIC,Independent,Secondary School,9.5
+2016,VIC,Independent,All Levels,10.6
+2016,VIC,All sectors,Primary School,14.6
+2016,VIC,All sectors,Secondary School,11.8
+2016,VIC,All sectors,All Levels,13.2
+2016,QLD,Government,Primary School,14.5
+2016,QLD,Government,Secondary School,12.5
+2016,QLD,Government,All Levels,13.6
+2016,QLD,Non-Government,Primary School,16.4
+2016,QLD,Non-Government,Secondary School,12.2
+2016,QLD,Non-Government,All Levels,14.0
+2016,QLD,Catholic,Primary School,17.0
+2016,QLD,Catholic,Secondary School,12.4
+2016,QLD,Catholic,All Levels,14.5
+2016,QLD,Independent,Primary School,15.5
+2016,QLD,Independent,Secondary School,11.9
+2016,QLD,Independent,All Levels,13.3
+2016,QLD,All sectors,Primary School,15.0
+2016,QLD,All sectors,Secondary School,12.4
+2016,QLD,All sectors,All Levels,13.8
+2016,SA,Government,Primary School,14.9
+2016,SA,Government,Secondary School,13.3
+2016,SA,Government,All Levels,14.3
+2016,SA,Non-Government,Primary School,16.0
+2016,SA,Non-Government,Secondary School,11.3
+2016,SA,Non-Government,All Levels,13.6
+2016,SA,Catholic,Primary School,16.9
+2016,SA,Catholic,Secondary School,12.2
+2016,SA,Catholic,All Levels,14.5
+2016,SA,Independent,Primary School,15.2
+2016,SA,Independent,Secondary School,10.6
+2016,SA,Independent,All Levels,12.8
+2016,SA,All sectors,Primary School,15.3
+2016,SA,All sectors,Secondary School,12.5
+2016,SA,All sectors,All Levels,14.1
+2016,WA,Government,Primary School,15.4
+2016,WA,Government,Secondary School,12.6
+2016,WA,Government,All Levels,14.3
+2016,WA,Non-Government,Primary School,15.3
+2016,WA,Non-Government,Secondary School,11.9
+2016,WA,Non-Government,All Levels,13.3
+2016,WA,Catholic,Primary School,16.8
+2016,WA,Catholic,Secondary School,12.9
+2016,WA,Catholic,All Levels,14.6
+2016,WA,Independent,Primary School,13.7
+2016,WA,Independent,Secondary School,11.0
+2016,WA,Independent,All Levels,12.0
+2016,WA,All sectors,Primary School,15.4
+2016,WA,All sectors,Secondary School,12.3
+2016,WA,All sectors,All Levels,13.9
+2016,TAS,Government,Primary School,15.0
+2016,TAS,Government,Secondary School,13.2
+2016,TAS,Government,All Levels,14.2
+2016,TAS,Non-Government,Primary School,15.3
+2016,TAS,Non-Government,Secondary School,11.4
+2016,TAS,Non-Government,All Levels,13.0
+2016,TAS,Catholic,Primary School,17.2
+2016,TAS,Catholic,Secondary School,12.9
+2016,TAS,Catholic,All Levels,14.8
+2016,TAS,Independent,Primary School,12.7
+2016,TAS,Independent,Secondary School,9.6
+2016,TAS,Independent,All Levels,10.8
+2016,TAS,All sectors,Primary School,15.1
+2016,TAS,All sectors,Secondary School,12.5
+2016,TAS,All sectors,All Levels,13.8
+2016,NT,Government,Primary School,12.6
+2016,NT,Government,Secondary School,11.9
+2016,NT,Government,All Levels,12.3
+2016,NT,Non-Government,Primary School,14.7
+2016,NT,Non-Government,Secondary School,10.3
+2016,NT,Non-Government,All Levels,12.1
+2016,NT,Catholic,Primary School,15.0
+2016,NT,Catholic,Secondary School,10.7
+2016,NT,Catholic,All Levels,12.6
+2016,NT,Independent,Primary School,14.4
+2016,NT,Independent,Secondary School,10.0
+2016,NT,Independent,All Levels,11.7
+2016,NT,All sectors,Primary School,13.0
+2016,NT,All sectors,Secondary School,11.2
+2016,NT,All sectors,All Levels,12.2
+2016,ACT,Government,Primary School,14.7
+2016,ACT,Government,Secondary School,11.8
+2016,ACT,Government,All Levels,13.3
+2016,ACT,Non-Government,Primary School,16.0
+2016,ACT,Non-Government,Secondary School,12.1
+2016,ACT,Non-Government,All Levels,13.8
+2016,ACT,Catholic,Primary School,17.7
+2016,ACT,Catholic,Secondary School,13.1
+2016,ACT,Catholic,All Levels,15.1
+2016,ACT,Independent,Primary School,13.6
+2016,ACT,Independent,Secondary School,10.6
+2016,ACT,Independent,All Levels,11.9
+2016,ACT,All sectors,Primary School,15.1
+2016,ACT,All sectors,Secondary School,11.9
+2016,ACT,All sectors,All Levels,13.5
+2016,Australia,Government,Primary School,15.0
+2016,Australia,Government,Secondary School,12.6
+2016,Australia,Government,All Levels,14.0
+2016,Australia,Non-Government,Primary School,15.5
+2016,Australia,Non-Government,Secondary School,11.5
+2016,Australia,Non-Government,All Levels,13.2
+2016,Australia,Catholic,Primary School,16.6
+2016,Australia,Catholic,Secondary School,12.6
+2016,Australia,Catholic,All Levels,14.4
+2016,Australia,Independent,Primary School,14.0
+2016,Australia,Independent,Secondary School,10.4
+2016,Australia,Independent,All Levels,11.8
+2016,Australia,All sectors,Primary School,15.2
+2016,Australia,All sectors,Secondary School,12.1
+2016,Australia,All sectors,All Levels,13.7
+2015,NSW,Government,Primary School,15.8
+2015,NSW,Government,Secondary School,12.5
+2015,NSW,Government,All Levels,14.3
+2015,NSW,Non-Government,Primary School,16.3
+2015,NSW,Non-Government,Secondary School,11.7
+2015,NSW,Non-Government,All Levels,13.6
+2015,NSW,Catholic,Primary School,17.9
+2015,NSW,Catholic,Secondary School,13.0
+2015,NSW,Catholic,All Levels,15.1
+2015,NSW,Independent,Primary School,14.0
+2015,NSW,Independent,Secondary School,10.2
+2015,NSW,Independent,All Levels,11.7
+2015,NSW,All sectors,Primary School,15.9
+2015,NSW,All sectors,Secondary School,12.1
+2015,NSW,All sectors,All Levels,14.0
+2015,VIC,Government,Primary School,15.3
+2015,VIC,Government,Secondary School,12.6
+2015,VIC,Government,All Levels,14.1
+2015,VIC,Non-Government,Primary School,14.5
+2015,VIC,Non-Government,Secondary School,11.1
+2015,VIC,Non-Government,All Levels,12.5
+2015,VIC,Catholic,Primary School,15.5
+2015,VIC,Catholic,Secondary School,12.6
+2015,VIC,Catholic,All Levels,14.0
+2015,VIC,Independent,Primary School,12.9
+2015,VIC,Independent,Secondary School,9.6
+2015,VIC,Independent,All Levels,10.7
+2015,VIC,All sectors,Primary School,15.1
+2015,VIC,All sectors,Secondary School,11.9
+2015,VIC,All sectors,All Levels,13.5
+2015,QLD,Government,Primary School,14.8
+2015,QLD,Government,Secondary School,12.7
+2015,QLD,Government,All Levels,13.9
+2015,QLD,Non-Government,Primary School,16.5
+2015,QLD,Non-Government,Secondary School,12.4
+2015,QLD,Non-Government,All Levels,14.2
+2015,QLD,Catholic,Primary School,17.2
+2015,QLD,Catholic,Secondary School,12.8
+2015,QLD,Catholic,All Levels,14.8
+2015,QLD,Independent,Primary School,15.5
+2015,QLD,Independent,Secondary School,12.1
+2015,QLD,Independent,All Levels,13.4
+2015,QLD,All sectors,Primary School,15.2
+2015,QLD,All sectors,Secondary School,12.6
+2015,QLD,All sectors,All Levels,14.0
+2015,SA,Government,Primary School,14.9
+2015,SA,Government,Secondary School,13.2
+2015,SA,Government,All Levels,14.2
+2015,SA,Non-Government,Primary School,16.2
+2015,SA,Non-Government,Secondary School,11.5
+2015,SA,Non-Government,All Levels,13.8
+2015,SA,Catholic,Primary School,17.0
+2015,SA,Catholic,Secondary School,12.3
+2015,SA,Catholic,All Levels,14.7
+2015,SA,Independent,Primary School,15.4
+2015,SA,Independent,Secondary School,10.7
+2015,SA,Independent,All Levels,12.9
+2015,SA,All sectors,Primary School,15.3
+2015,SA,All sectors,Secondary School,12.5
+2015,SA,All sectors,All Levels,14.1
+2015,WA,Government,Primary School,15.7
+2015,WA,Government,Secondary School,13.4
+2015,WA,Government,All Levels,14.8
+2015,WA,Non-Government,Primary School,15.5
+2015,WA,Non-Government,Secondary School,12.1
+2015,WA,Non-Government,All Levels,13.5
+2015,WA,Catholic,Primary School,17.3
+2015,WA,Catholic,Secondary School,13.0
+2015,WA,Catholic,All Levels,14.9
+2015,WA,Independent,Primary School,13.7
+2015,WA,Independent,Secondary School,11.2
+2015,WA,Independent,All Levels,12.2
+2015,WA,All sectors,Primary School,15.7
+2015,WA,All sectors,Secondary School,12.8
+2015,WA,All sectors,All Levels,14.3
+2015,TAS,Government,Primary School,15.4
+2015,TAS,Government,Secondary School,13.4
+2015,TAS,Government,All Levels,14.5
+2015,TAS,Non-Government,Primary School,15.5
+2015,TAS,Non-Government,Secondary School,11.4
+2015,TAS,Non-Government,All Levels,13.1
+2015,TAS,Catholic,Primary School,17.6
+2015,TAS,Catholic,Secondary School,13.1
+2015,TAS,Catholic,All Levels,15.1
+2015,TAS,Independent,Primary School,12.8
+2015,TAS,Independent,Secondary School,9.5
+2015,TAS,Independent,All Levels,10.8
+2015,TAS,All sectors,Primary School,15.5
+2015,TAS,All sectors,Secondary School,12.6
+2015,TAS,All sectors,All Levels,14.1
+2015,NT,Government,Primary School,13.0
+2015,NT,Government,Secondary School,11.9
+2015,NT,Government,All Levels,12.6
+2015,NT,Non-Government,Primary School,15.5
+2015,NT,Non-Government,Secondary School,10.5
+2015,NT,Non-Government,All Levels,12.5
+2015,NT,Catholic,Primary School,15.1
+2015,NT,Catholic,Secondary School,10.7
+2015,NT,Catholic,All Levels,12.7
+2015,NT,Independent,Primary School,15.9
+2015,NT,Independent,Secondary School,10.4
+2015,NT,Independent,All Levels,12.2
+2015,NT,All sectors,Primary School,13.5
+2015,NT,All sectors,Secondary School,11.4
+2015,NT,All sectors,All Levels,12.6
+2015,ACT,Government,Primary School,14.6
+2015,ACT,Government,Secondary School,11.6
+2015,ACT,Government,All Levels,13.1
+2015,ACT,Non-Government,Primary School,16.1
+2015,ACT,Non-Government,Secondary School,12.1
+2015,ACT,Non-Government,All Levels,13.9
+2015,ACT,Catholic,Primary School,17.8
+2015,ACT,Catholic,Secondary School,13.2
+2015,ACT,Catholic,All Levels,15.3
+2015,ACT,Independent,Primary School,13.4
+2015,ACT,Independent,Secondary School,10.6
+2015,ACT,Independent,All Levels,11.8
+2015,ACT,All sectors,Primary School,15.1
+2015,ACT,All sectors,Secondary School,11.8
+2015,ACT,All sectors,All Levels,13.4
+2015,Australia,Government,Primary School,15.3
+2015,Australia,Government,Secondary School,12.7
+2015,Australia,Government,All Levels,14.2
+2015,Australia,Non-Government,Primary School,15.7
+2015,Australia,Non-Government,Secondary School,11.7
+2015,Australia,Non-Government,All Levels,13.4
+2015,Australia,Catholic,Primary School,16.9
+2015,Australia,Catholic,Secondary School,12.8
+2015,Australia,Catholic,All Levels,14.7
+2015,Australia,Independent,Primary School,14.1
+2015,Australia,Independent,Secondary School,10.5
+2015,Australia,Independent,All Levels,11.9
+2015,Australia,All sectors,Primary School,15.4
+2015,Australia,All sectors,Secondary School,12.3
+2015,Australia,All sectors,All Levels,13.9
+2014,NSW,Government,Primary School,15.6
+2014,NSW,Government,Secondary School,12.4
+2014,NSW,Government,All Levels,14.2
+2014,NSW,Non-Government,Primary School,16.6
+2014,NSW,Non-Government,Secondary School,11.8
+2014,NSW,Non-Government,All Levels,13.8
+2014,NSW,Catholic,Primary School,18.2
+2014,NSW,Catholic,Secondary School,13.1
+2014,NSW,Catholic,All Levels,15.3
+2014,NSW,Independent,Primary School,14.3
+2014,NSW,Independent,Secondary School,10.3
+2014,NSW,Independent,All Levels,11.8
+2014,NSW,All sectors,Primary School,15.9
+2014,NSW,All sectors,Secondary School,12.2
+2014,NSW,All sectors,All Levels,14.0
+2014,VIC,Government,Primary School,15.3
+2014,VIC,Government,Secondary School,12.5
+2014,VIC,Government,All Levels,14.0
+2014,VIC,Non-Government,Primary School,14.6
+2014,VIC,Non-Government,Secondary School,11.1
+2014,VIC,Non-Government,All Levels,12.6
+2014,VIC,Catholic,Primary School,15.7
+2014,VIC,Catholic,Secondary School,12.7
+2014,VIC,Catholic,All Levels,14.1
+2014,VIC,Independent,Primary School,12.9
+2014,VIC,Independent,Secondary School,9.6
+2014,VIC,Independent,All Levels,10.7
+2014,VIC,All sectors,Primary School,15.1
+2014,VIC,All sectors,Secondary School,11.9
+2014,VIC,All sectors,All Levels,13.5
+2014,QLD,Government,Primary School,15.3
+2014,QLD,Government,Secondary School,12.5
+2014,QLD,Government,All Levels,14.2
+2014,QLD,Non-Government,Primary School,17.4
+2014,QLD,Non-Government,Secondary School,12.2
+2014,QLD,Non-Government,All Levels,14.6
+2014,QLD,Catholic,Primary School,17.9
+2014,QLD,Catholic,Secondary School,12.6
+2014,QLD,Catholic,All Levels,15.3
+2014,QLD,Independent,Primary School,16.8
+2014,QLD,Independent,Secondary School,11.7
+2014,QLD,Independent,All Levels,13.9
+2014,QLD,All sectors,Primary School,15.9
+2014,QLD,All sectors,Secondary School,12.4
+2014,QLD,All sectors,All Levels,14.3
+2014,SA,Government,Primary School,14.9
+2014,SA,Government,Secondary School,13.1
+2014,SA,Government,All Levels,14.2
+2014,SA,Non-Government,Primary School,16.1
+2014,SA,Non-Government,Secondary School,11.7
+2014,SA,Non-Government,All Levels,13.9
+2014,SA,Catholic,Primary School,17.1
+2014,SA,Catholic,Secondary School,12.7
+2014,SA,Catholic,All Levels,14.9
+2014,SA,Independent,Primary School,15.1
+2014,SA,Independent,Secondary School,10.9
+2014,SA,Independent,All Levels,12.9
+2014,SA,All sectors,Primary School,15.3
+2014,SA,All sectors,Secondary School,12.5
+2014,SA,All sectors,All Levels,14.1
+2014,WA,Government,Primary School,16.2
+2014,WA,Government,Secondary School,12.6
+2014,WA,Government,All Levels,14.9
+2014,WA,Non-Government,Primary School,16.8
+2014,WA,Non-Government,Secondary School,10.7
+2014,WA,Non-Government,All Levels,13.5
+2014,WA,Catholic,Primary School,17.6
+2014,WA,Catholic,Secondary School,11.9
+2014,WA,Catholic,All Levels,14.8
+2014,WA,Independent,Primary School,15.9
+2014,WA,Independent,Secondary School,9.8
+2014,WA,Independent,All Levels,12.4
+2014,WA,All sectors,Primary School,16.4
+2014,WA,All sectors,Secondary School,11.7
+2014,WA,All sectors,All Levels,14.4
+2014,TAS,Government,Primary School,14.8
+2014,TAS,Government,Secondary School,13.1
+2014,TAS,Government,All Levels,14.0
+2014,TAS,Non-Government,Primary School,16.0
+2014,TAS,Non-Government,Secondary School,11.5
+2014,TAS,Non-Government,All Levels,13.3
+2014,TAS,Catholic,Primary School,18.3
+2014,TAS,Catholic,Secondary School,13.1
+2014,TAS,Catholic,All Levels,15.4
+2014,TAS,Independent,Primary School,13.0
+2014,TAS,Independent,Secondary School,9.7
+2014,TAS,Independent,All Levels,11.0
+2014,TAS,All sectors,Primary School,15.1
+2014,TAS,All sectors,Secondary School,12.5
+2014,TAS,All sectors,All Levels,13.8
+2014,NT,Government,Primary School,12.2
+2014,NT,Government,Secondary School,11.5
+2014,NT,Government,All Levels,11.9
+2014,NT,Non-Government,Primary School,15.3
+2014,NT,Non-Government,Secondary School,10.5
+2014,NT,Non-Government,All Levels,12.4
+2014,NT,Catholic,Primary School,15.0
+2014,NT,Catholic,Secondary School,11.2
+2014,NT,Catholic,All Levels,13.1
+2014,NT,Independent,Primary School,15.6
+2014,NT,Independent,Secondary School,10.1
+2014,NT,Independent,All Levels,11.9
+2014,NT,All sectors,Primary School,12.8
+2014,NT,All sectors,Secondary School,11.1
+2014,NT,All sectors,All Levels,12.1
+2014,ACT,Government,Primary School,13.3
+2014,ACT,Government,Secondary School,12.1
+2014,ACT,Government,All Levels,12.7
+2014,ACT,Non-Government,Primary School,16.5
+2014,ACT,Non-Government,Secondary School,12.2
+2014,ACT,Non-Government,All Levels,14.1
+2014,ACT,Catholic,Primary School,18.2
+2014,ACT,Catholic,Secondary School,13.1
+2014,ACT,Catholic,All Levels,15.3
+2014,ACT,Independent,Primary School,13.8
+2014,ACT,Independent,Secondary School,11.0
+2014,ACT,Independent,All Levels,12.2
+2014,ACT,All sectors,Primary School,14.4
+2014,ACT,All sectors,Secondary School,12.1
+2014,ACT,All sectors,All Levels,13.3
+2014,Australia,Government,Primary School,15.4
+2014,Australia,Government,Secondary School,12.5
+2014,Australia,Government,All Levels,14.2
+2014,Australia,Non-Government,Primary School,16.2
+2014,Australia,Non-Government,Secondary School,11.5
+2014,Australia,Non-Government,All Levels,13.6
+2014,Australia,Catholic,Primary School,17.2
+2014,Australia,Catholic,Secondary School,12.8
+2014,Australia,Catholic,All Levels,14.9
+2014,Australia,Independent,Primary School,14.7
+2014,Australia,Independent,Secondary School,10.3
+2014,Australia,Independent,All Levels,12.1
+2014,Australia,All sectors,Primary School,15.6
+2014,Australia,All sectors,Secondary School,12.1
+2014,Australia,All sectors,All Levels,13.9
+2013,NSW,Government,Primary School,15.5
+2013,NSW,Government,Secondary School,12.3
+2013,NSW,Government,All Levels,14.0
+2013,NSW,Non-Government,Primary School,16.4
+2013,NSW,Non-Government,Secondary School,11.8
+2013,NSW,Non-Government,All Levels,13.7
+2013,NSW,Catholic,Primary School,17.9
+2013,NSW,Catholic,Secondary School,13.0
+2013,NSW,Catholic,All Levels,15.1
+2013,NSW,Independent,Primary School,14.2
+2013,NSW,Independent,Secondary School,10.3
+2013,NSW,Independent,All Levels,11.8
+2013,NSW,All sectors,Primary School,15.7
+2013,NSW,All sectors,Secondary School,12.1
+2013,NSW,All sectors,All Levels,13.9
+2013,VIC,Government,Primary School,15.3
+2013,VIC,Government,Secondary School,12.2
+2013,VIC,Government,All Levels,13.9
+2013,VIC,Non-Government,Primary School,14.6
+2013,VIC,Non-Government,Secondary School,11.1
+2013,VIC,Non-Government,All Levels,12.6
+2013,VIC,Catholic,Primary School,15.7
+2013,VIC,Catholic,Secondary School,12.7
+2013,VIC,Catholic,All Levels,14.1
+2013,VIC,Independent,Primary School,12.8
+2013,VIC,Independent,Secondary School,9.6
+2013,VIC,Independent,All Levels,10.7
+2013,VIC,All sectors,Primary School,15.1
+2013,VIC,All sectors,Secondary School,11.7
+2013,VIC,All sectors,All Levels,13.4
+2013,QLD,Government,Primary School,15.8
+2013,QLD,Government,Secondary School,12.6
+2013,QLD,Government,All Levels,14.5
+2013,QLD,Non-Government,Primary School,17.4
+2013,QLD,Non-Government,Secondary School,12.2
+2013,QLD,Non-Government,All Levels,14.7
+2013,QLD,Catholic,Primary School,17.9
+2013,QLD,Catholic,Secondary School,12.8
+2013,QLD,Catholic,All Levels,15.4
+2013,QLD,Independent,Primary School,16.7
+2013,QLD,Independent,Secondary School,11.7
+2013,QLD,Independent,All Levels,13.8
+2013,QLD,All sectors,Primary School,16.2
+2013,QLD,All sectors,Secondary School,12.4
+2013,QLD,All sectors,All Levels,14.5
+2013,SA,Government,Primary School,14.9
+2013,SA,Government,Secondary School,13.2
+2013,SA,Government,All Levels,14.2
+2013,SA,Non-Government,Primary School,15.8
+2013,SA,Non-Government,Secondary School,11.6
+2013,SA,Non-Government,All Levels,13.7
+2013,SA,Catholic,Primary School,16.5
+2013,SA,Catholic,Secondary School,12.3
+2013,SA,Catholic,All Levels,14.5
+2013,SA,Independent,Primary School,15.2
+2013,SA,Independent,Secondary School,10.9
+2013,SA,Independent,All Levels,13.0
+2013,SA,All sectors,Primary School,15.2
+2013,SA,All sectors,Secondary School,12.5
+2013,SA,All sectors,All Levels,14.0
+2013,WA,Government,Primary School,15.8
+2013,WA,Government,Secondary School,12.0
+2013,WA,Government,All Levels,14.4
+2013,WA,Non-Government,Primary School,16.9
+2013,WA,Non-Government,Secondary School,10.7
+2013,WA,Non-Government,All Levels,13.6
+2013,WA,Catholic,Primary School,17.7
+2013,WA,Catholic,Secondary School,11.8
+2013,WA,Catholic,All Levels,14.8
+2013,WA,Independent,Primary School,16.0
+2013,WA,Independent,Secondary School,9.9
+2013,WA,Independent,All Levels,12.4
+2013,WA,All sectors,Primary School,16.1
+2013,WA,All sectors,Secondary School,11.5
+2013,WA,All sectors,All Levels,14.1
+2013,TAS,Government,Primary School,14.6
+2013,TAS,Government,Secondary School,13.2
+2013,TAS,Government,All Levels,14.0
+2013,TAS,Non-Government,Primary School,15.9
+2013,TAS,Non-Government,Secondary School,11.5
+2013,TAS,Non-Government,All Levels,13.3
+2013,TAS,Catholic,Primary School,18.2
+2013,TAS,Catholic,Secondary School,13.0
+2013,TAS,Catholic,All Levels,15.3
+2013,TAS,Independent,Primary School,13.0
+2013,TAS,Independent,Secondary School,9.9
+2013,TAS,Independent,All Levels,11.1
+2013,TAS,All sectors,Primary School,14.9
+2013,TAS,All sectors,Secondary School,12.6
+2013,TAS,All sectors,All Levels,13.8
+2013,NT,Government,Primary School,12.1
+2013,NT,Government,Secondary School,11.0
+2013,NT,Government,All Levels,11.7
+2013,NT,Non-Government,Primary School,15.5
+2013,NT,Non-Government,Secondary School,10.9
+2013,NT,Non-Government,All Levels,12.7
+2013,NT,Catholic,Primary School,14.9
+2013,NT,Catholic,Secondary School,10.2
+2013,NT,Catholic,All Levels,12.5
+2013,NT,Independent,Primary School,16.2
+2013,NT,Independent,Secondary School,11.3
+2013,NT,Independent,All Levels,12.9
+2013,NT,All sectors,Primary School,12.7
+2013,NT,All sectors,Secondary School,11.0
+2013,NT,All sectors,All Levels,12.0
+2013,ACT,Government,Primary School,13.1
+2013,ACT,Government,Secondary School,11.9
+2013,ACT,Government,All Levels,12.6
+2013,ACT,Non-Government,Primary School,16.9
+2013,ACT,Non-Government,Secondary School,12.6
+2013,ACT,Non-Government,All Levels,14.4
+2013,ACT,Catholic,Primary School,18.4
+2013,ACT,Catholic,Secondary School,13.6
+2013,ACT,Catholic,All Levels,15.7
+2013,ACT,Independent,Primary School,14.4
+2013,ACT,Independent,Secondary School,11.0
+2013,ACT,Independent,All Levels,12.4
+2013,ACT,All sectors,Primary School,14.4
+2013,ACT,All sectors,Secondary School,12.2
+2013,ACT,All sectors,All Levels,13.3
+2013,Australia,Government,Primary School,15.4
+2013,Australia,Government,Secondary School,12.4
+2013,Australia,Government,All Levels,14.1
+2013,Australia,Non-Government,Primary School,16.1
+2013,Australia,Non-Government,Secondary School,11.5
+2013,Australia,Non-Government,All Levels,13.6
+2013,Australia,Catholic,Primary School,17.2
+2013,Australia,Catholic,Secondary School,12.7
+2013,Australia,Catholic,All Levels,14.8
+2013,Australia,Independent,Primary School,14.7
+2013,Australia,Independent,Secondary School,10.4
+2013,Australia,Independent,All Levels,12.1
+2013,Australia,All sectors,Primary School,15.6
+2013,Australia,All sectors,Secondary School,12.0
+2013,Australia,All sectors,All Levels,13.9
+2012,NSW,Government,Primary School,15.5
+2012,NSW,Government,Secondary School,12.4
+2012,NSW,Government,All Levels,14.1
+2012,NSW,Non-Government,Primary School,16.5
+2012,NSW,Non-Government,Secondary School,11.8
+2012,NSW,Non-Government,All Levels,13.7
+2012,NSW,Catholic,Primary School,18.2
+2012,NSW,Catholic,Secondary School,13.0
+2012,NSW,Catholic,All Levels,15.2
+2012,NSW,Independent,Primary School,14.0
+2012,NSW,Independent,Secondary School,10.3
+2012,NSW,Independent,All Levels,11.8
+2012,NSW,All sectors,Primary School,15.8
+2012,NSW,All sectors,Secondary School,12.2
+2012,NSW,All sectors,All Levels,14.0
+2012,VIC,Government,Primary School,15.0
+2012,VIC,Government,Secondary School,11.9
+2012,VIC,Government,All Levels,13.5
+2012,VIC,Non-Government,Primary School,14.8
+2012,VIC,Non-Government,Secondary School,11.1
+2012,VIC,Non-Government,All Levels,12.6
+2012,VIC,Catholic,Primary School,16.0
+2012,VIC,Catholic,Secondary School,12.6
+2012,VIC,Catholic,All Levels,14.2
+2012,VIC,Independent,Primary School,12.7
+2012,VIC,Independent,Secondary School,9.6
+2012,VIC,Independent,All Levels,10.6
+2012,VIC,All sectors,Primary School,14.9
+2012,VIC,All sectors,Secondary School,11.5
+2012,VIC,All sectors,All Levels,13.2
+2012,QLD,Government,Primary School,15.4
+2012,QLD,Government,Secondary School,12.5
+2012,QLD,Government,All Levels,14.2
+2012,QLD,Non-Government,Primary School,17.4
+2012,QLD,Non-Government,Secondary School,12.2
+2012,QLD,Non-Government,All Levels,14.6
+2012,QLD,Catholic,Primary School,18.0
+2012,QLD,Catholic,Secondary School,12.8
+2012,QLD,Catholic,All Levels,15.4
+2012,QLD,Independent,Primary School,16.7
+2012,QLD,Independent,Secondary School,11.6
+2012,QLD,Independent,All Levels,13.8
+2012,QLD,All sectors,Primary School,16.0
+2012,QLD,All sectors,Secondary School,12.4
+2012,QLD,All sectors,All Levels,14.4
+2012,SA,Government,Primary School,14.9
+2012,SA,Government,Secondary School,13.2
+2012,SA,Government,All Levels,14.2
+2012,SA,Non-Government,Primary School,15.9
+2012,SA,Non-Government,Secondary School,11.7
+2012,SA,Non-Government,All Levels,13.8
+2012,SA,Catholic,Primary School,16.4
+2012,SA,Catholic,Secondary School,12.4
+2012,SA,Catholic,All Levels,14.4
+2012,SA,Independent,Primary School,15.3
+2012,SA,Independent,Secondary School,11.0
+2012,SA,Independent,All Levels,13.1
+2012,SA,All sectors,Primary School,15.2
+2012,SA,All sectors,Secondary School,12.6
+2012,SA,All sectors,All Levels,14.1
+2012,WA,Government,Primary School,15.9
+2012,WA,Government,Secondary School,11.7
+2012,WA,Government,All Levels,14.3
+2012,WA,Non-Government,Primary School,17.1
+2012,WA,Non-Government,Secondary School,10.8
+2012,WA,Non-Government,All Levels,13.7
+2012,WA,Catholic,Primary School,17.9
+2012,WA,Catholic,Secondary School,11.9
+2012,WA,Catholic,All Levels,14.9
+2012,WA,Independent,Primary School,16.2
+2012,WA,Independent,Secondary School,9.9
+2012,WA,Independent,All Levels,12.5
+2012,WA,All sectors,Primary School,16.2
+2012,WA,All sectors,Secondary School,11.3
+2012,WA,All sectors,All Levels,14.1
+2012,TAS,Government,Primary School,14.5
+2012,TAS,Government,Secondary School,13.1
+2012,TAS,Government,All Levels,13.9
+2012,TAS,Non-Government,Primary School,15.6
+2012,TAS,Non-Government,Secondary School,11.6
+2012,TAS,Non-Government,All Levels,13.2
+2012,TAS,Catholic,Primary School,18.1
+2012,TAS,Catholic,Secondary School,13.1
+2012,TAS,Catholic,All Levels,15.3
+2012,TAS,Independent,Primary School,12.5
+2012,TAS,Independent,Secondary School,9.9
+2012,TAS,Independent,All Levels,10.9
+2012,TAS,All sectors,Primary School,14.8
+2012,TAS,All sectors,Secondary School,12.6
+2012,TAS,All sectors,All Levels,13.7
+2012,NT,Government,Primary School,11.5
+2012,NT,Government,Secondary School,10.3
+2012,NT,Government,All Levels,11.0
+2012,NT,Non-Government,Primary School,15.7
+2012,NT,Non-Government,Secondary School,10.3
+2012,NT,Non-Government,All Levels,12.4
+2012,NT,Catholic,Primary School,15.3
+2012,NT,Catholic,Secondary School,9.2
+2012,NT,Catholic,All Levels,12.1
+2012,NT,Independent,Primary School,16.3
+2012,NT,Independent,Secondary School,11.0
+2012,NT,Independent,All Levels,12.7
+2012,NT,All sectors,Primary School,12.2
+2012,NT,All sectors,Secondary School,10.3
+2012,NT,All sectors,All Levels,11.4
+2012,ACT,Government,Primary School,13.8
+2012,ACT,Government,Secondary School,11.8
+2012,ACT,Government,All Levels,12.9
+2012,ACT,Non-Government,Primary School,17.0
+2012,ACT,Non-Government,Secondary School,12.5
+2012,ACT,Non-Government,All Levels,14.4
+2012,ACT,Catholic,Primary School,18.5
+2012,ACT,Catholic,Secondary School,13.8
+2012,ACT,Catholic,All Levels,15.8
+2012,ACT,Independent,Primary School,14.6
+2012,ACT,Independent,Secondary School,10.8
+2012,ACT,Independent,All Levels,12.3
+2012,ACT,All sectors,Primary School,14.9
+2012,ACT,All sectors,Secondary School,12.1
+2012,ACT,All sectors,All Levels,13.5
+2012,Australia,Government,Primary School,15.2
+2012,Australia,Government,Secondary School,12.3
+2012,Australia,Government,All Levels,13.9
+2012,Australia,Non-Government,Primary School,16.2
+2012,Australia,Non-Government,Secondary School,11.5
+2012,Australia,Non-Government,All Levels,13.6
+2012,Australia,Catholic,Primary School,17.4
+2012,Australia,Catholic,Secondary School,12.7
+2012,Australia,Catholic,All Levels,14.9
+2012,Australia,Independent,Primary School,14.6
+2012,Australia,Independent,Secondary School,10.3
+2012,Australia,Independent,All Levels,12.0
+2012,Australia,All sectors,Primary School,15.5
+2012,Australia,All sectors,Secondary School,12.0
+2012,Australia,All sectors,All Levels,13.8
+2011,NSW,Government,Primary School,15.5
+2011,NSW,Government,Secondary School,12.5
+2011,NSW,Government,All Levels,14.1
+2011,NSW,Non-Government,Primary School,16.6
+2011,NSW,Non-Government,Secondary School,11.8
+2011,NSW,Non-Government,All Levels,13.8
+2011,NSW,Catholic,Primary School,18.2
+2011,NSW,Catholic,Secondary School,13.0
+2011,NSW,Catholic,All Levels,15.3
+2011,NSW,Independent,Primary School,14.2
+2011,NSW,Independent,Secondary School,10.3
+2011,NSW,Independent,All Levels,11.8
+2011,NSW,All sectors,Primary School,15.9
+2011,NSW,All sectors,Secondary School,12.2
+2011,NSW,All sectors,All Levels,14.0
+2011,VIC,Government,Primary School,15.4
+2011,VIC,Government,Secondary School,11.7
+2011,VIC,Government,All Levels,13.6
+2011,VIC,Non-Government,Primary School,14.9
+2011,VIC,Non-Government,Secondary School,11.1
+2011,VIC,Non-Government,All Levels,12.7
+2011,VIC,Catholic,Primary School,16.3
+2011,VIC,Catholic,Secondary School,12.6
+2011,VIC,Catholic,All Levels,14.4
+2011,VIC,Independent,Primary School,12.6
+2011,VIC,Independent,Secondary School,9.7
+2011,VIC,Independent,All Levels,10.7
+2011,VIC,All sectors,Primary School,15.2
+2011,VIC,All sectors,Secondary School,11.5
+2011,VIC,All sectors,All Levels,13.3
+2011,QLD,Government,Primary School,15.3
+2011,QLD,Government,Secondary School,12.5
+2011,QLD,Government,All Levels,14.2
+2011,QLD,Non-Government,Primary School,17.5
+2011,QLD,Non-Government,Secondary School,12.2
+2011,QLD,Non-Government,All Levels,14.7
+2011,QLD,Catholic,Primary School,18.2
+2011,QLD,Catholic,Secondary School,12.8
+2011,QLD,Catholic,All Levels,15.5
+2011,QLD,Independent,Primary School,16.7
+2011,QLD,Independent,Secondary School,11.7
+2011,QLD,Independent,All Levels,13.8
+2011,QLD,All sectors,Primary School,15.9
+2011,QLD,All sectors,Secondary School,12.4
+2011,QLD,All sectors,All Levels,14.4
+2011,SA,Government,Primary School,14.9
+2011,SA,Government,Secondary School,13.4
+2011,SA,Government,All Levels,14.3
+2011,SA,Non-Government,Primary School,16.1
+2011,SA,Non-Government,Secondary School,11.7
+2011,SA,Non-Government,All Levels,13.8
+2011,SA,Catholic,Primary School,16.5
+2011,SA,Catholic,Secondary School,12.3
+2011,SA,Catholic,All Levels,14.4
+2011,SA,Independent,Primary School,15.6
+2011,SA,Independent,Secondary School,11.1
+2011,SA,Independent,All Levels,13.2
+2011,SA,All sectors,Primary School,15.3
+2011,SA,All sectors,Secondary School,12.7
+2011,SA,All sectors,All Levels,14.1
+2011,WA,Government,Primary School,15.6
+2011,WA,Government,Secondary School,11.4
+2011,WA,Government,All Levels,14.0
+2011,WA,Non-Government,Primary School,17.1
+2011,WA,Non-Government,Secondary School,10.9
+2011,WA,Non-Government,All Levels,13.8
+2011,WA,Catholic,Primary School,17.8
+2011,WA,Catholic,Secondary School,12.2
+2011,WA,Catholic,All Levels,15.0
+2011,WA,Independent,Primary School,16.4
+2011,WA,Independent,Secondary School,10.0
+2011,WA,Independent,All Levels,12.6
+2011,WA,All sectors,Primary School,16.0
+2011,WA,All sectors,Secondary School,11.2
+2011,WA,All sectors,All Levels,13.9
+2011,TAS,Government,Primary School,14.3
+2011,TAS,Government,Secondary School,13.0
+2011,TAS,Government,All Levels,13.7
+2011,TAS,Non-Government,Primary School,16.1
+2011,TAS,Non-Government,Secondary School,11.5
+2011,TAS,Non-Government,All Levels,13.3
+2011,TAS,Catholic,Primary School,18.2
+2011,TAS,Catholic,Secondary School,13.0
+2011,TAS,Catholic,All Levels,15.3
+2011,TAS,Independent,Primary School,13.1
+2011,TAS,Independent,Secondary School,9.9
+2011,TAS,Independent,All Levels,11.1
+2011,TAS,All sectors,Primary School,14.7
+2011,TAS,All sectors,Secondary School,12.5
+2011,TAS,All sectors,All Levels,13.6
+2011,NT,Government,Primary School,11.8
+2011,NT,Government,Secondary School,10.5
+2011,NT,Government,All Levels,11.3
+2011,NT,Non-Government,Primary School,15.5
+2011,NT,Non-Government,Secondary School,10.5
+2011,NT,Non-Government,All Levels,12.5
+2011,NT,Catholic,Primary School,15.1
+2011,NT,Catholic,Secondary School,10.4
+2011,NT,Catholic,All Levels,12.8
+2011,NT,Independent,Primary School,15.9
+2011,NT,Independent,Secondary School,10.5
+2011,NT,Independent,All Levels,12.3
+2011,NT,All sectors,Primary School,12.4
+2011,NT,All sectors,Secondary School,10.5
+2011,NT,All sectors,All Levels,11.6
+2011,ACT,Government,Primary School,13.7
+2011,ACT,Government,Secondary School,11.8
+2011,ACT,Government,All Levels,12.8
+2011,ACT,Non-Government,Primary School,17.3
+2011,ACT,Non-Government,Secondary School,12.7
+2011,ACT,Non-Government,All Levels,14.6
+2011,ACT,Catholic,Primary School,18.3
+2011,ACT,Catholic,Secondary School,14.0
+2011,ACT,Catholic,All Levels,15.9
+2011,ACT,Independent,Primary School,15.6
+2011,ACT,Independent,Secondary School,10.9
+2011,ACT,Independent,All Levels,12.7
+2011,ACT,All sectors,Primary School,15.0
+2011,ACT,All sectors,Secondary School,12.2
+2011,ACT,All sectors,All Levels,13.5
+2011,Australia,Government,Primary School,15.3
+2011,Australia,Government,Secondary School,12.2
+2011,Australia,Government,All Levels,13.9
+2011,Australia,Non-Government,Primary School,16.4
+2011,Australia,Non-Government,Secondary School,11.6
+2011,Australia,Non-Government,All Levels,13.6
+2011,Australia,Catholic,Primary School,17.5
+2011,Australia,Catholic,Secondary School,12.8
+2011,Australia,Catholic,All Levels,15.0
+2011,Australia,Independent,Primary School,14.8
+2011,Australia,Independent,Secondary School,10.4
+2011,Australia,Independent,All Levels,12.1
+2011,Australia,All sectors,Primary School,15.6
+2011,Australia,All sectors,Secondary School,12.0
+2011,Australia,All sectors,All Levels,13.8
+2010,NSW,Government,Primary School,15.7
+2010,NSW,Government,Secondary School,12.5
+2010,NSW,Government,All Levels,14.2
+2010,NSW,Non-Government,Primary School,16.7
+2010,NSW,Non-Government,Secondary School,11.9
+2010,NSW,Non-Government,All Levels,13.9
+2010,NSW,Catholic,Primary School,18.3
+2010,NSW,Catholic,Secondary School,13.1
+2010,NSW,Catholic,All Levels,15.3
+2010,NSW,Independent,Primary School,14.4
+2010,NSW,Independent,Secondary School,10.3
+2010,NSW,Independent,All Levels,11.9
+2010,NSW,All sectors,Primary School,16.0
+2010,NSW,All sectors,Secondary School,12.3
+2010,NSW,All sectors,All Levels,14.1
+2010,VIC,Government,Primary School,15.6
+2010,VIC,Government,Secondary School,11.8
+2010,VIC,Government,All Levels,13.8
+2010,VIC,Non-Government,Primary School,15.0
+2010,VIC,Non-Government,Secondary School,11.3
+2010,VIC,Non-Government,All Levels,12.8
+2010,VIC,Catholic,Primary School,16.4
+2010,VIC,Catholic,Secondary School,12.7
+2010,VIC,Catholic,All Levels,14.4
+2010,VIC,Independent,Primary School,12.8
+2010,VIC,Independent,Secondary School,9.9
+2010,VIC,Independent,All Levels,10.9
+2010,VIC,All sectors,Primary School,15.4
+2010,VIC,All sectors,Secondary School,11.6
+2010,VIC,All sectors,All Levels,13.4
+2010,QLD,Government,Primary School,15.4
+2010,QLD,Government,Secondary School,12.6
+2010,QLD,Government,All Levels,14.3
+2010,QLD,Non-Government,Primary School,17.5
+2010,QLD,Non-Government,Secondary School,12.4
+2010,QLD,Non-Government,All Levels,14.8
+2010,QLD,Catholic,Primary School,18.1
+2010,QLD,Catholic,Secondary School,12.9
+2010,QLD,Catholic,All Levels,15.5
+2010,QLD,Independent,Primary School,16.7
+2010,QLD,Independent,Secondary School,11.9
+2010,QLD,Independent,All Levels,13.9
+2010,QLD,All sectors,Primary School,16.0
+2010,QLD,All sectors,Secondary School,12.5
+2010,QLD,All sectors,All Levels,14.4
+2010,SA,Government,Primary School,15.3
+2010,SA,Government,Secondary School,13.0
+2010,SA,Government,All Levels,14.4
+2010,SA,Non-Government,Primary School,16.3
+2010,SA,Non-Government,Secondary School,11.7
+2010,SA,Non-Government,All Levels,13.9
+2010,SA,Catholic,Primary School,16.8
+2010,SA,Catholic,Secondary School,12.1
+2010,SA,Catholic,All Levels,14.5
+2010,SA,Independent,Primary School,15.7
+2010,SA,Independent,Secondary School,11.3
+2010,SA,Independent,All Levels,13.4
+2010,SA,All sectors,Primary School,15.6
+2010,SA,All sectors,Secondary School,12.5
+2010,SA,All sectors,All Levels,14.2
+2010,WA,Government,Primary School,15.4
+2010,WA,Government,Secondary School,11.2
+2010,WA,Government,All Levels,13.8
+2010,WA,Non-Government,Primary School,17.4
+2010,WA,Non-Government,Secondary School,11.0
+2010,WA,Non-Government,All Levels,13.8
+2010,WA,Catholic,Primary School,18.4
+2010,WA,Catholic,Secondary School,12.1
+2010,WA,Catholic,All Levels,15.2
+2010,WA,Independent,Primary School,16.3
+2010,WA,Independent,Secondary School,10.1
+2010,WA,Independent,All Levels,12.5
+2010,WA,All sectors,Primary School,16.0
+2010,WA,All sectors,Secondary School,11.1
+2010,WA,All sectors,All Levels,13.8
+2010,TAS,Government,Primary School,14.3
+2010,TAS,Government,Secondary School,13.1
+2010,TAS,Government,All Levels,13.7
+2010,TAS,Non-Government,Primary School,16.3
+2010,TAS,Non-Government,Secondary School,11.9
+2010,TAS,Non-Government,All Levels,13.7
+2010,TAS,Catholic,Primary School,18.4
+2010,TAS,Catholic,Secondary School,13.4
+2010,TAS,Catholic,All Levels,15.6
+2010,TAS,Independent,Primary School,13.4
+2010,TAS,Independent,Secondary School,10.3
+2010,TAS,Independent,All Levels,11.5
+2010,TAS,All sectors,Primary School,14.7
+2010,TAS,All sectors,Secondary School,12.7
+2010,TAS,All sectors,All Levels,13.7
+2010,NT,Government,Primary School,12.2
+2010,NT,Government,Secondary School,11.0
+2010,NT,Government,All Levels,11.7
+2010,NT,Non-Government,Primary School,15.8
+2010,NT,Non-Government,Secondary School,10.5
+2010,NT,Non-Government,All Levels,12.6
+2010,NT,Catholic,Primary School,15.2
+2010,NT,Catholic,Secondary School,10.9
+2010,NT,Catholic,All Levels,13.1
+2010,NT,Independent,Primary School,16.5
+2010,NT,Independent,Secondary School,10.3
+2010,NT,Independent,All Levels,12.3
+2010,NT,All sectors,Primary School,12.8
+2010,NT,All sectors,Secondary School,10.9
+2010,NT,All sectors,All Levels,11.9
+2010,ACT,Government,Primary School,13.5
+2010,ACT,Government,Secondary School,11.5
+2010,ACT,Government,All Levels,12.5
+2010,ACT,Non-Government,Primary School,17.1
+2010,ACT,Non-Government,Secondary School,13.2
+2010,ACT,Non-Government,All Levels,14.9
+2010,ACT,Catholic,Primary School,18.4
+2010,ACT,Catholic,Secondary School,14.4
+2010,ACT,Catholic,All Levels,16.2
+2010,ACT,Independent,Primary School,14.9
+2010,ACT,Independent,Secondary School,11.4
+2010,ACT,Independent,All Levels,12.8
+2010,ACT,All sectors,Primary School,14.8
+2010,ACT,All sectors,Secondary School,12.2
+2010,ACT,All sectors,All Levels,13.4
+2010,Australia,Government,Primary School,15.4
+2010,Australia,Government,Secondary School,12.3
+2010,Australia,Government,All Levels,14.0
+2010,Australia,Non-Government,Primary School,16.5
+2010,Australia,Non-Government,Secondary School,11.7
+2010,Australia,Non-Government,All Levels,13.7
+2010,Australia,Catholic,Primary School,17.6
+2010,Australia,Catholic,Secondary School,12.8
+2010,Australia,Catholic,All Levels,15.1
+2010,Australia,Independent,Primary School,14.9
+2010,Australia,Independent,Secondary School,10.5
+2010,Australia,Independent,All Levels,12.2
+2010,Australia,All sectors,Primary School,15.7
+2010,Australia,All sectors,Secondary School,12.0
+2010,Australia,All sectors,All Levels,13.9
+2009,NSW,Government,Primary School,15.9
+2009,NSW,Government,Secondary School,12.4
+2009,NSW,Government,All Levels,14.2
+2009,NSW,Non-Government,Primary School,16.8
+2009,NSW,Non-Government,Secondary School,11.8
+2009,NSW,Non-Government,All Levels,13.8
+2009,NSW,Catholic,Primary School,18.3
+2009,NSW,Catholic,Secondary School,13.0
+2009,NSW,Catholic,All Levels,15.3
+2009,NSW,Independent,Primary School,14.5
+2009,NSW,Independent,Secondary School,10.2
+2009,NSW,Independent,All Levels,11.8
+2009,NSW,All sectors,Primary School,16.1
+2009,NSW,All sectors,Secondary School,12.2
+2009,NSW,All sectors,All Levels,14.1
+2009,VIC,Government,Primary School,15.7
+2009,VIC,Government,Secondary School,11.9
+2009,VIC,Government,All Levels,13.8
+2009,VIC,Non-Government,Primary School,15.1
+2009,VIC,Non-Government,Secondary School,11.2
+2009,VIC,Non-Government,All Levels,12.8
+2009,VIC,Catholic,Primary School,16.5
+2009,VIC,Catholic,Secondary School,12.7
+2009,VIC,Catholic,All Levels,14.4
+2009,VIC,Independent,Primary School,12.7
+2009,VIC,Independent,Secondary School,9.9
+2009,VIC,Independent,All Levels,10.8
+2009,VIC,All sectors,Primary School,15.5
+2009,VIC,All sectors,Secondary School,11.6
+2009,VIC,All sectors,All Levels,13.4
+2009,QLD,Government,Primary School,15.4
+2009,QLD,Government,Secondary School,12.7
+2009,QLD,Government,All Levels,14.3
+2009,QLD,Non-Government,Primary School,17.7
+2009,QLD,Non-Government,Secondary School,12.2
+2009,QLD,Non-Government,All Levels,14.7
+2009,QLD,Catholic,Primary School,18.3
+2009,QLD,Catholic,Secondary School,12.7
+2009,QLD,Catholic,All Levels,15.5
+2009,QLD,Independent,Primary School,16.9
+2009,QLD,Independent,Secondary School,11.8
+2009,QLD,Independent,All Levels,13.9
+2009,QLD,All sectors,Primary School,16.0
+2009,QLD,All sectors,Secondary School,12.5
+2009,QLD,All sectors,All Levels,14.4
+2009,SA,Government,Primary School,15.4
+2009,SA,Government,Secondary School,12.9
+2009,SA,Government,All Levels,14.4
+2009,SA,Non-Government,Primary School,16.4
+2009,SA,Non-Government,Secondary School,11.7
+2009,SA,Non-Government,All Levels,14.0
+2009,SA,Catholic,Primary School,17.1
+2009,SA,Catholic,Secondary School,12.2
+2009,SA,Catholic,All Levels,14.7
+2009,SA,Independent,Primary School,15.7
+2009,SA,Independent,Secondary School,11.3
+2009,SA,Independent,All Levels,13.4
+2009,SA,All sectors,Primary School,15.7
+2009,SA,All sectors,Secondary School,12.4
+2009,SA,All sectors,All Levels,14.2
+2009,WA,Government,Primary School,15.2
+2009,WA,Government,Secondary School,11.7
+2009,WA,Government,All Levels,13.8
+2009,WA,Non-Government,Primary School,16.8
+2009,WA,Non-Government,Secondary School,11.7
+2009,WA,Non-Government,All Levels,13.9
+2009,WA,Catholic,Primary School,17.7
+2009,WA,Catholic,Secondary School,12.8
+2009,WA,Catholic,All Levels,15.2
+2009,WA,Independent,Primary School,15.7
+2009,WA,Independent,Secondary School,10.9
+2009,WA,Independent,All Levels,12.7
+2009,WA,All sectors,Primary School,15.7
+2009,WA,All sectors,Secondary School,11.7
+2009,WA,All sectors,All Levels,13.8
+2009,TAS,Government,Primary School,14.8
+2009,TAS,Government,Secondary School,12.9
+2009,TAS,Government,All Levels,13.9
+2009,TAS,Non-Government,Primary School,16.0
+2009,TAS,Non-Government,Secondary School,11.9
+2009,TAS,Non-Government,All Levels,13.6
+2009,TAS,Catholic,Primary School,18.6
+2009,TAS,Catholic,Secondary School,13.4
+2009,TAS,Catholic,All Levels,15.7
+2009,TAS,Independent,Primary School,12.7
+2009,TAS,Independent,Secondary School,10.4
+2009,TAS,Independent,All Levels,11.2
+2009,TAS,All sectors,Primary School,15.1
+2009,TAS,All sectors,Secondary School,12.6
+2009,TAS,All sectors,All Levels,13.8
+2009,NT,Government,Primary School,12.1
+2009,NT,Government,Secondary School,10.6
+2009,NT,Government,All Levels,11.5
+2009,NT,Non-Government,Primary School,15.5
+2009,NT,Non-Government,Secondary School,10.5
+2009,NT,Non-Government,All Levels,12.5
+2009,NT,Catholic,Primary School,15.1
+2009,NT,Catholic,Secondary School,11.2
+2009,NT,Catholic,All Levels,13.3
+2009,NT,Independent,Primary School,16.1
+2009,NT,Independent,Secondary School,10.0
+2009,NT,Independent,All Levels,11.9
+2009,NT,All sectors,Primary School,12.8
+2009,NT,All sectors,Secondary School,10.5
+2009,NT,All sectors,All Levels,11.8
+2009,ACT,Government,Primary School,13.9
+2009,ACT,Government,Secondary School,11.6
+2009,ACT,Government,All Levels,12.7
+2009,ACT,Non-Government,Primary School,17.0
+2009,ACT,Non-Government,Secondary School,13.0
+2009,ACT,Non-Government,All Levels,14.7
+2009,ACT,Catholic,Primary School,18.6
+2009,ACT,Catholic,Secondary School,14.0
+2009,ACT,Catholic,All Levels,16.0
+2009,ACT,Independent,Primary School,14.1
+2009,ACT,Independent,Secondary School,11.4
+2009,ACT,Independent,All Levels,12.5
+2009,ACT,All sectors,Primary School,15.0
+2009,ACT,All sectors,Secondary School,12.2
+2009,ACT,All sectors,All Levels,13.5
+2009,Australia,Government,Primary School,15.5
+2009,Australia,Government,Secondary School,12.3
+2009,Australia,Government,All Levels,14.0
+2009,Australia,Non-Government,Primary School,16.5
+2009,Australia,Non-Government,Secondary School,11.7
+2009,Australia,Non-Government,All Levels,13.7
+2009,Australia,Catholic,Primary School,17.6
+2009,Australia,Catholic,Secondary School,12.8
+2009,Australia,Catholic,All Levels,15.1
+2009,Australia,Independent,Primary School,14.8
+2009,Australia,Independent,Secondary School,10.6
+2009,Australia,Independent,All Levels,12.2
+2009,Australia,All sectors,Primary School,15.8
+2009,Australia,All sectors,Secondary School,12.0
+2009,Australia,All sectors,All Levels,13.9
+2008,NSW,Government,Primary School,15.9
+2008,NSW,Government,Secondary School,12.4
+2008,NSW,Government,All Levels,14.3
+2008,NSW,Non-Government,Primary School,16.8
+2008,NSW,Non-Government,Secondary School,11.6
+2008,NSW,Non-Government,All Levels,13.7
+2008,NSW,Catholic,Primary School,18.3
+2008,NSW,Catholic,Secondary School,12.9
+2008,NSW,Catholic,All Levels,15.2
+2008,NSW,Independent,Primary School,14.4
+2008,NSW,Independent,Secondary School,10.0
+2008,NSW,Independent,All Levels,11.7
+2008,NSW,All sectors,Primary School,16.2
+2008,NSW,All sectors,Secondary School,12.1
+2008,NSW,All sectors,All Levels,14.1
+2008,VIC,Government,Primary School,15.7
+2008,VIC,Government,Secondary School,11.8
+2008,VIC,Government,All Levels,13.8
+2008,VIC,Non-Government,Primary School,15.0
+2008,VIC,Non-Government,Secondary School,11.2
+2008,VIC,Non-Government,All Levels,12.7
+2008,VIC,Catholic,Primary School,16.4
+2008,VIC,Catholic,Secondary School,12.6
+2008,VIC,Catholic,All Levels,14.4
+2008,VIC,Independent,Primary School,12.7
+2008,VIC,Independent,Secondary School,9.9
+2008,VIC,Independent,All Levels,10.8
+2008,VIC,All sectors,Primary School,15.5
+2008,VIC,All sectors,Secondary School,11.6
+2008,VIC,All sectors,All Levels,13.4
+2008,QLD,Government,Primary School,15.5
+2008,QLD,Government,Secondary School,12.8
+2008,QLD,Government,All Levels,14.4
+2008,QLD,Non-Government,Primary School,17.4
+2008,QLD,Non-Government,Secondary School,12.2
+2008,QLD,Non-Government,All Levels,14.6
+2008,QLD,Catholic,Primary School,18.0
+2008,QLD,Catholic,Secondary School,12.8
+2008,QLD,Catholic,All Levels,15.4
+2008,QLD,Independent,Primary School,16.6
+2008,QLD,Independent,Secondary School,11.6
+2008,QLD,Independent,All Levels,13.6
+2008,QLD,All sectors,Primary School,16.0
+2008,QLD,All sectors,Secondary School,12.6
+2008,QLD,All sectors,All Levels,14.5
+2008,SA,Government,Primary School,15.4
+2008,SA,Government,Secondary School,12.6
+2008,SA,Government,All Levels,14.3
+2008,SA,Non-Government,Primary School,16.2
+2008,SA,Non-Government,Secondary School,11.7
+2008,SA,Non-Government,All Levels,13.9
+2008,SA,Catholic,Primary School,16.9
+2008,SA,Catholic,Secondary School,12.4
+2008,SA,Catholic,All Levels,14.7
+2008,SA,Independent,Primary School,15.5
+2008,SA,Independent,Secondary School,11.1
+2008,SA,Independent,All Levels,13.1
+2008,SA,All sectors,Primary School,15.7
+2008,SA,All sectors,Secondary School,12.2
+2008,SA,All sectors,All Levels,14.2
+2008,WA,Government,Primary School,15.3
+2008,WA,Government,Secondary School,11.7
+2008,WA,Government,All Levels,13.8
+2008,WA,Non-Government,Primary School,17.0
+2008,WA,Non-Government,Secondary School,11.8
+2008,WA,Non-Government,All Levels,14.0
+2008,WA,Catholic,Primary School,18.2
+2008,WA,Catholic,Secondary School,12.8
+2008,WA,Catholic,All Levels,15.4
+2008,WA,Independent,Primary School,15.4
+2008,WA,Independent,Secondary School,10.9
+2008,WA,Independent,All Levels,12.7
+2008,WA,All sectors,Primary School,15.8
+2008,WA,All sectors,Secondary School,11.7
+2008,WA,All sectors,All Levels,13.9
+2008,TAS,Government,Primary School,15.5
+2008,TAS,Government,Secondary School,13.0
+2008,TAS,Government,All Levels,14.3
+2008,TAS,Non-Government,Primary School,16.5
+2008,TAS,Non-Government,Secondary School,11.9
+2008,TAS,Non-Government,All Levels,13.8
+2008,TAS,Catholic,Primary School,19.0
+2008,TAS,Catholic,Secondary School,13.3
+2008,TAS,Catholic,All Levels,15.8
+2008,TAS,Independent,Primary School,13.2
+2008,TAS,Independent,Secondary School,10.5
+2008,TAS,Independent,All Levels,11.5
+2008,TAS,All sectors,Primary School,15.8
+2008,TAS,All sectors,Secondary School,12.7
+2008,TAS,All sectors,All Levels,14.2
+2008,NT,Government,Primary School,12.2
+2008,NT,Government,Secondary School,12.9
+2008,NT,Government,All Levels,12.4
+2008,NT,Non-Government,Primary School,15.5
+2008,NT,Non-Government,Secondary School,11.2
+2008,NT,Non-Government,All Levels,13.0
+2008,NT,Catholic,Primary School,15.6
+2008,NT,Catholic,Secondary School,12.5
+2008,NT,Catholic,All Levels,14.0
+2008,NT,Independent,Primary School,15.5
+2008,NT,Independent,Secondary School,10.5
+2008,NT,Independent,All Levels,12.2
+2008,NT,All sectors,Primary School,12.8
+2008,NT,All sectors,Secondary School,12.3
+2008,NT,All sectors,All Levels,12.6
+2008,ACT,Government,Primary School,13.6
+2008,ACT,Government,Secondary School,12.1
+2008,ACT,Government,All Levels,12.9
+2008,ACT,Non-Government,Primary School,17.3
+2008,ACT,Non-Government,Secondary School,12.9
+2008,ACT,Non-Government,All Levels,14.7
+2008,ACT,Catholic,Primary School,18.6
+2008,ACT,Catholic,Secondary School,13.8
+2008,ACT,Catholic,All Levels,15.9
+2008,ACT,Independent,Primary School,14.8
+2008,ACT,Independent,Secondary School,11.4
+2008,ACT,Independent,All Levels,12.7
+2008,ACT,All sectors,Primary School,14.9
+2008,ACT,All sectors,Secondary School,12.4
+2008,ACT,All sectors,All Levels,13.6
+2008,Australia,Government,Primary School,15.6
+2008,Australia,Government,Secondary School,12.3
+2008,Australia,Government,All Levels,14.1
+2008,Australia,Non-Government,Primary School,16.4
+2008,Australia,Non-Government,Secondary School,11.6
+2008,Australia,Non-Government,All Levels,13.7
+2008,Australia,Catholic,Primary School,17.6
+2008,Australia,Catholic,Secondary School,12.8
+2008,Australia,Catholic,All Levels,15.0
+2008,Australia,Independent,Primary School,14.7
+2008,Australia,Independent,Secondary School,10.5
+2008,Australia,Independent,All Levels,12.0
+2008,Australia,All sectors,Primary School,15.8
+2008,Australia,All sectors,Secondary School,12.0
+2008,Australia,All sectors,All Levels,13.9
+2007,NSW,Government,Primary School,16.2
+2007,NSW,Government,Secondary School,12.5
+2007,NSW,Government,All Levels,14.4
+2007,NSW,Non-Government,Primary School,16.8
+2007,NSW,Non-Government,Secondary School,11.7
+2007,NSW,Non-Government,All Levels,13.8
+2007,NSW,Catholic,Primary School,18.4
+2007,NSW,Catholic,Secondary School,12.9
+2007,NSW,Catholic,All Levels,15.3
+2007,NSW,Independent,Primary School,14.4
+2007,NSW,Independent,Secondary School,10.1
+2007,NSW,Independent,All Levels,11.7
+2007,NSW,All sectors,Primary School,16.4
+2007,NSW,All sectors,Secondary School,12.2
+2007,NSW,All sectors,All Levels,14.2
+2007,VIC,Government,Primary School,15.7
+2007,VIC,Government,Secondary School,11.8
+2007,VIC,Government,All Levels,13.8
+2007,VIC,Non-Government,Primary School,15.2
+2007,VIC,Non-Government,Secondary School,11.3
+2007,VIC,Non-Government,All Levels,12.9
+2007,VIC,Catholic,Primary School,16.6
+2007,VIC,Catholic,Secondary School,12.6
+2007,VIC,Catholic,All Levels,14.5
+2007,VIC,Independent,Primary School,12.7
+2007,VIC,Independent,Secondary School,10.0
+2007,VIC,Independent,All Levels,10.9
+2007,VIC,All sectors,Primary School,15.6
+2007,VIC,All sectors,Secondary School,11.6
+2007,VIC,All sectors,All Levels,13.4
+2007,QLD,Government,Primary School,15.5
+2007,QLD,Government,Secondary School,12.9
+2007,QLD,Government,All Levels,14.5
+2007,QLD,Non-Government,Primary School,17.4
+2007,QLD,Non-Government,Secondary School,12.2
+2007,QLD,Non-Government,All Levels,14.6
+2007,QLD,Catholic,Primary School,18.0
+2007,QLD,Catholic,Secondary School,12.9
+2007,QLD,Catholic,All Levels,15.5
+2007,QLD,Independent,Primary School,16.6
+2007,QLD,Independent,Secondary School,11.6
+2007,QLD,Independent,All Levels,13.6
+2007,QLD,All sectors,Primary School,16.0
+2007,QLD,All sectors,Secondary School,12.7
+2007,QLD,All sectors,All Levels,14.5
+2007,SA,Government,Primary School,15.6
+2007,SA,Government,Secondary School,12.7
+2007,SA,Government,All Levels,14.4
+2007,SA,Non-Government,Primary School,16.5
+2007,SA,Non-Government,Secondary School,11.7
+2007,SA,Non-Government,All Levels,14.1
+2007,SA,Catholic,Primary School,17.3
+2007,SA,Catholic,Secondary School,12.3
+2007,SA,Catholic,All Levels,14.9
+2007,SA,Independent,Primary School,15.6
+2007,SA,Independent,Secondary School,11.2
+2007,SA,Independent,All Levels,13.2
+2007,SA,All sectors,Primary School,15.9
+2007,SA,All sectors,Secondary School,12.3
+2007,SA,All sectors,All Levels,14.3
+2007,WA,Government,Primary School,15.3
+2007,WA,Government,Secondary School,11.7
+2007,WA,Government,All Levels,13.8
+2007,WA,Non-Government,Primary School,17.1
+2007,WA,Non-Government,Secondary School,12.0
+2007,WA,Non-Government,All Levels,14.2
+2007,WA,Catholic,Primary School,18.3
+2007,WA,Catholic,Secondary School,12.9
+2007,WA,Catholic,All Levels,15.6
+2007,WA,Independent,Primary School,15.5
+2007,WA,Independent,Secondary School,11.1
+2007,WA,Independent,All Levels,12.8
+2007,WA,All sectors,Primary School,15.8
+2007,WA,All sectors,Secondary School,11.8
+2007,WA,All sectors,All Levels,14.0
+2007,TAS,Government,Primary School,15.6
+2007,TAS,Government,Secondary School,13.1
+2007,TAS,Government,All Levels,14.4
+2007,TAS,Non-Government,Primary School,16.6
+2007,TAS,Non-Government,Secondary School,12.1
+2007,TAS,Non-Government,All Levels,13.9
+2007,TAS,Catholic,Primary School,19.0
+2007,TAS,Catholic,Secondary School,13.4
+2007,TAS,Catholic,All Levels,15.9
+2007,TAS,Independent,Primary School,13.3
+2007,TAS,Independent,Secondary School,10.7
+2007,TAS,Independent,All Levels,11.7
+2007,TAS,All sectors,Primary School,15.8
+2007,TAS,All sectors,Secondary School,12.8
+2007,TAS,All sectors,All Levels,14.3
+2007,NT,Government,Primary School,13.7
+2007,NT,Government,Secondary School,10.9
+2007,NT,Government,All Levels,12.7
+2007,NT,Non-Government,Primary School,17.0
+2007,NT,Non-Government,Secondary School,10.6
+2007,NT,Non-Government,All Levels,13.6
+2007,NT,Catholic,Primary School,17.5
+2007,NT,Catholic,Secondary School,11.5
+2007,NT,Catholic,All Levels,14.8
+2007,NT,Independent,Primary School,16.4
+2007,NT,Independent,Secondary School,10.0
+2007,NT,Independent,All Levels,12.5
+2007,NT,All sectors,Primary School,14.3
+2007,NT,All sectors,Secondary School,10.8
+2007,NT,All sectors,All Levels,12.9
+2007,ACT,Government,Primary School,13.6
+2007,ACT,Government,Secondary School,12.2
+2007,ACT,Government,All Levels,13.0
+2007,ACT,Non-Government,Primary School,17.3
+2007,ACT,Non-Government,Secondary School,12.8
+2007,ACT,Non-Government,All Levels,14.7
+2007,ACT,Catholic,Primary School,18.7
+2007,ACT,Catholic,Secondary School,13.9
+2007,ACT,Catholic,All Levels,16.0
+2007,ACT,Independent,Primary School,14.3
+2007,ACT,Independent,Secondary School,11.2
+2007,ACT,Independent,All Levels,12.3
+2007,ACT,All sectors,Primary School,14.8
+2007,ACT,All sectors,Secondary School,12.5
+2007,ACT,All sectors,All Levels,13.6
+2007,Australia,Government,Primary School,15.7
+2007,Australia,Government,Secondary School,12.3
+2007,Australia,Government,All Levels,14.2
+2007,Australia,Non-Government,Primary School,16.5
+2007,Australia,Non-Government,Secondary School,11.7
+2007,Australia,Non-Government,All Levels,13.8
+2007,Australia,Catholic,Primary School,17.8
+2007,Australia,Catholic,Secondary School,12.8
+2007,Australia,Catholic,All Levels,15.1
+2007,Australia,Independent,Primary School,14.7
+2007,Australia,Independent,Secondary School,10.5
+2007,Australia,Independent,All Levels,12.1
+2007,Australia,All sectors,Primary School,15.9
+2007,Australia,All sectors,Secondary School,12.1
+2007,Australia,All sectors,All Levels,14.0
+2006,NSW,Government,Primary School,16.2
+2006,NSW,Government,Secondary School,12.4
+2006,NSW,Government,All Levels,14.4
+2006,NSW,Non-Government,Primary School,16.9
+2006,NSW,Non-Government,Secondary School,11.7
+2006,NSW,Non-Government,All Levels,13.8
+2006,NSW,Catholic,Primary School,18.4
+2006,NSW,Catholic,Secondary School,13.0
+2006,NSW,Catholic,All Levels,15.3
+2006,NSW,Independent,Primary School,14.4
+2006,NSW,Independent,Secondary School,10.0
+2006,NSW,Independent,All Levels,11.7
+2006,NSW,All sectors,Primary School,16.4
+2006,NSW,All sectors,Secondary School,12.1
+2006,NSW,All sectors,All Levels,14.2
+2006,VIC,Government,Primary School,15.9
+2006,VIC,Government,Secondary School,11.9
+2006,VIC,Government,All Levels,13.9
+2006,VIC,Non-Government,Primary School,15.7
+2006,VIC,Non-Government,Secondary School,11.5
+2006,VIC,Non-Government,All Levels,13.2
+2006,VIC,Catholic,Primary School,17.2
+2006,VIC,Catholic,Secondary School,12.9
+2006,VIC,Catholic,All Levels,14.9
+2006,VIC,Independent,Primary School,13.1
+2006,VIC,Independent,Secondary School,10.2
+2006,VIC,Independent,All Levels,11.1
+2006,VIC,All sectors,Primary School,15.8
+2006,VIC,All sectors,Secondary School,11.7
+2006,VIC,All sectors,All Levels,13.7
+2006,QLD,Government,Primary School,15.5
+2006,QLD,Government,Secondary School,13.0
+2006,QLD,Government,All Levels,14.4
+2006,QLD,Non-Government,Primary School,15.9
+2006,QLD,Non-Government,Secondary School,12.5
+2006,QLD,Non-Government,All Levels,14.0
+2006,QLD,Catholic,Primary School,16.7
+2006,QLD,Catholic,Secondary School,13.0
+2006,QLD,Catholic,All Levels,14.9
+2006,QLD,Independent,Primary School,14.8
+2006,QLD,Independent,Secondary School,12.0
+2006,QLD,Independent,All Levels,13.1
+2006,QLD,All sectors,Primary School,15.6
+2006,QLD,All sectors,Secondary School,12.8
+2006,QLD,All sectors,All Levels,14.3
+2006,SA,Government,Primary School,15.7
+2006,SA,Government,Secondary School,12.5
+2006,SA,Government,All Levels,14.3
+2006,SA,Non-Government,Primary School,16.4
+2006,SA,Non-Government,Secondary School,11.8
+2006,SA,Non-Government,All Levels,14.1
+2006,SA,Catholic,Primary School,17.0
+2006,SA,Catholic,Secondary School,12.4
+2006,SA,Catholic,All Levels,14.8
+2006,SA,Independent,Primary School,15.6
+2006,SA,Independent,Secondary School,11.2
+2006,SA,Independent,All Levels,13.3
+2006,SA,All sectors,Primary School,15.9
+2006,SA,All sectors,Secondary School,12.2
+2006,SA,All sectors,All Levels,14.2
+2006,WA,Government,Primary School,16.2
+2006,WA,Government,Secondary School,12.5
+2006,WA,Government,All Levels,14.7
+2006,WA,Non-Government,Primary School,17.0
+2006,WA,Non-Government,Secondary School,12.0
+2006,WA,Non-Government,All Levels,14.2
+2006,WA,Catholic,Primary School,18.2
+2006,WA,Catholic,Secondary School,12.9
+2006,WA,Catholic,All Levels,15.5
+2006,WA,Independent,Primary School,15.4
+2006,WA,Independent,Secondary School,11.2
+2006,WA,Independent,All Levels,12.8
+2006,WA,All sectors,Primary School,16.4
+2006,WA,All sectors,Secondary School,12.3
+2006,WA,All sectors,All Levels,14.5
+2006,TAS,Government,Primary School,15.8
+2006,TAS,Government,Secondary School,13.2
+2006,TAS,Government,All Levels,14.6
+2006,TAS,Non-Government,Primary School,17.0
+2006,TAS,Non-Government,Secondary School,12.2
+2006,TAS,Non-Government,All Levels,14.1
+2006,TAS,Catholic,Primary School,19.0
+2006,TAS,Catholic,Secondary School,13.7
+2006,TAS,Catholic,All Levels,16.1
+2006,TAS,Independent,Primary School,14.0
+2006,TAS,Independent,Secondary School,10.7
+2006,TAS,Independent,All Levels,11.9
+2006,TAS,All sectors,Primary School,16.1
+2006,TAS,All sectors,Secondary School,12.8
+2006,TAS,All sectors,All Levels,14.4
+2006,NT,Government,Primary School,13.3
+2006,NT,Government,Secondary School,11.2
+2006,NT,Government,All Levels,12.5
+2006,NT,Non-Government,Primary School,17.4
+2006,NT,Non-Government,Secondary School,10.5
+2006,NT,Non-Government,All Levels,13.7
+2006,NT,Catholic,Primary School,17.4
+2006,NT,Catholic,Secondary School,11.2
+2006,NT,Catholic,All Levels,14.6
+2006,NT,Independent,Primary School,17.6
+2006,NT,Independent,Secondary School,10.0
+2006,NT,Independent,All Levels,12.8
+2006,NT,All sectors,Primary School,14.0
+2006,NT,All sectors,Secondary School,11.0
+2006,NT,All sectors,All Levels,12.8
+2006,ACT,Government,Primary School,13.8
+2006,ACT,Government,Secondary School,11.9
+2006,ACT,Government,All Levels,12.8
+2006,ACT,Non-Government,Primary School,17.5
+2006,ACT,Non-Government,Secondary School,12.8
+2006,ACT,Non-Government,All Levels,14.7
+2006,ACT,Catholic,Primary School,18.9
+2006,ACT,Catholic,Secondary School,13.7
+2006,ACT,Catholic,All Levels,15.9
+2006,ACT,Independent,Primary School,14.6
+2006,ACT,Independent,Secondary School,11.4
+2006,ACT,Independent,All Levels,12.6
+2006,ACT,All sectors,Primary School,15.0
+2006,ACT,All sectors,Secondary School,12.3
+2006,ACT,All sectors,All Levels,13.6
+2006,Australia,Government,Primary School,15.8
+2006,Australia,Government,Secondary School,12.4
+2006,Australia,Government,All Levels,14.3
+2006,Australia,Non-Government,Primary School,16.4
+2006,Australia,Non-Government,Secondary School,11.8
+2006,Australia,Non-Government,All Levels,13.8
+2006,Australia,Catholic,Primary School,17.7
+2006,Australia,Catholic,Secondary School,12.9
+2006,Australia,Catholic,All Levels,15.1
+2006,Australia,Independent,Primary School,14.4
+2006,Australia,Independent,Secondary School,10.7
+2006,Australia,Independent,All Levels,12.1
+2006,Australia,All sectors,Primary School,16.0
+2006,Australia,All sectors,Secondary School,12.2
+2006,Australia,All sectors,All Levels,14.1

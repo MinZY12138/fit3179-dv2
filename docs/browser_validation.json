@@ -1,0 +1,49 @@
+{
+  "base": "http://127.0.0.1:8001/fit3179-dv2/",
+  "results": [
+    {
+      "width": 1440,
+      "scrollWidth": 1425,
+      "charts": 16,
+      "chartErrors": 0,
+      "svgCount": 32,
+      "clippedCharts": []
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1265,
+      "charts": 16,
+      "chartErrors": 0,
+      "svgCount": 32,
+      "clippedCharts": []
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1009,
+      "charts": 16,
+      "chartErrors": 0,
+      "svgCount": 32,
+      "clippedCharts": []
+    },
+    {
+      "width": 390,
+      "scrollWidth": 375,
+      "charts": 16,
+      "chartErrors": 0,
+      "svgCount": 32,
+      "clippedCharts": []
+    }
+  ],
+  "interaction": {
+    "year": 2006,
+    "sector": "Independent",
+    "selectedState": "ACT",
+    "tableRows": 8,
+    "status": "2006 · Independent · ACT highlighted. Cartogram and treemap: 2025, all sectors."
+  },
+  "reset": true,
+  "tooltip": "StateNSWStudents per teacher FTE13.2",
+  "clickedState": "NSW",
+  "errors": [],
+  "failures": []
+}
