@@ -15,6 +15,27 @@
   "transform": [
     {
       "filter": "datum.year === 2025 && datum.state !== 'Australia' && datum.level === 'All Levels' && (datum.sector === 'Government' || datum.sector === 'Non-Government')"
+    },
+    {
+      "joinaggregate": [
+        {
+          "op": "max",
+          "field": "ratio",
+          "as": "hi"
+        },
+        {
+          "op": "min",
+          "field": "ratio",
+          "as": "lo"
+        }
+      ],
+      "groupby": [
+        "state"
+      ]
+    },
+    {
+      "calculate": "'Gap ' + format(datum.hi-datum.lo,'.1f')",
+      "as": "gapLabel"
     }
   ],
   "encoding": {
@@ -29,8 +50,8 @@
       "title": "Students per teacher FTE",
       "scale": {
         "domain": [
-          0,
-          16
+          10,
+          15
         ]
       }
     },
@@ -76,6 +97,27 @@
           "type": "nominal"
         }
       }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.state === 'WA' && datum.sector === 'Government'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "align": "right",
+        "dy": -15,
+        "color": "#263e3b"
+      },
+      "encoding": {
+        "text": {
+          "field": "gapLabel",
+          "type": "nominal"
+        }
+      }
     }
   ],
   "config": {
@@ -89,14 +131,16 @@
       "titleColor": "#263e3b",
       "gridColor": "#e3e5dd",
       "domain": false,
-      "labelFontSize": 11,
-      "titleFontSize": 12,
-      "titlePadding": 12
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "titlePadding": 12,
+      "tickCount": 6
     },
     "legend": {
       "orient": "bottom",
       "title": null,
-      "labelFontSize": 11
+      "labelFontSize": 12,
+      "labelLimit": 300
     },
     "range": {
       "category": [
@@ -106,5 +150,11 @@
         "#617c93"
       ]
     }
+  },
+  "title": {
+    "text": "Sector differences do not all point the same way",
+    "subtitle": "Comparison scale starts at 10. Government has the higher ratio in WA; the lower ratio in NT.",
+    "anchor": "start",
+    "fontSize": 13
   }
 }

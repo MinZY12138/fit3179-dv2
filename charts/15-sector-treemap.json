@@ -155,5 +155,11 @@
         }
       }
     }
-  ]
+  ],
+  "title": {
+    "text": "Government schools account for 61.9% of teacher FTE",
+    "subtitle": "2025 · rectangles are grouped by state, then school sector",
+    "anchor": "start",
+    "fontSize": 14
+  }
 }

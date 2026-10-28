@@ -65,6 +65,22 @@
         "color": "#23776f",
         "size": 130
       }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -9,
+        "dy": -14,
+        "fontSize": 12,
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        }
+      }
     }
   ],
   "config": {
@@ -78,14 +94,16 @@
       "titleColor": "#263e3b",
       "gridColor": "#e3e5dd",
       "domain": false,
-      "labelFontSize": 11,
-      "titleFontSize": 12,
-      "titlePadding": 12
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "titlePadding": 12,
+      "tickCount": 6
     },
     "legend": {
       "orient": "bottom",
       "title": null,
-      "labelFontSize": 11
+      "labelFontSize": 12,
+      "labelLimit": 300
     },
     "range": {
       "category": [
@@ -95,5 +113,11 @@
         "#617c93"
       ]
     }
-  }
+  },
+  "transform": [
+    {
+      "calculate": "format(datum.percent,'.0f')+'%'",
+      "as": "label"
+    }
+  ]
 }

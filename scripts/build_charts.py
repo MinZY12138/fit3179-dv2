@@ -71,4 +71,6 @@ file.write_text(json.dumps(spec,indent=2)+'\n',encoding='utf-8')
 file=OUT/'10-teacher-symbols.json';spec=json.loads(file.read_text(encoding='utf-8'))
 spec['layer'][1]['transform'].append({'calculate':'toNumber(datum.teacher_fte)','as':'teacher_fte'})
 file.write_text(json.dumps(spec,indent=2)+'\n',encoding='utf-8')
+from refine_charts import refine
+refine(OUT)
 print('Wrote', len(list(OUT.glob('*.json'))), 'chart specifications')

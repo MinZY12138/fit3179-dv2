@@ -10,6 +10,6 @@
   "browser_data_bytes": 314838,
   "raw_hashes": "passed",
   "cartogram_area_invariant": "passed",
-  "checked_base": "https://minzy12138.github.io/fit3179-dv2/",
-  "asset_requests": "passed"
+  "checked_base": null,
+  "asset_requests": "not requested"
 }

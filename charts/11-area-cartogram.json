@@ -102,5 +102,12 @@
         }
       }
     }
-  ]
+  ],
+  "title": {
+    "text": "NSW + Victoria account for 56.7% of teacher FTE",
+    "subtitle": "2025 · all sectors · shape area represents workforce, not land",
+    "anchor": "start",
+    "fontSize": 14,
+    "color": "#23776f"
+  }
 }

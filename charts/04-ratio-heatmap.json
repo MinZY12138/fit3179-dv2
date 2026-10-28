@@ -52,7 +52,11 @@
       "title": "Students per teacher FTE",
       "scale": {
         "scheme": "tealblues",
-        "zero": false
+        "zero": false,
+        "domain": [
+          10,
+          17
+        ]
       }
     },
     "tooltip": [
@@ -71,7 +75,21 @@
         "format": ".1f",
         "title": "Students per teacher FTE"
       }
-    ]
+    ],
+    "stroke": {
+      "condition": {
+        "test": "datum.year === 2025 && (datum.state === 'WA' || datum.state === 'NT')",
+        "value": "#263e3b"
+      },
+      "value": "#faf8f2"
+    },
+    "strokeWidth": {
+      "condition": {
+        "test": "datum.year === 2025 && (datum.state === 'WA' || datum.state === 'NT')",
+        "value": 2
+      },
+      "value": 1
+    }
   },
   "config": {
     "background": "#faf8f2",
@@ -84,14 +102,16 @@
       "titleColor": "#263e3b",
       "gridColor": "#e3e5dd",
       "domain": false,
-      "labelFontSize": 11,
-      "titleFontSize": 12,
-      "titlePadding": 12
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "titlePadding": 12,
+      "tickCount": 6
     },
     "legend": {
       "orient": "bottom",
       "title": null,
-      "labelFontSize": 11
+      "labelFontSize": 12,
+      "labelLimit": 300
     },
     "range": {
       "category": [
@@ -101,5 +121,11 @@
         "#617c93"
       ]
     }
+  },
+  "title": {
+    "text": "The 2025 contrast: WA 13.7 · NT 11.0",
+    "subtitle": "Outlined cells locate the highest and lowest 2025 ratios. Colours share the map’s 10–17 scale.",
+    "anchor": "start",
+    "fontSize": 13
   }
 }

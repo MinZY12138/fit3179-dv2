@@ -72,6 +72,40 @@
     {
       "calculate": "toNumber(datum.teacher_fte)",
       "as": "teacher_fte"
+    },
+    {
+      "lookup": "properties.state",
+      "from": {
+        "data": {
+          "url": "data/processed/state_points.csv",
+          "format": {
+            "type": "csv"
+          }
+        },
+        "key": "state",
+        "fields": [
+          "longitude",
+          "latitude"
+        ]
+      }
+    },
+    {
+      "joinaggregate": [
+        {
+          "op": "min",
+          "field": "ratio",
+          "as": "minimum"
+        },
+        {
+          "op": "max",
+          "field": "ratio",
+          "as": "maximum"
+        }
+      ]
+    },
+    {
+      "calculate": "format(datum.ratio,'.1f') + (datum.ratio === datum.maximum ? ' · highest' : ' · lowest')",
+      "as": "extreme"
     }
   ],
   "layer": [
@@ -105,7 +139,7 @@
         },
         "tooltip": [
           {
-            "field": "properties.state",
+            "field": "properties.state_name_2021",
             "type": "nominal",
             "title": "State"
           },
@@ -151,6 +185,36 @@
           "type": "nominal"
         }
       }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.ratio === datum.maximum || datum.ratio === datum.minimum"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "dy": 15,
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "fill": "#263e3b",
+        "stroke": "#faf8f2",
+        "strokeWidth": 3
+      },
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "extreme",
+          "type": "nominal"
+        }
+      }
     }
   ],
   "config": {
@@ -164,14 +228,16 @@
       "titleColor": "#263e3b",
       "gridColor": "#e3e5dd",
       "domain": false,
-      "labelFontSize": 11,
-      "titleFontSize": 12,
-      "titlePadding": 12
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "titlePadding": 12,
+      "tickCount": 6
     },
     "legend": {
       "orient": "bottom",
       "title": null,
-      "labelFontSize": 11
+      "labelFontSize": 12,
+      "labelLimit": 300
     },
     "range": {
       "category": [

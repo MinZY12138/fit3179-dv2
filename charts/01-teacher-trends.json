@@ -91,14 +91,16 @@
       "titleColor": "#263e3b",
       "gridColor": "#e3e5dd",
       "domain": false,
-      "labelFontSize": 11,
-      "titleFontSize": 12,
-      "titlePadding": 12
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "titlePadding": 12,
+      "tickCount": 6
     },
     "legend": {
       "orient": "bottom",
       "title": null,
-      "labelFontSize": 11
+      "labelFontSize": 12,
+      "labelLimit": 300
     },
     "range": {
       "category": [
@@ -108,5 +110,11 @@
         "#617c93"
       ]
     }
+  },
+  "title": {
+    "text": "Government schools remain the largest employer",
+    "anchor": "start",
+    "fontSize": 13,
+    "color": "#23776f"
   }
 }

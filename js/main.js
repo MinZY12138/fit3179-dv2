@@ -4,6 +4,7 @@ const geoNames = ['09-ratio-choropleth', '10-teacher-symbols'];
 const linkedNames = new Set([...geoNames, '04-ratio-heatmap', '05-sector-gap', '11-area-cartogram', '15-sector-treemap']);
 const controls = { year: document.querySelector('#map-year'), sector: document.querySelector('#map-sector'), state: document.querySelector('#state-select') };
 let mapRows = [];
+const stateNames = {ACT:'Australian Capital Territory',NSW:'New South Wales',NT:'Northern Territory',QLD:'Queensland',SA:'South Australia',TAS:'Tasmania',VIC:'Victoria',WA:'Western Australia'};
 
 function settings() { return { year: Number(controls.year.value), sector: controls.sector.value, state: controls.state.value }; }
 function absolutizeUrls(value) {
@@ -25,6 +26,10 @@ function dataLinks(spec) {
 }
 async function updateExplorer() {
   const current = settings();
+  for (const name of geoNames) {
+    const figure = document.querySelector(`[data-chart="${name}"]`).closest('figure');
+    figure.querySelector('figcaption p').textContent = `${current.year} · ${current.sector} · ${name === '09-ratio-choropleth' ? 'Students per teacher FTE' : 'Teaching staff FTE; circle area represents capacity'}`;
+  }
   const pending = [];
   for (const [name, { view }] of views) {
     if (linkedNames.has(name)) view.signal('selectedState', current.state);
@@ -36,7 +41,7 @@ async function updateExplorer() {
   for (const row of mapRows.filter(r => r.year === current.year && r.sector === current.sector)) {
     const tr = document.createElement('tr');
     tr.classList.toggle('selected-row', row.state === current.state);
-    for (const [index, value] of [row.state, row.teacher_fte.toLocaleString('en-AU', { maximumFractionDigits: 1 }), row.student_fte.toLocaleString('en-AU', { maximumFractionDigits: 1 }), row.ratio.toFixed(1)].entries()) {
+    for (const [index, value] of [`${stateNames[row.state]} (${row.state})`, row.teacher_fte.toLocaleString('en-AU', { maximumFractionDigits: 1 }), row.student_fte.toLocaleString('en-AU', { maximumFractionDigits: 1 }), row.ratio.toFixed(1)].entries()) {
       const td = document.createElement(index ? 'td' : 'th');
       if (!index) td.scope = 'row';
       td.textContent = value;
@@ -66,8 +71,23 @@ async function renderChart(element) {
     }
     if (element.clientWidth < 600 && !nativeVega) {
       spec.config.legend = { ...spec.config.legend, direction: 'vertical', columns: 1, labelLimit: 260 };
-      if (spec.encoding?.y?.axis?.labelLimit) spec.encoding.y.axis.labelLimit = 130;
+      if (spec.encoding?.y?.axis?.labelLimit && name !== '08-leaving-reasons') spec.encoding.y.axis.labelLimit = 130;
       if (name === '04-ratio-heatmap') spec.encoding.x.axis.labelExpr = 'toNumber(datum.label) % 2 === 1 ? datum.label : ""';
+    }
+    if (name === '08-leaving-reasons' && element.clientWidth < 600) {
+      spec.height = 1150;
+      spec.encoding.y.axis.labelFontSize = 11;
+      spec.encoding.y.axis.labelExpr = `split(replace(datum.label, /(.{1,19})(\\s+|$)/g, '$1|'), '|')`;
+    }
+    if (spec.title) {
+      spec.title.limit = Math.max(200, element.clientWidth - 12);
+      spec.title.subtitleFontSize = 12;
+      spec.title.subtitlePadding = 7;
+      spec.title.offset = 18;
+      // Wrap annotations rather than silently clipping them on smaller charts.
+      const wrap = text => typeof text === 'string' ? text.match(new RegExp(`.{1,${Math.max(24, Math.floor(element.clientWidth / 7))}}(?:\\s|$)|\\S+`, 'g'))?.map(s => s.trim()) || [text] : text;
+      spec.title.text = wrap(spec.title.text);
+      if (spec.title.subtitle) spec.title.subtitle = wrap(spec.title.subtitle);
     }
     if (name === '04-ratio-heatmap') spec.encoding.color.legend = { direction: 'horizontal', gradientLength: 180, gradientThickness: 10 };
     if (geoNames.includes(name)) {

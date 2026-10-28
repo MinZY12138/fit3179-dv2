@@ -84,6 +84,24 @@
         {
           "calculate": "toNumber(datum.teacher_fte)",
           "as": "teacher_fte"
+        },
+        {
+          "joinaggregate": [
+            {
+              "op": "sum",
+              "field": "teacher_fte",
+              "as": "total"
+            },
+            {
+              "op": "max",
+              "field": "teacher_fte",
+              "as": "largest"
+            }
+          ]
+        },
+        {
+          "calculate": "format(datum.teacher_fte,',.0f')+' FTE · '+format(datum.teacher_fte/datum.total,'.1%')",
+          "as": "largestLabel"
         }
       ],
       "mark": {
@@ -178,6 +196,90 @@
           "type": "nominal"
         }
       }
+    },
+    {
+      "data": {
+        "url": "data/processed/state_points.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "longitude": "number",
+            "latitude": "number"
+          }
+        }
+      },
+      "transform": [
+        {
+          "calculate": "datum.state + '|' + mapYear + '|' + mapSector",
+          "as": "joinKey"
+        },
+        {
+          "lookup": "joinKey",
+          "from": {
+            "data": {
+              "url": "data/processed/map_values.csv",
+              "format": {
+                "type": "csv",
+                "parse": {
+                  "teacher_fte": "number"
+                }
+              }
+            },
+            "key": "key",
+            "fields": [
+              "teacher_fte"
+            ]
+          }
+        },
+        {
+          "calculate": "toNumber(datum.teacher_fte)",
+          "as": "teacher_fte"
+        },
+        {
+          "joinaggregate": [
+            {
+              "op": "sum",
+              "field": "teacher_fte",
+              "as": "total"
+            },
+            {
+              "op": "max",
+              "field": "teacher_fte",
+              "as": "largest"
+            }
+          ]
+        },
+        {
+          "calculate": "format(datum.teacher_fte,',.0f')+' FTE · '+format(datum.teacher_fte/datum.total,'.1%')",
+          "as": "largestLabel"
+        },
+        {
+          "filter": "datum.teacher_fte === datum.largest"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "dy": 21,
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "fill": "#263e3b",
+        "stroke": "#faf8f2",
+        "strokeWidth": 3
+      },
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "largestLabel",
+          "type": "nominal"
+        }
+      }
     }
   ],
   "config": {
@@ -191,14 +293,16 @@
       "titleColor": "#263e3b",
       "gridColor": "#e3e5dd",
       "domain": false,
-      "labelFontSize": 11,
-      "titleFontSize": 12,
-      "titlePadding": 12
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "titlePadding": 12,
+      "tickCount": 6
     },
     "legend": {
       "orient": "bottom",
       "title": null,
-      "labelFontSize": 11
+      "labelFontSize": 12,
+      "labelLimit": 300
     },
     "range": {
       "category": [
