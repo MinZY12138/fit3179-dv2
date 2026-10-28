@@ -43,7 +43,22 @@
       "type": "quantitative",
       "title": "Teaching staff (FTE)",
       "axis": {
-        "format": "~s"
+        "format": "~s",
+        "values": [
+          0,
+          50000,
+          100000,
+          150000,
+          200000,
+          250000
+        ]
+      },
+      "scale": {
+        "domain": [
+          0,
+          250000
+        ],
+        "nice": false
       }
     },
     "color": {
@@ -112,7 +127,11 @@
     }
   },
   "title": {
-    "text": "Government schools remain the largest employer",
+    "text": [
+      "Government schools remain",
+      "the largest employer"
+    ],
+    "subtitle": "2006–2025 · teacher FTE",
     "anchor": "start",
     "fontSize": 13,
     "color": "#23776f"

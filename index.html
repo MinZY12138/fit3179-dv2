@@ -6,14 +6,14 @@
 <meta name="description" content="An evidence-led exploration of Australia's school teaching workforce, using ABS and AITSL data.">
 <title>Who Teaches Australia?</title>
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css?v=20261028-final">
 <script defer src="https://cdn.jsdelivr.net/npm/vega@5.33.0/build/vega.min.js">
 </script>
 <script defer src="https://cdn.jsdelivr.net/npm/vega-lite@5.23.0/build/vega-lite.min.js">
 </script>
 <script defer src="https://cdn.jsdelivr.net/npm/vega-embed@6.26.0/build/vega-embed.min.js">
 </script>
-<script defer src="js/main.js">
+<script defer src="js/main.js?v=20261028-final">
 </script>
 </head>
 <body>
@@ -86,11 +86,10 @@
 </figcaption>
 <div class="chart" data-chart="03-sector-shares" aria-label="How the sector balance has shifted">
 </div>
-<p class="reading">Independent schools’ share of teacher FTE rose from 15.3% in 2006 to 18.8% in 2025, while the government share fell from 66.0% to 61.9%. A falling share does not mean fewer government teachers: their FTE total still grew.</p>
+<p class="reading">A falling government share does not mean fewer government teachers: their FTE total still grew. Independent schools expanded faster, increasing their share of the workforce.</p>
 <p class="source">ABS Schools 2025 · Table 51a · calculated shares</p>
 </figure>
 </div>
-<aside>Full-time equivalent measures working capacity. Two teachers each working half-time contribute one FTE. It should not be read as a headcount.</aside>
 </section>
 <section id="geography">
 <p class="eyebrow">02 / WHERE TEACHERS WORK</p>
@@ -167,6 +166,7 @@
 </div>
 </details>
 </div>
+<div class="pair geo-pair">
 <figure>
 <figcaption>
 <h3>Where does teaching capacity go further?</h3>
@@ -174,7 +174,7 @@
 </figcaption>
 <div class="chart" data-chart="09-ratio-choropleth" aria-label="Where does teaching capacity go further?">
 </div>
-<p class="reading">The highest and lowest ratios are labelled directly and update with the controls. In the default 2025 all-sector view, WA is highest (13.7) and NT lowest (11.0). These are state-wide averages, not class sizes or local vacancy rates. The labelled ACT and exact-value table keep the small territory accessible.</p>
+<p class="reading">In the default 2025 all-sector view, WA has the highest ratio (13.7) and NT the lowest (11.0). Compare this relative measure with the workforce totals alongside it. The labels update with your selection.</p>
 <p class="source">ABS Schools 2025 · Table 53a · ABS ASGS 2021 boundaries</p>
 </figure>
 <figure>
@@ -184,9 +184,11 @@
 </figcaption>
 <div class="chart" data-chart="10-teacher-symbols" aria-label="Most teachers work in the largest school systems">
 </div>
-<p class="reading">In 2025, NSW accounts for 29.3% of national teacher FTE, followed by Victoria at 27.4%. The largest-state label updates for the selected year and sector. Circle area represents the total, with symbols at official state representative points—not at schools or teacher residences.</p>
+<p class="reading">NSW and Victoria together account for more than half of teacher FTE in 2025. Large totals reflect large school systems; they do not establish a low student-to-teacher ratio. Circles sit at official state representative points, not individual schools.</p>
 <p class="source">ABS Schools 2025 · Table 51a · ABS ASGS representative points</p>
 </figure>
+</div>
+<h3 class="group-heading">Land area and workforce composition</h3>
 <figure>
 <figcaption>
 <h3>If land area represented teaching capacity</h3>
@@ -194,9 +196,20 @@
 </figcaption>
 <div class="chart" data-chart="11-area-cartogram" aria-label="If land area represented teaching capacity">
 </div>
-<p class="reading">NSW and Victoria together account for 56.7% of national teacher FTE in 2025. Their prominence here contrasts with the large land area of WA on the geographic maps. Shapes are resized by FTE and separated to prevent overlaps; ACT is moved east. Positions and distances are schematic.</p>
+<p class="reading">WA’s large land area contracts in this view, while Victoria becomes more prominent. Teacher capacity is concentrated differently from land. Outlines are resized by FTE and separated to avoid overlap; ACT is moved east. Positions and distances are schematic.</p>
 <p class="source">ABS Schools 2025 · Table 51a · shapes derived from ABS ASGS 2021</p>
 </figure>
+<figure>
+<figcaption>
+<h3>How state size and school sector fit together</h3>
+<p>Treemap · teaching staff FTE by state and sector · 2025</p>
+</figcaption>
+<div class="chart" data-chart="15-sector-treemap" aria-label="How state size and school sector fit together">
+</div>
+<p class="reading">Government schools account for 73.5% of teacher FTE within NT, compared with 59.5% within NSW—the highest and lowest state-level shares. Each state group is divided by school sector. Hover for its FTE and within-state percentage; rectangle sizes represent FTE totals.</p>
+<p class="source">ABS Schools 2025 · Table 51a</p>
+</figure>
+<h3 class="group-heading">Ratios through time and across school sectors</h3>
 <figure>
 <figcaption>
 <h3>Twenty years of student-to-teacher ratios</h3>
@@ -204,7 +217,7 @@
 </figcaption>
 <div class="chart" data-chart="04-ratio-heatmap" aria-label="Twenty years of student-to-teacher ratios">
 </div>
-<p class="reading">In 2025, WA had the highest all-sector ratio (13.7 students per teacher FTE), compared with 11.0 in the NT. The outlined cells locate those endpoints. A common 10–17 colour scale allows comparison with the ratio map; ratios alone do not establish shortages.</p>
+<p class="reading">All eight jurisdictions had lower ratios in 2025 than in 2006. Tasmania recorded the largest endpoint decline, from 14.4 to 11.8; ACT had the smallest, from 13.6 to 13.0. The outlined cells locate Tasmania’s endpoints. The shared 10–17 colour scale also permits comparison with the map.</p>
 <p class="source">ABS Schools 2025 · Table 53a · 2006–2025</p>
 </figure>
 <figure>
@@ -216,16 +229,6 @@
 </div>
 <p class="reading">In WA, government schools had a higher ratio than non-government schools (14.1 versus 13.0). In the NT the direction reverses (10.7 versus 11.7). Sector differences therefore cannot be summarised by one national rule. Non-government combines Catholic and independent schools.</p>
 <p class="source">ABS Schools 2025 · Table 53a</p>
-</figure>
-<figure>
-<figcaption>
-<h3>How state size and school sector fit together</h3>
-<p>Treemap · teaching staff FTE by state and sector · 2025</p>
-</figcaption>
-<div class="chart" data-chart="15-sector-treemap" aria-label="How state size and school sector fit together">
-</div>
-<p class="reading">Government schools account for 61.9% of national teacher FTE in 2025. Within each state group, the coloured rectangles reveal its sector mix. Hover a rectangle for its exact state-and-sector value; the explorer table above follows its own selected year and sector.</p>
-<p class="source">ABS Schools 2025 · Table 51a</p>
 </figure>
 <aside>A ratio is not a class size. These figures compare all student FTE with all teaching staff FTE. They do not measure students in a classroom and cannot, by themselves, establish a teacher shortage or teaching quality.</aside>
 </section>
@@ -270,7 +273,7 @@
 </figcaption>
 <div class="chart" data-chart="12-employment-waffle" aria-label="Permanent work is common—but not universal">
 </div>
-<p class="reading">Each square represents one percentage point of the estimated workforce: 71% permanent, 16% casual and 13% fixed-term. This overall workforce includes school, early childhood and casual teachers; it differs from the school classroom subgroup above.</p>
+<p class="reading">Permanent roles predominate, but almost three in ten teachers are casual or on fixed-term contracts. This workforce includes school, early childhood and casual teachers; it differs from the school classroom subgroup above.</p>
 <p class="source">AITSL National Trends, June 2026 · Key findings · exact reported percentages</p>
 </figure>
 <aside>AITSL survey estimates describe participating teacher groups; they are not an exhaustive census. They must not be combined with ABS FTE as though the populations were identical.</aside>
@@ -286,7 +289,7 @@
 </figcaption>
 <div class="chart" data-chart="07-hours-interval" aria-label="A working week extends beyond classroom hours">
 </div>
-<p class="reading">The median is 50 hours in primary, secondary and combined schools. The thick bar spans the middle 50% of responses; the thin line spans the 5th to 95th percentiles. The light mark shows the median. These are published summary statistics, not reconstructed individual responses.</p>
+<p class="reading">The same median masks differences in the spread: the middle half of primary teachers reported 45–60 hours, compared with 45–55 in secondary schools. These are published summary statistics, not reconstructed individual responses.</p>
 <p class="source">AITSL National Trends, June 2026 · Appendix Tables 22–24 · self-reported hours · no holiday adjustment</p>
 </figure>
 <figure>
@@ -296,7 +299,7 @@
 </figcaption>
 <div class="chart" data-chart="08-leaving-reasons" aria-label="Workload features prominently in intentions to leave">
 </div>
-<p class="reading">Workload (75%), stress and wellbeing (70%), and work–life balance (69%) are the three most commonly selected reasons among teachers intending to leave. All 22 reported reasons are retained. Multiple responses were allowed, and intentions are not observed departures.</p>
+<p class="reading">Workload, wellbeing and work–life balance dominate the responses. Teachers could select several reasons; these percentages describe intended leavers, and intentions are not observed departures.</p>
 <p class="source">AITSL National Trends, June 2026 · Table 21</p>
 </figure>
 <figure>
@@ -306,7 +309,7 @@
 </figcaption>
 <div class="chart" data-chart="14-pressure-slope" aria-label="Some reported pressures have become more prominent">
 </div>
-<p class="reading">Student behaviour rose from 25% to 47% between 2020 and 2024, pay from 33% to 48%, and class size from 31% to 41%. These endpoint increases do not imply a continuous rise: workload declined after 2021 and pay after 2023. These are repeated survey estimates, not the same teachers followed over time.</p>
+<p class="reading">Student behaviour rose by 22 percentage points, the largest increase among these four selected reasons. Pay rose by 15 points and class size by 10. These repeated survey estimates do not track the same teachers over time.</p>
 <p class="source">AITSL National Trends, June 2026 · Table 21 · endpoint comparison; intermediate years not shown</p>
 </figure>
 <aside>Workforce growth and individual experience answer different questions. Neither the survey measures nor the national totals alone identify local vacancies or predict departures.</aside>
@@ -333,7 +336,7 @@
 </main>
 <footer>
 <p>Created by Min Zhengyuan 34075887 · October 2026</p>
-<p>AI assistance: OpenAI Codex assisted with source extraction, data preparation. Final academic review remains with the author.</p>
+<p>AI assistance: OpenAI Codex assisted with source extraction, data preparation, code, chart specifications and editorial copy. Final academic review remains with the author.</p>
 </footer>
 </body>
 </html>

@@ -3,7 +3,7 @@
     "file": "01-teacher-trends.json",
     "dataFile": "data/processed/workforce.csv",
     "sourceRows": 60,
-    "svgBytes": 30993,
+    "svgBytes": 31359,
     "status": "passed"
   },
   {
@@ -17,14 +17,14 @@
     "file": "03-sector-shares.json",
     "dataFile": "data/processed/workforce.csv",
     "sourceRows": 60,
-    "svgBytes": 12226,
+    "svgBytes": 12365,
     "status": "passed"
   },
   {
     "file": "04-ratio-heatmap.json",
     "dataFile": "data/processed/ratios.csv",
     "sourceRows": 160,
-    "svgBytes": 49336,
+    "svgBytes": 50096,
     "status": "passed"
   },
   {
@@ -66,14 +66,14 @@
     "file": "10-teacher-symbols.json",
     "dataFile": "multiple sources",
     "sourceRows": 8,
-    "svgBytes": 65630,
+    "svgBytes": 65512,
     "status": "passed"
   },
   {
     "file": "11-area-cartogram.json",
     "dataFile": "data/geo/teacher_cartogram.json",
     "sourceRows": 8,
-    "svgBytes": 57001,
+    "svgBytes": 56999,
     "status": "passed"
   },
   {
@@ -94,14 +94,14 @@
     "file": "14-pressure-slope.json",
     "dataFile": "data/processed/leaving_reasons.csv",
     "sourceRows": 8,
-    "svgBytes": 15281,
+    "svgBytes": 13385,
     "status": "passed"
   },
   {
     "file": "15-sector-treemap.json",
     "dataFile": "data/processed/workforce.csv",
     "sourceRows": 24,
-    "svgBytes": 11046,
+    "svgBytes": 11844,
     "status": "passed"
   },
   {

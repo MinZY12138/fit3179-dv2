@@ -28,6 +28,15 @@ const { vega, vegaLite } = context;
     if (svg.includes('NaN') || svg.includes('Infinity')) throw new Error(`${file}: non-finite SVG coordinates`);
     const sourceRows = view.data(compiled.data[0].name).length;
     if (!sourceRows) throw new Error(`${file}: no source records`);
+    if (file === '15-sector-treemap.json') {
+      const leaves = view.data('leaves');
+      const government = leaves.filter(row => row.sector === 'Government').sort((a,b) => a.state_share - b.state_share);
+      if (leaves.length !== 24 || leaves.some(row => !Number.isFinite(row.state_share))) throw new Error('Missing state sector shares');
+      if (government[0].state !== 'NSW' || government.at(-1).state !== 'NT' || Math.abs(government[0].state_share * 100 - 59.5) > 0.05 || Math.abs(government.at(-1).state_share * 100 - 73.5) > 0.05) throw new Error('Treemap finding differs from data');
+      for (const state of new Set(leaves.map(row => row.state))) {
+        if (Math.abs(leaves.filter(row => row.state === state).reduce((sum,row) => sum + row.state_share,0) - 1) > 1e-9) throw new Error('State shares do not sum to one');
+      }
+    }
     if (file === '09-ratio-choropleth.json') {
       const stateRows = Object.values(view.getState({ data: () => true }).data).find(rows => rows.length === 8 && rows[0].properties && Number.isFinite(rows[0].ratio));
       if (!stateRows || stateRows.some(row => !Number.isFinite(row.ratio))) throw new Error('Map joins failed');

@@ -28,6 +28,26 @@
           "expr": "datum.year === 2025 && datum.state !== 'Australia' && datum.sector !== 'All sectors'"
         },
         {
+          "type": "joinaggregate",
+          "groupby": [
+            "state"
+          ],
+          "fields": [
+            "teacher_fte"
+          ],
+          "ops": [
+            "sum"
+          ],
+          "as": [
+            "state_total"
+          ]
+        },
+        {
+          "type": "formula",
+          "expr": "datum.teacher_fte / datum.state_total",
+          "as": "state_share"
+        },
+        {
           "type": "nest",
           "keys": [
             "state",
@@ -119,7 +139,13 @@
             "signal": "selectedState === 'All states' || datum.state === selectedState ? 1 : 0.2"
           },
           "tooltip": {
-            "signal": "{'State':datum.state,'Sector':datum.sector,'Teacher FTE':format(datum.teacher_fte,',.1f')}"
+            "signal": "{'State':datum.state,'Sector':datum.sector,'Teacher FTE':format(datum.teacher_fte,',.1f'),'Share within state':format(datum.state_share,'.1%')}"
+          },
+          "stroke": {
+            "signal": "datum.sector === 'Government' && (datum.state === 'NSW' || datum.state === 'NT') ? '#263e3b' : '#faf8f2'"
+          },
+          "strokeWidth": {
+            "signal": "datum.sector === 'Government' && (datum.state === 'NSW' || datum.state === 'NT') ? 2 : 0"
           }
         }
       }
@@ -157,8 +183,8 @@
     }
   ],
   "title": {
-    "text": "Government schools account for 61.9% of teacher FTE",
-    "subtitle": "2025 · rectangles are grouped by state, then school sector",
+    "text": "Government share: NT 73.5% · NSW 59.5%",
+    "subtitle": "2025 · share within each state; rectangle area represents FTE",
     "anchor": "start",
     "fontSize": 14
   }

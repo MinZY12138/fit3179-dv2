@@ -17,11 +17,6 @@
       "filter": "datum.state !== 'Australia' && datum.sector === 'All sectors' && datum.level === 'All Levels'"
     }
   ],
-  "mark": {
-    "type": "rect",
-    "stroke": "#faf8f2",
-    "strokeWidth": 1
-  },
   "encoding": {
     "x": {
       "field": "year",
@@ -78,14 +73,14 @@
     ],
     "stroke": {
       "condition": {
-        "test": "datum.year === 2025 && (datum.state === 'WA' || datum.state === 'NT')",
+        "test": "datum.state === 'TAS' && (datum.year === 2006 || datum.year === 2025)",
         "value": "#263e3b"
       },
       "value": "#faf8f2"
     },
     "strokeWidth": {
       "condition": {
-        "test": "datum.year === 2025 && (datum.state === 'WA' || datum.state === 'NT')",
+        "test": "datum.state === 'TAS' && (datum.year === 2006 || datum.year === 2025)",
         "value": 2
       },
       "value": 1
@@ -123,9 +118,44 @@
     }
   },
   "title": {
-    "text": "The 2025 contrast: WA 13.7 · NT 11.0",
-    "subtitle": "Outlined cells locate the highest and lowest 2025 ratios. Colours share the map’s 10–17 scale.",
+    "text": "Ratios fell in every jurisdiction; Tasmania fell most",
+    "subtitle": "2006 → 2025 · Tasmania: 14.4 → 11.8 students per teacher FTE (−2.6)",
     "anchor": "start",
     "fontSize": 13
-  }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rect",
+        "stroke": "#faf8f2",
+        "strokeWidth": 1
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.state === 'TAS' && (datum.year === 2006 || datum.year === 2025)"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "fontWeight": "bold",
+        "fill": "#263e3b"
+      },
+      "encoding": {
+        "text": {
+          "field": "ratio",
+          "type": "quantitative",
+          "format": ".1f"
+        },
+        "stroke": {
+          "value": "#faf8f2"
+        },
+        "strokeWidth": {
+          "value": 2
+        }
+      }
+    }
+  ]
 }

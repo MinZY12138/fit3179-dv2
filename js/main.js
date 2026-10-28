@@ -73,6 +73,7 @@ async function renderChart(element) {
       spec.config.legend = { ...spec.config.legend, direction: 'vertical', columns: 1, labelLimit: 260 };
       if (spec.encoding?.y?.axis?.labelLimit && name !== '08-leaving-reasons') spec.encoding.y.axis.labelLimit = 130;
       if (name === '04-ratio-heatmap') spec.encoding.x.axis.labelExpr = 'toNumber(datum.label) % 2 === 1 ? datum.label : ""';
+      if (name === '04-ratio-heatmap') spec.layer = spec.layer.slice(0, 1);
     }
     if (name === '08-leaving-reasons' && element.clientWidth < 600) {
       spec.height = 1150;
@@ -85,14 +86,16 @@ async function renderChart(element) {
       spec.title.subtitlePadding = 7;
       spec.title.offset = 18;
       // Wrap annotations rather than silently clipping them on smaller charts.
-      const wrap = text => typeof text === 'string' ? text.match(new RegExp(`.{1,${Math.max(24, Math.floor(element.clientWidth / 7))}}(?:\\s|$)|\\S+`, 'g'))?.map(s => s.trim()) || [text] : text;
-      spec.title.text = wrap(spec.title.text);
+      const wrap = (text, characterWidth = 7) => typeof text === 'string' ? text.match(new RegExp(`.{1,${Math.max(24, Math.floor(element.clientWidth / characterWidth))}}(?:\\s|$)|\\S+`, 'g'))?.map(s => s.trim()) || [text] : text;
+      spec.title.text = wrap(spec.title.text, 8);
       if (spec.title.subtitle) spec.title.subtitle = wrap(spec.title.subtitle);
     }
     if (name === '04-ratio-heatmap') spec.encoding.color.legend = { direction: 'horizontal', gradientLength: 180, gradientThickness: 10 };
     if (geoNames.includes(name)) {
+      spec.config.legend = { ...spec.config.legend, direction: 'horizontal', columns: 3 };
       spec.height = Math.min(440, Math.round(element.clientWidth * 0.9));
       if (name === '09-ratio-choropleth') spec.layer[0].encoding.color.legend = { title: 'Students per teacher FTE', direction: 'horizontal', gradientLength: 180, gradientThickness: 10 };
+      if (name === '10-teacher-symbols' && element.clientWidth < 600) spec.layer[1].encoding.size.scale.range = [0, 2800];
     }
     if (nativeVega) {
       spec.width = Math.max(240, element.clientWidth - 12);

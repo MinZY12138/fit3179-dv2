@@ -16,6 +16,22 @@
   "transform": [
     {
       "filter": "datum.state === 'Australia' && datum.sector !== 'All sectors'"
+    },
+    {
+      "joinaggregate": [
+        {
+          "op": "sum",
+          "field": "teacher_fte",
+          "as": "nationalTotal"
+        }
+      ],
+      "groupby": [
+        "year"
+      ]
+    },
+    {
+      "calculate": "datum.teacher_fte / datum.nationalTotal",
+      "as": "sectorShare"
     }
   ],
   "mark": "area",
@@ -70,7 +86,14 @@
       {
         "field": "teacher_fte",
         "type": "quantitative",
-        "format": ",.1f"
+        "format": ",.1f",
+        "title": "Teacher FTE"
+      },
+      {
+        "field": "sectorShare",
+        "type": "quantitative",
+        "format": ".1%",
+        "title": "Share of national teacher FTE"
       }
     ]
   },
@@ -106,8 +129,11 @@
     }
   },
   "title": {
-    "text": "Independent share: 15.3% → 18.8%",
-    "subtitle": "Share of national teacher FTE, 2006 → 2025",
+    "text": [
+      "Independent share:",
+      "15.3% → 18.8%"
+    ],
+    "subtitle": "2006–2025 · share of teacher FTE",
     "anchor": "start",
     "fontSize": 13,
     "color": "#23776f"

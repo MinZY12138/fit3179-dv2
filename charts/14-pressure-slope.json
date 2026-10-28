@@ -20,13 +20,31 @@
     {
       "calculate": "datum.reason + '  ' + format(datum.percent,'.0f')+'%'",
       "as": "endLabel"
+    },
+    {
+      "calculate": "datum.reason === 'Workload' ? 78 : datum.reason === 'Insufficient pay' ? 57 : datum.reason === 'Student behaviour' ? 47 : 36",
+      "as": "labelY"
     }
   ],
   "encoding": {
     "x": {
       "field": "year",
-      "type": "ordinal",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          2020,
+          2024
+        ],
+        "rangeMax": {
+          "expr": "max(100, width - 165)"
+        }
+      },
       "axis": {
+        "values": [
+          2020,
+          2024
+        ],
+        "format": "d",
         "labelAngle": 0
       },
       "title": null
@@ -44,7 +62,8 @@
     },
     "color": {
       "field": "reason",
-      "type": "nominal"
+      "type": "nominal",
+      "legend": null
     },
     "tooltip": [
       {
@@ -108,81 +127,43 @@
     {
       "transform": [
         {
-          "filter": "datum.year === 2024 && datum.reason === 'Workload'"
+          "filter": "datum.year === 2024"
         }
       ],
       "mark": {
-        "type": "text",
-        "fontSize": 12,
-        "fontWeight": "bold",
-        "align": "right",
-        "dx": -8,
-        "dy": -14
+        "type": "rule",
+        "strokeWidth": 1
       },
       "encoding": {
-        "text": {
-          "field": "endLabel",
-          "type": "nominal"
+        "x2": {
+          "datum": 2024.12
+        },
+        "y2": {
+          "field": "labelY"
         }
       }
     },
     {
       "transform": [
         {
-          "filter": "datum.year === 2024 && datum.reason === 'Insufficient pay'"
+          "filter": "datum.year === 2024"
         }
       ],
       "mark": {
         "type": "text",
+        "align": "left",
+        "dx": 5,
         "fontSize": 12,
-        "fontWeight": "bold",
-        "align": "right",
-        "dx": -8,
-        "dy": -22
+        "fontWeight": "bold"
       },
       "encoding": {
-        "text": {
-          "field": "endLabel",
-          "type": "nominal"
-        }
-      }
-    },
-    {
-      "transform": [
-        {
-          "filter": "datum.year === 2024 && datum.reason === 'Student behaviour'"
-        }
-      ],
-      "mark": {
-        "type": "text",
-        "fontSize": 12,
-        "fontWeight": "bold",
-        "align": "right",
-        "dx": -8,
-        "dy": 0
-      },
-      "encoding": {
-        "text": {
-          "field": "endLabel",
-          "type": "nominal"
-        }
-      }
-    },
-    {
-      "transform": [
-        {
-          "filter": "datum.year === 2024 && datum.reason === 'Class size'"
-        }
-      ],
-      "mark": {
-        "type": "text",
-        "fontSize": 12,
-        "fontWeight": "bold",
-        "align": "right",
-        "dx": -8,
-        "dy": 15
-      },
-      "encoding": {
+        "x": {
+          "datum": 2024.12
+        },
+        "y": {
+          "field": "labelY",
+          "type": "quantitative"
+        },
         "text": {
           "field": "endLabel",
           "type": "nominal"
@@ -191,7 +172,10 @@
     }
   ],
   "title": {
-    "text": "Higher than 2020 does not mean a continuous rise",
+    "text": [
+      "Higher than 2020 does not mean",
+      "a continuous rise"
+    ],
     "subtitle": "Workload fell from 80% in 2021 to 75% in 2024; pay fell from 54% in 2023 to 48% in 2024.",
     "anchor": "start",
     "fontSize": 13

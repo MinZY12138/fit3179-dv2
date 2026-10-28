@@ -38,4 +38,4 @@ See [data dictionary](docs/data_dictionary.md), [chart plan](docs/chart_plan.md)
 
 Web datasets total about 315 KB before compression, including simplified geography. Original source downloads are retained in the repository for reproducibility and are not requested by the page. The browser relies on pinned CDN chart libraries.
 
-AI assistance: OpenAI Codex assisted with extraction, code, chart specifications and editorial copy. The author must review findings, assignment compliance and final submission.
+AI assistance: OpenAI Codex assisted with source extraction, data preparation, code, chart specifications and editorial copy. Final academic review remains with the author.

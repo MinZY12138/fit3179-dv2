@@ -255,28 +255,29 @@
         },
         {
           "filter": "datum.teacher_fte === datum.largest"
+        },
+        {
+          "calculate": "datum.state + ': ' + datum.largestLabel",
+          "as": "callout"
         }
       ],
       "mark": {
         "type": "text",
-        "dy": 21,
+        "align": "left",
+        "baseline": "top",
         "fontSize": 12,
         "fontWeight": "bold",
-        "fill": "#263e3b",
-        "stroke": "#faf8f2",
-        "strokeWidth": 3
+        "fill": "#263e3b"
       },
       "encoding": {
-        "longitude": {
-          "field": "longitude",
-          "type": "quantitative"
+        "x": {
+          "value": 0
         },
-        "latitude": {
-          "field": "latitude",
-          "type": "quantitative"
+        "y": {
+          "value": 0
         },
         "text": {
-          "field": "largestLabel",
+          "field": "callout",
           "type": "nominal"
         }
       }
