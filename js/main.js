@@ -62,6 +62,29 @@ async function renderChart(element) {
     if (!response.ok) throw new Error(`Specification returned HTTP ${response.status}`);
     const spec = await response.json();
     const nativeVega = spec.$schema.includes('/vega/');
+    const pairedStructure = () => element.closest('.structure-pair') && window.matchMedia('(min-width: 851px)').matches;
+    if (nativeVega && element.closest('.structure-pair')) {
+      spec.title.text = name === '11-area-cartogram'
+        ? ['Land area and teaching capacity', 'tell different stories']
+        : ['Government share:', 'NT 73.5% · NSW 59.5%'];
+      spec.title.subtitle = name === '11-area-cartogram'
+        ? ['2025 · all sectors', 'Shape area represents teacher FTE']
+        : ['2025 · share within each state', 'Rectangle area represents teacher FTE'];
+      if (name === '11-area-cartogram') {
+        // Fit the prepared geometry bounds with one uniform scale. Relative
+        // areas and silhouettes stay unchanged; only empty canvas is removed.
+        spec.signals.find(signal => signal.name === 'factor').update = 'min((width - 32) / 432.112, (height - 32) / 450)';
+        spec.signals.push({ name: 'horizontalOffset', update: '(width - 432.112 * factor) / 2 - 163.944 * factor' });
+        spec.signals.push({ name: 'verticalOffset', update: '(height - 450 * factor) / 2 - 30 * factor' });
+        spec.marks.forEach(mark => {
+          mark.encode.update.x.signal += ' + horizontalOffset';
+          mark.encode.update.y.signal += ' + verticalOffset';
+        });
+      } else {
+        const label = spec.marks[1].encode.update.text;
+        label.signal = `datum.sector === 'Government' && (datum.state === 'NT' || datum.state === 'NSW') ? datum.state : (${label.signal})`;
+      }
+    }
     if (name === '12-employment-waffle') spec.height = Math.round(element.clientWidth / 4);
     if (linkedNames.has(name) && !nativeVega && !spec.params?.some(p => p.name === 'selectedState')) {
       spec.params = [...(spec.params || []), { name: 'selectedState', value: 'All states' }];
@@ -99,7 +122,8 @@ async function renderChart(element) {
     }
     if (nativeVega) {
       spec.width = Math.max(240, element.clientWidth - 12);
-      if (name === '11-area-cartogram') spec.height = spec.width * 520 / 760;
+      if (name === '11-area-cartogram') spec.height = pairedStructure() ? 340 : spec.width * 520 / 760;
+      if (name === '15-sector-treemap') spec.height = pairedStructure() ? 340 : 390;
     }
     const linksToData = dataLinks(spec);
     absolutizeUrls(spec);
@@ -119,7 +143,8 @@ async function renderChart(element) {
       lastWidth = width;
       if (nativeVega) {
         view.width(Math.max(240, width - 12));
-        if (name === '11-area-cartogram') view.height((width - 12) * 520 / 760);
+        if (name === '11-area-cartogram') view.height(pairedStructure() ? 340 : (width - 12) * 520 / 760);
+        if (name === '15-sector-treemap') view.height(pairedStructure() ? 340 : 390);
       }
       view.resize().runAsync().catch(console.error);
     });

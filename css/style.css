@@ -4,3 +4,8 @@
 .reading{font-size:16px;line-height:1.65;color:#3e5049;max-width:68ch;margin-top:20px}.methods p{font-size:15px;max-width:72ch}.pair figcaption{min-height:90px}.pair .chart{align-self:start}@media(max-width:850px){.pair figcaption{min-height:0}}
 .geo-pair{gap:32px}.geo-pair figcaption{min-height:126px}.geo-pair figure{margin-bottom:16px}.group-heading{font-size:24px;margin:32px 0 0;color:var(--teal)}.group-heading+figure{margin-top:16px}[data-chart="11-area-cartogram"]{max-width:700px;margin-inline:auto}@media(max-width:850px){.geo-pair figcaption{min-height:0}.geo-pair figure{margin-bottom:24px}}
 @media(min-width:851px){.geo-pair .chart{min-height:550px}}
+.structure-pair{grid-template-columns:minmax(0,45fr) minmax(0,55fr);gap:32px}
+.structure-pair figure{margin-top:16px;margin-bottom:16px}
+.structure-pair figcaption{min-height:126px}
+@media(min-width:851px){.structure-pair .chart{min-height:485px}}
+@media(max-width:850px){.structure-pair{grid-template-columns:1fr}.structure-pair figcaption{min-height:0}.structure-pair figure{margin-bottom:24px}}

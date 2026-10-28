@@ -47,8 +47,8 @@ for _,_,_,_,items,_ in chapters:
         items[i]=(name,title,subtitle,readings.get(name,reading),source)
 
 page = '''<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="An evidence-led exploration of Australia's school teaching workforce, using ABS and AITSL data."><title>Who Teaches Australia?</title><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="css/style.css?v=20261028-labels">
-<script defer src="https://cdn.jsdelivr.net/npm/vega@5.33.0/build/vega.min.js"></script><script defer src="https://cdn.jsdelivr.net/npm/vega-lite@5.23.0/build/vega-lite.min.js"></script><script defer src="https://cdn.jsdelivr.net/npm/vega-embed@6.26.0/build/vega-embed.min.js"></script><script defer src="js/main.js?v=20261028-final"></script></head><body>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="An evidence-led exploration of Australia's school teaching workforce, using ABS and AITSL data."><title>Who Teaches Australia?</title><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="css/style.css?v=20261028-grid">
+<script defer src="https://cdn.jsdelivr.net/npm/vega@5.33.0/build/vega.min.js"></script><script defer src="https://cdn.jsdelivr.net/npm/vega-lite@5.23.0/build/vega-lite.min.js"></script><script defer src="https://cdn.jsdelivr.net/npm/vega-embed@6.26.0/build/vega-embed.min.js"></script><script defer src="js/main.js?v=20261028-grid"></script></head><body>
 <a class="skip" href="#national">Skip to the story</a><nav aria-label="Chapters"><a class="wordmark" href="#top">THE EDUCATION FILE</a><div><a href="#national">01 National</a><a href="#geography">02 Geography</a><a href="#people">03 People</a><a href="#pressures">04 Pressures</a></div></nav>
 <header id="top"><p class="eyebrow">AUSTRALIA · EDUCATION &amp; STUDENT LIFE · 2026</p><h1>Who teaches<br><em>Australia?</em></h1><p class="standfirst">The changing shape of Australia's school teaching workforce.</p><p class="intro">More teaching capacity. Uneven patterns. A profession under pressure. Explore how the workforce has changed—and what national totals can tell us about the people behind them.</p><div class="keyfigures"><div><strong>325,191</strong><span>teaching staff FTE · ABS 2025<br>Rounded, not a count of people</span></div><div><strong>+35.7%</strong><span>growth in teacher FTE<br>ABS · 2006–2025</span></div><div><strong>+23.0%</strong><span>growth in student FTE<br>ABS · 2006–2025</span></div></div><p class="source">Calculated from ABS Schools 2025, Tables 51a and 43a. <a href="#sources">Sources &amp; methods ↓</a></p></header><main>'''
 for section, label, title, intro, charts, caveat in chapters:
@@ -59,11 +59,12 @@ for section, label, title, intro, charts, caveat in chapters:
     for i, (name, chart_title, subtitle, reading, source) in enumerate(charts):
         if section == 'national' and i == 1: page += '<div class="pair">'
         if section == 'geography' and i == 0: page += '<div class="pair geo-pair">'
-        if name == '11-area-cartogram': page += '<h3 class="group-heading">Land area and workforce composition</h3>'
+        if name == '11-area-cartogram': page += '<h3 class="group-heading">Land area and workforce composition</h3><div class="pair structure-pair">'
         if name == '04-ratio-heatmap': page += '<h3 class="group-heading">Ratios through time and across school sectors</h3>'
         page += f'<figure><figcaption><h3>{escape(chart_title)}</h3><p>{escape(subtitle)}</p></figcaption><div class="chart" data-chart="{name}" aria-label="{escape(chart_title)}"></div><p class="reading">{escape(reading)}</p><p class="source">{escape(source)}</p></figure>'
         if section == 'national' and i == 2: page += '</div>'
         if section == 'geography' and i == 1: page += '</div>'
+        if name == '15-sector-treemap': page += '</div>'
     if section != 'national': page += f'<aside>{escape(caveat)}</aside>'
     page += '</section>'
 page += '''<section class="conclusion"><p class="eyebrow">THE THREAD THAT CONNECTS THE NUMBERS</p><h2>More capacity is progress.<br>It is not the whole picture.</h2><p>Teacher FTE grew faster than student FTE nationally from 2006 to 2025. That broad pattern sits alongside differences between jurisdictions and school sectors. AITSL's survey perspective adds another dimension: teaching capacity depends on people whose roles, career stages and working conditions vary.</p><p>These sources support a careful reading of workforce change. They do not establish why every difference exists, identify local vacancies, or predict who will leave. Understanding those questions requires more detailed evidence.</p></section>
